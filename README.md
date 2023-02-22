@@ -10,7 +10,7 @@ Check out the [contributor ladder](CONTRIBUTOR-LADDER.md) for different ways to 
 
 Connect with the community through:
 
-* Follow us on [Twitter](https://twitter.com/ciliumproject) and our [blog](https://cilium.io/blog/)
+* Follow us on [Twitter](https://twitter.com/ciliumproject), [LinkedIn](https://www.linkedin.com/company/cilium/), and our [blog](https://cilium.io/blog/)
 * Chat with us on [Slack](https://cilium.io/slack)
 * Subscribe to [the newsletter](https://cilium.io/newsletter)
 * Subscribe to the [eBPF and Cilium Community on Youtube](https://www.youtube.com/channel/UCJFUxkVQTBJh3LD1wYBWvuQ)
