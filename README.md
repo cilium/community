@@ -4,7 +4,7 @@ Here you can find community content around Cilium.
 
 ## Contribute
 
-Check out the [contributor ladder](CONTRIBUTOR-LADDER.md) for different ways to get involved and level up within the project. You can see different roles within the project in the [contributor roles](CONTRIBUTOR-ROLES.md). If you have already contributed to the project in any way, please add yourself to the [contributor file](CONTRIBUTORS.md).
+Check out the [contributor ladder](CONTRIBUTOR-LADDER.md) for different ways to get involved and level up within the project. You can see different roles within the project in the [contributor roles](CONTRIBUTOR-ROLES.md). If you have already contributed to the project but it isn't caputured in the code, please add yourself to the [contributor file](CONTRIBUTORS.md).
 
 # Socializing
 
