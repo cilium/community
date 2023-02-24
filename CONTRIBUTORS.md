@@ -10,3 +10,15 @@ Please either submit a pull request adding your name, or mention it to another o
 and we will add you. **All** contributors belong here. 💯
 
 * [Bill Mulligan](https://github.com/xmulligan)
+* [Daniel Iziourov](https://github.com/danmx)
+* [Daniel Teixeira](https://github.com/daniel-f3)
+* Jietao Xiao (jietaoXiao@stu.xidian.edu.cn)
+* Jinku Li (jkli@xidian.edu.cn)
+* [Micah Hausler](https://github.com/micahhausler)
+* Nanzi Yang (nzyang@stu.xidian.edu.cn)
+* Robert Clark
+* [Sander Mathijssen](https://github.com/sanderma)
+* Shaul Ben Hai
+* Wenbo Shen (shenwenbo@zju.edu.cn)
+* Xin Guo (guox@stu.xidian.edu.cn)
+* [Yuval Avrahami](https://github.com/yuvalavra)
