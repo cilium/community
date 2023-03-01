@@ -49,7 +49,7 @@ Non-code contributions can be documented by making a PR to add yourself to CONTR
 Becoming a Community Contributor is the first step towards becoming an Organization Member.
 
 ### Organization Member
-Description: An Organization Member is an established contributor who regularly participates in the project. Organization Members have privileges in project repositories and as such are expected to act in the interests of the whole project. Organization Members can take on additional roles within the project and can work more independently, for example triggering CI. 
+Description: An Organization Member is an established contributor who regularly participates in the project. Organization Members have privileges in project repositories and as such are expected to act in the interests of the whole project. Organization Members can take on [additional roles within the project](CONTRIBUTOR-ROLES.md) and can work more independently, for example triggering CI. 
 
 An Organization Member has all the rights and responsibilities of a Community Contributor, plus:
 
@@ -69,7 +69,7 @@ An Organization Member has all the rights and responsibilities of a Community Co
     * Can trigger CI
     * Can leave reviews on PRs
     * Can recommend other contributors to become Cilium Github Org Members
-    * Can nominate themselves to other roles within Cilium
+    * Can nominate themselves to [other roles within Cilium](CONTRIBUTOR-ROLES.md)
 
 The process for a Contributor to become an Organization Member is as follows:
 
@@ -131,4 +131,4 @@ Committers have all the rights and responsibilities of a Reviewer, plus:
     * Can nominate new Committers
     * Is listed as a Committer in the MAINTAINERS.md
 
-Committers who are contributing and maintaining project code are automatically part of the Code Team defined in CONTRIBUTOR-ROLES.md.
+Committers who are contributing and maintaining project code are automatically part of the Code Team defined in [CONTRIBUTOR-ROLES.md](CONTRIBUTOR-ROLES.md).
