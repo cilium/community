@@ -12,6 +12,11 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 * [Glib Smaga](https://github.com/glibsm)
 * [Sebastian Wicki](https://github.com/gandro)
 
+## Tetragon
+
+* [Natália Réka Ivánkó](https://github.com/sharlns)
+* [John Fastabend](https://github.com/jrfastab)
+
 ## ebpf
 
 * [Lorenz Bauer](https://github.com/lmb)
