@@ -17,6 +17,11 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 * [Natália Réka Ivánkó](https://github.com/sharlns)
 * [John Fastabend](https://github.com/jrfastab)
 
+## proxy
+
+* [Tam Mach](https://github.com/sayboras)
+* [Jarno Rajahalme](https://github.com/jrajahalme)
+
 ## ebpf
 
 * [Lorenz Bauer](https://github.com/lmb)
