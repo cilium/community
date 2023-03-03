@@ -7,6 +7,10 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 * [Joe Stringer](https://github.com/joestringer)
 * [André Martins](https://github.com/aanm)
 
+## cilium-cli
+
+* [Tobias Klauser](https://github.com/tklauser)
+
 ## Hubble
 
 * [Glib Smaga](https://github.com/glibsm)
