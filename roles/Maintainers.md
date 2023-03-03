@@ -10,6 +10,7 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 ## cilium-cli
 
 * [Tobias Klauser](https://github.com/tklauser)
+* [[Michi Mutsuzaki](https://github.com/michi-covalent)
 
 ## Hubble
 
