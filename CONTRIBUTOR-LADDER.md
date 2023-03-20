@@ -14,7 +14,7 @@ Each of the contributor roles below is organized into lists of three types of th
 
 As the Cilium project grows, the current roles may be broken out into new roles and/or teams and roles may no longer be needed. 
 
-The final judgment on whether an individual fulfills the criteria for a role is up to the Cilium Committers. After six months of inactivity or behavior detrimental to the future of the project, any contributor can be removed from their position(s).
+The final judgment on whether an individual fulfills the criteria for a role is up to the Cilium Committers. After six months of inactivity or after any behavior detrimental to the future of the project, any contributor can be removed from their position(s).
 
 ### Community Contributor
 Description: A Community Contributor contributes directly to the project and adds value to it. Contributions need not be code. People at the Community Contributor level may be new contributors, or they may only contribute occasionally.
