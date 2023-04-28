@@ -1,0 +1,83 @@
+#!/usr/bin/env bash
+# Copyright Authors of Cilium
+# SPDX-License-Identifier: Apache-2.0
+
+set -eu
+set -o pipefail
+
+GITHUB_API_VERSION="2022-11-28"
+MEMBERS_PER_PAGE=100
+
+req_tools=("jq" "gh")
+
+# $1 - org
+# $2 - team
+get_page_count() {
+    local members=$(gh api \
+        -H "Accept: application/vnd.github+json" \
+        -H "X-GitHub-Api-Version: $GITHUB_API_VERSION" \
+        "/orgs/$1/teams/$2" | jq -r '.members_count')
+    local page_count=$(($members / $MEMBERS_PER_PAGE + 1))
+    >&2 echo "Found $members members in @$1/$2 (pages: $page_count)"
+    echo $page_count
+}
+
+# $1 - org
+# $2 - team
+list_members() {
+    local org="$1"
+    local team="$2"
+
+    local all_members=()
+    local page_count=$(get_page_count $org $team)
+    local i=0
+    while [ $i -lt $page_count ]; do
+        i=$(($i+1))
+        local response=$(gh api \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: $GITHUB_API_VERSION" \
+            "/orgs/$org/teams/$team/members?per_page=$MEMBERS_PER_PAGE&page=$i" \
+        | jq -r '.[] | .login')
+        for member in $response; do
+            all_members+=($member)
+        done
+    done
+
+    echo "team:"
+    IFS=$'\n' sorted=($(sort <<<"${all_members[*]}")); unset IFS
+    for member in ${sorted[@]}; do
+        echo "- $member"
+    done
+}
+
+fail() {
+    >&2 echo "$@"
+    exit 1
+}
+
+check_args() {
+    if [ $# -lt 2 ]; then
+        fail "usage: $0 <org> <team>"
+    fi
+}
+
+check_exists() {
+    set +e
+    command -v "$1" >/dev/null
+    if [ $? -ne 0 ]; then
+        fail "Cannot find '$1' in path, exiting"
+    fi
+    set -e
+}
+
+# $1 - org
+# $2 - team
+main() {
+    check_args "$@"
+    for tool in ${req_tools[@]}; do
+        check_exists $tool
+    done
+    list_members "$1" "$2"
+}
+
+main "$@"
