@@ -14,3 +14,4 @@ The security team roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md
 * [Thomas Graf](https://github.com/tgraf)
 * [Varun Marupadi](https://github.com/varunmar)
 * [Liz Rice](https://github.com/lizrice)
+* [Tam Mach](https://github.com/sayboras)
