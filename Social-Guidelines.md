@@ -22,7 +22,6 @@ This guide will help you effectively manage the channels while incorporating the
 - **Twitter:** Use this platform to share news, events, and updates, and engage in conversations with the community.
 - **LinkedIn:** Focus on professional discussions, project highlights, events promotion, and industry trends.
 - **Youtube:** Host live streams, share project videos, and curate playlists of community content.
-
 ## Strategy
 
 - Share content across social media channels that benefit the project as a whole.
