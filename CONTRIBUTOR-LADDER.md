@@ -5,6 +5,7 @@
     * [Organization Member](#organization-member)
     * [Reviewer](#reviewer)
     * [Committer](#committer)
+    * [Inactive Member](#inactive-member)
 
 ## Contributor Ladder
 
@@ -132,3 +133,21 @@ Committers have all the rights and responsibilities of a Reviewer, plus:
     * Is listed as a Committer in the MAINTAINERS.md
 
 Committers who are contributing and maintaining project code are automatically part of the Code Team defined in [CONTRIBUTOR-ROLES.md](CONTRIBUTOR-ROLES.md).
+
+### Inactive Member
+
+_Members are continuously active contributors in the community._
+
+A core principle in maintaining a healthy community is encouraging active participation. It is inevitable that people's focuses will change over time and they are not expected to be actively contributing forever.
+
+However, being a member of one of the Cilium GitHub organizations comes with an elevated set of permissions. These capabilities should not be used by those that are not familiar with the current state of the Cilium project.
+
+Therefore members with an extended period away from the project with no activity will be removed from the Cilium GitHub Organizations and will be required to go through the org membership process again after re-familiarizing themselves with the current state.
+
+#### How inactivity is measured
+
+Inactive members are defined as members of the Cilium org with **no** contributions across any organization within 18 months. This is measured by the CNCF [DevStats project](https://cilium.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m).
+
+**Note:** Devstats does not take into account non-code contributions. If a non-code contributing member is accidentally removed this way, they may open an issue to quickly be re-instated.
+
+After an extended period away from the project with no activity those members would need to re-familiarize themselves with the current state before being able to contribute effectively.
