@@ -146,8 +146,7 @@ Therefore members with an extended period away from the project with no activity
 
 #### How inactivity is measured
 
-Inactive members are defined as members of the Cilium org with **no** contributions across any organization within 18 months. This is measured by the CNCF [DevStats project](https://cilium.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m).
+Inactive members are defined as members of the Cilium org with **no** contributions across any repository within 18 months. This is measured by the CNCF [DevStats project](https://cilium.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m).
 
 **Note:** Devstats does not take into account non-code contributions. If a non-code contributing member is accidentally removed this way, they may open an issue to quickly be re-instated.
 
-After an extended period away from the project with no activity those members would need to re-familiarize themselves with the current state before being able to contribute effectively.
