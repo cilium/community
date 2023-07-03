@@ -130,7 +130,7 @@ Committers have all the rights and responsibilities of a Reviewer, plus:
     * Represent the project in public as a Committer
     * Can communicate with the CNCF on behalf of the project, and participate in CNCF maintainer activities including votes
     * Can nominate new Committers
-    * Is listed as a Committer in the MAINTAINERS.md
+    * Is listed as a Committer in Cilium's [MAINTAINERS.md](https://github.com/cilium/cilium/blob/main/MAINTAINERS.md#cilium-committers)
 
 Committers who are contributing and maintaining project code are automatically part of the Code Team defined in [CONTRIBUTOR-ROLES.md](CONTRIBUTOR-ROLES.md).
 
