@@ -74,7 +74,7 @@ An Organization Member has all the rights and responsibilities of a Community Co
 
 The process for a Contributor to become an Organization Member is as follows:
 
-1. Open a PR in the member management file
+1. Open a PR in the [member management file](ladder/members.yaml)
 2. Receive two "LGTM" comments from any Org Members, and approval by a committer who merges the PR
 
 ### Reviewer
@@ -102,7 +102,7 @@ Reviewers have all the rights and responsibilities of an Organization Member, pl
 
 The process for an Organization Member to become a Reviewer is as follows:
 
-1. Open a PR in the member management file for at least two teams: "Reviewers" and for a specific review area
+1. Open a PR in the member management file for [at least two teams](ladder/teams): "Reviewers" and for a specific review area
 2. At least two members who are already Committers, approve the PR
 
 Automated tooling assigns PRs across the Reviewers defined for each particular area. 
