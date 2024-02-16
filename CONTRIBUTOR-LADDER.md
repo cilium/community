@@ -156,7 +156,7 @@ We welcome people to raise PRs, issues and CFPs in the Cilium project. If you're
 
 As an open source project we don’t make any guarantees about how quickly proposed changes will get looked at. Committers and reviewers may have other pressures on their time, that mean they don’t currently have the bandwidth to look at your proposal. 
 
-Naturally, the more an individual has already contributed to the project, the higher the level of trust and confidence that the person will have established in the community. Starting with smaller proposals, fixes and maintenance work can help build up that trust and confidence. 
+Naturally, the more an individual has already contributed to the project, the higher the level of trust and confidence that the person will have established in the community. Starting with smaller proposals, fixes and maintenance work, or making constructive and meaningful review comments on other people's suggestions, can help build up that trust and confidence. 
 
 Accepting any change into the project means that the committers are signing up to maintain it going forward. To quote [Solomon Hykes](https://x.com/solomonstre/status/715277134978113536?s=20), "no is temporary, yes is forever". For major changes, just being willing to push through the development work may not be enough - it’s likely you will need a track record of contributions to convince the community that you’ll be around to maintain changes into the future. 
 
