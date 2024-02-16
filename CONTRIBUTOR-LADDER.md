@@ -152,7 +152,9 @@ Inactive members are defined as members of the Cilium org with **no** contributi
 
 ## General guidance on making contributions and expectations
 
-We welcome people to raise PRs, issues and CFPs but please bear in mind that it takes time and effort to review them properly, and as an open source project we don’t make any guarantees about how quickly they will get looked at. Committers and reviewers may have other pressures on their time that mean they don’t currently have the bandwidth to look at your proposal. 
+We welcome people to raise PRs, issues and CFPs in the Cilium project. If you're new to the project we'd strongly encourage you to start off with small, but meaningful, changes first, as these are easier and quicker for committers / reviewers to assess and give feedback on. You'll get the opportunity to learn about the [process and expectations](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/) of making changes within the project. 
+
+As an open source project we don’t make any guarantees about how quickly proposed changes will get looked at. Committers and reviewers may have other pressures on their time, that mean they don’t currently have the bandwidth to look at your proposal. 
 
 Naturally, the more an individual has already contributed to the project, the higher the level of trust and confidence that the person will have established in the community. Starting with smaller proposals, fixes and maintenance work can help build up that trust and confidence. 
 
