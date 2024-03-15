@@ -115,12 +115,12 @@ Committers have all the rights and responsibilities of a Reviewer, plus:
 * Responsibilities:
     * Mentoring new Committers
     * Discussing strategy and policy for the project
-    * [Voting](https://docs.cilium.io/en/latest/community/governance/commit_access/#voting) on project matters when required
+    * [Voting](https://github.com/cilium/community/blob/main/GOVERNANCE.md#voting) on project matters when required
     * Additional responsibilities specific to any project Roles they may have
     * Approve contributors to assume roles
 
 * Qualifications:
-    * Laid out in [granting commit access](https://docs.cilium.io/en/latest/community/governance/commit_access/#granting-commit-access)
+    * Laid out in [granting commit access](https://github.com/cilium/community/blob/main/GOVERNANCE.md#granting-commit-access)
     * Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
     * Is able to exercise judgment for the good of the project, independent of their employer, friends, or team
     * Mentors other contributors

@@ -55,7 +55,7 @@ are expected to take an active role in ensuring the overall success of the event
   * The selection of program co-chairs is done through discussion in the private
     Cilium Committers' Slack channel, preferably by consensus (but using our
     standard
-    [voting](https://docs.cilium.io/en/stable/community/governance/commit_access/#voting)
+    [voting](https://github.com/cilium/community/blob/main/GOVERNANCE.md#voting)
     process if necessary) 
 
 ### CiliumCon Hosts
