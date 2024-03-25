@@ -88,7 +88,7 @@ The Code Team is the committers responsible for all aspects of the Cilium organi
 
 * Responsibilities:
     * Is an active owner of code they have contributed (unless ownership is explicitly transferred) making sure that code is well tested, tests consistently pass, and addressing bugs or issues discovered after code is accepted
-    * Everything in expectations of developers with [commit access](https://docs.cilium.io/en/latest/community/governance/commit_access/#expectations-for-developers-with-commit-access)
+    * Everything in expectations of developers with [commit access](https://github.com/cilium/community/blob/main/GOVERNANCE.md#granting-commit-access)
     * Nominate themselves to review specific code owner areas
     * Backport fixes for latest release
     * Writing and/or refactoring PRs
