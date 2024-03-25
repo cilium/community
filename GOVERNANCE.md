@@ -142,7 +142,7 @@ The process for changing the policy is:
 
 ## Voting
 
-n general, we prefer that technical issues and maintainer membership are amicably worked out between the persons involved. If a dispute cannot be decided independently, the committers and maintainers can be called in to decide an issue. If the maintainers themselves cannot decide an issue, the issue will be resolved by voting. The voting process is a simple majority in which each committer and each maintainer receives one vote.
+In general, we prefer that technical issues and maintainer membership are amicably worked out between the persons involved. If a dispute cannot be decided independently, the committers and maintainers can be called in to decide an issue. If the maintainers themselves cannot decide an issue, the issue will be resolved by voting. The voting process is a simple majority in which each committer and each maintainer receives one vote.
 
 Votes are done in the Slack channel ```#committers``` using Slack polls. A failure to vote is an implicit abstention.
 
