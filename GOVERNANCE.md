@@ -216,7 +216,7 @@ would like to provide you with commit access to the project repository.
 Developers with commit access must agree to fulfill specific
 responsibilities described in the source repository:
 
-    /Documentation/commit-access.rst
+    https://github.com/cilium/community/blob/main/GOVERNANCE.md#expectations-for-developers-with-commit-access
 
 Please let us know if you would like to accept commit access and if so that
 you agree to fulfill these responsibilities. Once we receive your response
