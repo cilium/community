@@ -97,7 +97,7 @@ Reviewers have all the rights and responsibilities of an Organization Member, pl
     * Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
 
 * Privileges:
-    * Has GitHub rights to approve pull requests in specific directories
+    * Has GitHub rights to approve pull requests in specific directories, and to modify labels on pull requests
     * Can recommend and review other Org Members to become Reviewers
 
 The process for an Organization Member to become a Reviewer is as follows:
