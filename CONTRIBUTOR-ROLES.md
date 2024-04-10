@@ -44,7 +44,8 @@ The process of becoming a security team member is:
 Community Team members are listed in the [community team file](roles/Community-Team.md). The community team is responsible for helping grow the community around Cilium including managing the public presence of the project, helping the project be present at events and meetups, and applying to relevant programs on the project’s behalf.
 
 * Responsibilities:
-    * Keeping the Cilium website and social media accounts up to date
+    * Keeping the Cilium website and social media accounts up to date, following
+      the [social guidelines](./Social-Guidelines.md)
     * Helping manage the Cilium presence at relevant events and meetups
     * Applying to programs and grants that will help grow the Cilium community
     * Representing the Cilium project positively in public

@@ -1,12 +1,15 @@
-## Introduction
+# Social Media Guidelines
 
-This document highlights the social media guidelines for the use of the Cilium project's Twitter channel and other social media channels that belong to the Cilium project.
+This document highlights the social media guidelines for the use of the Cilium
+project's Twitter/X, LinkedIn and other social media channels that belong to the
+Cilium project.
 
 These guidelines apply to all the Cilium project social media channels, regardless of who manages them.
 
 ## Objectives
 
 The objectives of managing the Cilium project's social channels is to:
+
 - Share project news, roadmap updates, news releases, and user stories
 - Educate on project updates
 - Share information on how-tos, demos, etc that are valuable to the community.
