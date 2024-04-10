@@ -1,4 +1,4 @@
-# Social media guidelines
+# Social Media Guidelines
 
 This document highlights the social media guidelines for the use of the Cilium
 project's Twitter/X, LinkedIn and other social media channels that belong to the
