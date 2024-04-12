@@ -1,4 +1,4 @@
-# Cilium project direction, vision and scope
+# Cilium project direction, vision, and scope
 
 [Cilium](https://cilium.io) is an open source, cloud native solution for providing connectivity, security, and observability using eBPF. The vision of Cilium is to seamlessly connect and secure workloads wherever those workloads are running, across different types of infrastructure such as public cloud, hybrid cloud, on-premise environments, edge, and serverless. Cilium’s scope encompasses connectivity, security and observability from Layer 2 to Layer 7, and includes providing observability and security diagnostic information for Cilium users, as well as supporting libraries and debugging tools to help users operating Cilium and developers working on the Cilium project.
 
