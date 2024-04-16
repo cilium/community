@@ -1,0 +1,48 @@
+name: New Repository
+description: Request the addition of a new repository.
+body:
+  - type: input
+    id: repository-url
+    attributes:
+      label: Repository URL
+    validations:
+      required: true
+  - type: dropdown
+    id: proposed-scope
+    attributes:
+      label: Proposed Scope
+      description: To learn more about each scope, visit [REPOSITORY-GUIDELINES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md#scope).
+      options:
+        - Core
+        - Ecosystem
+        - Infra
+        - Special
+        - Historical
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation for Request
+      description: Describe why you believe this repository should be added, including why you chose its proposed scope.
+      render: markdown
+    validations:
+      required: true
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Please ensure your proposed repository adheres to the following guidelines.
+      options:
+        - label:  Basic documentation provided on the README
+          required: true
+        - label:  Adheres to one of the [approved license policies](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)
+          required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/cilium/cilium/blob/main/CODE_OF_CONDUCT.md). 
+      options:
+        - label: I agree to follow Cilium's Code of Conduct
+          required: true
