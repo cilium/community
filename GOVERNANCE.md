@@ -85,7 +85,7 @@ Granting commit access should be considered when a candidate has demonstrated th
   * do not typically require many iterations of improvement to be accepted
 * Consistent participation in code review of others' patches, including existing committers, with comments consistent with the overall project standards
 * Assistance to those in the community who are less knowledgeable through active participation in project forums
-* Plans for sustained contribution to the project compatible with the project’s direction as viewed by current committers
+* Plans for sustained contribution to the project compatible with the [project’s direction](./VISION.md) as viewed by current committers
 * Commitment to meet the expectations described in [Expectations for developers with commit access](#expectations-for-developers-with-commit-access)
 
 The process to grant commit access to a candidate is as follows:
