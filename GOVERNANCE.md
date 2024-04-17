@@ -70,11 +70,11 @@ Keep the [AUTHORS](https://github.com/cilium/cilium/blob/main/AUTHORS) file up t
 
 #### CNCF resources
 
-Any maintainer may suggest a request for [CNCF resources](https://www.cncf.io/services-for-projects/) through the [CNCF Service Desk](https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1). Maintainers may also choose to delegate working with the CNCF to non-maintainer community members.
+Any committer may suggest a request for [CNCF resources](https://www.cncf.io/services-for-projects/) through the [CNCF Service Desk](https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1). Committers may also choose to delegate working with the CNCF to non-committer community members.
 
 #### Code of Conduct
 
-[Code of Conduct](https://github.com/cilium/cilium/blob/main/CODE_OF_CONDUCT.md) violations by community members will be discussed and resolved on the private ```#committers``` channel on [Cilium Slack](https://cilium.herokuapp.com/). If the reported Code of Conduct violator is a maintainer, the maintainers will instead designate two maintainers to work with the [CNCF CoC Committee](https://www.cncf.io/conduct/committee/).
+[Code of Conduct](https://github.com/cilium/cilium/blob/main/CODE_OF_CONDUCT.md) violations by community members will be discussed and resolved on the private ```#committers``` channel on [Cilium Slack](https://cilium.herokuapp.com/). If the reported Code of Conduct violator is a committer, the other committers will instead designate two committers to work with the [CNCF CoC Committee](https://www.cncf.io/conduct/committee/).
 
 ### Granting commit access
 
@@ -143,13 +143,13 @@ The process for changing the policy is:
 
 ## Voting
 
-In general, we prefer that technical issues and maintainer membership are amicably worked out between the persons involved. If a dispute cannot be decided independently, the committers and maintainers can be called in to decide on an issue. If the maintainers themselves cannot decide on an issue, the issue will be resolved by voting. The voting process is a simple majority in which each committer and each maintainer receives one vote.
+In general, we prefer that technical issues, governance issues, and community membership are amicably worked out between the persons involved. If a dispute cannot be decided independently, the committers can be called in to decide on an issue. If the committers themselves cannot decide on an issue, the issue will be resolved by voting. The voting process is a simple majority in which each committer receives one vote, subject to the Company Block Vote Limit.
 
 Votes are done in the Slack channel ```#committers``` using Slack polls. A failure to vote is an implicit abstention.
 
 ### Company Block Vote Limit
 
-In the spirit of ensuring a diverse community, the number of votes a single company can receive is limited to 6 votes. The company affiliation of maintainers and committers is documented in the [MAINTAINERS.md](https://github.com/cilium/cilium/blob/main/MAINTAINERS.md) file.
+In the spirit of ensuring a diverse community, the number of votes a single company can receive is limited to 6 votes. The company affiliation of committers is documented in the [MAINTAINERS.md](https://github.com/cilium/cilium/blob/main/MAINTAINERS.md) file.
 
 Votes are counted within the company association and then broken down proportionally. For example, if 7 committers from a company vote, with 6 voting yes and 1 voting no:
 
