@@ -11,6 +11,7 @@
     * [Code of Conduct](#code-of-conduct)
   * [Granting commit access](#granting-commit-access)
   * [Revoking commit access](#revoking-commit-access)
+  * [Offboarding](#offboarding)
   * [Changing the policy](#changing-the-policy)
 * [Voting](#voting)
   * [Company Block Vote Limit](#company-block-vote-limit)
@@ -119,7 +120,7 @@ The first, more straightforward situation is a committer who is no longer active
 * If the candidate for removal states plans to continue participating, no action is taken.
 * If the candidate replies they no longer require commit access, then their access is removed.
 * If the candidate cannot be reached within 2 months of the second attempt to contact, access is removed.
-* In any case, where access is removed, this fact is published through a Slack message to all existing committers (including the candidate for removal). The candidate is also removed from the [CNCF’s list of Cilium maintainers](https://github.com/cncf/foundation/blob/main/README.md#other-content).
+* In any case, where access is removed, this fact is published through a Slack message to all existing committers (including the candidate for removal) and the [Offboarding](#offboarding) procedure is applied.
 
 The second, more difficult situation is a committer who is behaving in a manner that is viewed as detrimental to the future of the project by other committers. This is a delicate situation with the potential for division within the greater community and should be handled with care. The process in this case is:
 
@@ -130,8 +131,21 @@ The second, more difficult situation is a committer who is behaving in a manner 
 * After all votes have been collected or a reasonable time has elapsed for them to be provided (for example, a couple of business days) the votes are evaluated. For the request to revoke commit access to pass, it must receive yes votes from two thirds of the existing committers. Anyone that votes no must provide their reasoning.
 * If the proposal passes, counter-arguments found in the reasonings of no votes should be documented along with the initial reasons the revocation was proposed. Ideally there should be no new counter-arguments supplied in a no vote as all concerns should have surfaced in the discussion before the vote.
 * The original person to propose revocation summarizes the result of the vote in a Slack message to all existing committers excepting the candidate for removal.
-* If the vote to revoke commit access passes, access is removed and the candidate for revocation is informed of that fact and the reasons for it as documented in the Slack message requesting the revocation vote.
+* If the vote to revoke commit access passes, access is removed and the candidate for revocation is informed of that fact and the reasons for it as documented in the Slack message requesting the revocation vote. The [Offboarding](#offboarding) procedure is applied.
 * Ideally the revoked committer peacefully leaves the community and no further action is required. However, there is a distinct possibility that they will try to generate support for their point of view within the larger community. In this case, the reasoning for removing commit access as described in the request for a vote will be published to the community.
+
+A committer may also choose to retire at any time by notifying the team. In this simple case, no further process is needed and the [Offboarding](#offboarding) procedure is applied.
+
+### Offboarding
+
+The former committer is:
+
+* Removed from the ```#committers``` Slack channel
+* Removed from the list in [MAINTAINERS.md](https://github.com/cilium/cilium/blob/main/MAINTAINERS.md)
+* Removed from the [CNCF’s list of Cilium maintainers](https://github.com/cncf/foundation/blob/main/README.md#other-content)
+* Removed from the [Committers team](https://github.com/orgs/cilium/teams/committers)
+* Added to the list of [Cilium emeritus committers](https://github.com/cilium/cilium/blob/main/MAINTAINERS.md#cilium--hubble-emeritus-committers), if they so choose
+
 
 ### Changing the policy
 
@@ -140,6 +154,8 @@ The process for changing the policy is:
 * Propose the changes to the policy in a Slack message to all current committers and request discussion.
 * After an appropriate period of discussion (a few days), update the proposal based on feedback if required and resend it to all current committers with a request for a formal vote.
 * After all votes have been collected or a reasonable time has elapsed for them to be provided (for example, a couple of business days), the votes are evaluated. For the request to modify the policy to pass, it must receive yes votes from two thirds of the existing committers.
+
+This does not apply to editorial changes, which can be implemented via lazy consensus. This includes things like stylistic tweaks, fixing spelling or grammar, or updating links. 
 
 ## Voting
 
