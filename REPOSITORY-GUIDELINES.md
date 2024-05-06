@@ -65,7 +65,12 @@ All changes that occur within the lifecycle of a repository have the same proces
 - An issue is opened via the appropriate issue template ([New Repository Template]() or [Change of Scope Template]())
 - Once the issue is opened, ample opportunity for discussion among both committers and the larger Cilium community is provided (for example, 1 week)
 - If there are no objections among committers during this time and any relevant criteria are met (for example, the criteria found in [Addition](#addition)), the change is approved
-- If there are any objections from committers, the committers decide if the change should be approved via a simple majority vote
+
+If seeking to add a new ```Core``` repository, change an existing repository's scope to ```Core```, or change a current ```Core``` repository to a different scope:
+- If there are any objections from committers, the committers decide if the change should be approved via a simple majority vote as set out in [GOVERNANCE.md](https://github.com/cilium/community/blob/main/GOVERNANCE.md#voting)
+
+For all other repository lifecycle situations:
+- If there are any objections from committers, the committers work through each objection through a rough consensus process to come to a conclusion
 
 ### Addition
 
@@ -74,7 +79,7 @@ New repositories of any type can be proposed by using the [New Repository Templa
 In order for a new repository to be approved, it must also meet the following criteria:
 
 - Approved by at least two committers
-- The README should describe the intent of the repository and have usage examples
+- README describes the intent of the repository and has usage examples
 - Adheres to one of the [approved license policies](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)
 
 Any new repository must be added into the appropriate list in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md).

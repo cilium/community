@@ -2,11 +2,17 @@ name: New Repository
 description: Request the addition of a new repository.
 body:
   - type: input
+    id: repository-name
+    attributes:
+      label: Repository Name
+    validations:
+      required: true
+  - type: input
     id: repository-url
     attributes:
       label: Repository URL
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: proposed-scope
     attributes:
@@ -27,16 +33,21 @@ body:
       render: markdown
     validations:
       required: true
-  - type: checkboxes
-    id: prerequisites
+  - type: textarea
+    id: readme
     attributes:
-      label: Prerequisites
-      description: Please ensure your proposed repository adheres to the following guidelines.
-      options:
-        - label: The README describes the intent of the repository and have usage examples
-          required: true
-        - label:  Adheres to one of the [approved license policies](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)
-          required: true
+      label: README
+      description: Please ensure the README describes the intent of the repository and has usage examples. You can paste the contents of the README below or provide an external link.
+      render: markdown
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: Please ensure that the license adheres to one of the [approved license policies](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md).
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
@@ -45,3 +56,15 @@ body:
       options:
         - label: I agree to follow Cilium's Code of Conduct
           required: true
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: To be filled by a Cilium committer
+      description: Please ensure this repository adheres to the following guidelines.
+      options:
+        - label: README describes the intent of the repository and has usage examples
+          required: false
+        - label: Adheres to one of the [approved license policies](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)
+          required: false
+        - label: Approved new repository is added into the appropriate list in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md)
+          required: false

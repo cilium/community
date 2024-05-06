@@ -47,3 +47,10 @@ body:
       options:
         - label: I agree to follow Cilium's Code of Conduct
           required: true
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: To be filled by a Cilium committer
+      options:
+        - label: Approved change of scope is reflected in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md)
+          required: false
