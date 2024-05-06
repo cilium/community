@@ -15,8 +15,7 @@ body:
       options:
         - Core
         - Ecosystem
-        - Infra
-        - Special
+        - Internal
         - Historical
     validations:
       required: true
@@ -34,7 +33,7 @@ body:
       label: Prerequisites
       description: Please ensure your proposed repository adheres to the following guidelines.
       options:
-        - label:  Basic documentation provided on the README
+        - label: The README describes the intent of the repository and have usage examples
           required: true
         - label:  Adheres to one of the [approved license policies](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)
           required: true

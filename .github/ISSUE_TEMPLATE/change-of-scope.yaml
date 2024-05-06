@@ -15,8 +15,7 @@ body:
       options:
         - Core
         - Ecosystem
-        - Infra
-        - Special
+        - Internal
         - Historical
     validations:
       required: true
@@ -28,8 +27,7 @@ body:
       options:
         - Core
         - Ecosystem
-        - Infra
-        - Special
+        - Internal
         - Historical
     validations:
       required: true

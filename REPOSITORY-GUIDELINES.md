@@ -9,8 +9,7 @@ You can find the list of all repositories, sorted by their scope, in [REPOSITORI
 * [Scope](#scope)
   * [```Core```](#core)
   * [```Ecosystem```](#ecosystem)
-  * [```Infra```](#infra)
-  * [```Special```](#special)
+  * [```Internal```](#internal)
   * [```Historical```](#historical)
 * [Lifecycle](#lifecycle)
   * [Voting](#voting)
@@ -20,7 +19,7 @@ You can find the list of all repositories, sorted by their scope, in [REPOSITORI
 
 ## Scope
 
-Each repository within the Cilium GitHub organization is assigned one of five scopes: [```Core```](#core), [```Ecosystem```](#ecosystem), [```Infra```](#infra), [```Special```](#special), or [```Historical```](#historical). This assigned scope helps to convey each repository's purpose and responsibility in the overall functioning of the project.
+Each repository within the Cilium GitHub organization is assigned one of four scopes: [```Core```](#core), [```Ecosystem```](#ecosystem), [```Internal```](#internal), or [```Historical```](#historical). This assigned scope helps to convey each repository's purpose and responsibility in the overall functioning of the project.
 
 ### ```Core```
 
@@ -38,21 +37,16 @@ Examples of repositories of this type include useful Go libraries like [Fake](ht
 
 You can find the list of all ```Ecosystem``` repositories in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md#ecosystem-scope).
 
-### ```Infra```
+### ```Internal```
 
-Infrastructure repositories are those that are required to keep the Cilium project running smoothly, and are not designed to be used by adopters.
+Internal repositories are those that are required to keep the Cilium project running smoothly, and are not designed to be used by adopters.
 
 Examples of repositories of this type include development and testing tools like [little-vm-helper](https://github.com/cilium/little-vm-helper), or those helping with the overall contribution process like [github-actions](https://github.com/cilium/github-actions).
 
-You can find the list of all ```Infra``` repositories in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md#infra-scope).
+They also include the [Community](https://github.com/cilium/community) and [.github](https://github.com/cilium/.github) repository, template repositories like [design-cfps](https://github.com/cilium/design-cfps), as well as all forks.
 
-### ```Special```
+You can find the list of all ```Internal``` repositories in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md#infra-scope).
 
-Special repositories are non-archived repositories that do not fit neatly into ```Core```, ```Ecosystem```, or ```Infra```. They are generally not designed to be used by adoptors.
-
-They include the [Community](https://github.com/cilium/community) and [.github](https://github.com/cilium/.github) repository, template repositories like [design-cfps](https://github.com/cilium/design-cfps), as well as all forks.
-
-You can find the list of all ```Special``` repositories in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md#special-scope).
 
 ### ```Historical```
 
@@ -79,8 +73,8 @@ New repositories of any type can be proposed by using the [New Repository Templa
 
 In order for a new repository to be approved, it must also meet the following criteria:
 
-- Approved by at least two committers, with the assumption that any committer who approves is taking on the responsibility of maintaining the new repository
-- Basic documentation provided on the README
+- Approved by at least two committers
+- The README should describe the intent of the repository and have usage examples
 - Adheres to one of the [approved license policies](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)
 
 Any new repository must be added into the appropriate list in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md).
