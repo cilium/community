@@ -44,7 +44,7 @@ body:
     id: license
     attributes:
       label: License
-      description: Please ensure that the license adheres to one of the [approved license policies](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md).
+      description: Please ensure that the license adheres to one of the [approved licenses](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md).
     validations:
       required: true
   - type: checkboxes
@@ -63,7 +63,7 @@ body:
       options:
         - label: README describes the intent of the repository and has usage examples
           required: false
-        - label: Adheres to one of the [approved license policies](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)
+        - label: Adheres to one of the [approved licenses](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)
           required: false
         - label: Approved new repository is added into the appropriate list in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md)
           required: false
