@@ -60,7 +60,7 @@ You can find the list of all ```Historical``` repositories in [REPOSITORIES.md](
 
 ### Addition
 
-New repositories of any type can be proposed by using the [New Repository Template]() and can be approved via the process as described in [Approval Process](#approval-process). This includes both donated repositories or the creation of new repositories.
+New repositories of any type can be proposed by using the [New Repository Template]() and can be approved via the process as described in [Approval process](#approval-process). This includes both donated repositories or the creation of new repositories.
 
 In order for a new repository to be approved, it must also meet the following criteria:
 
@@ -72,11 +72,11 @@ Any new repository must be added into the appropriate list in [REPOSITORIES.md](
 
 ### Change of scope
 
-If a repository's level of activity significantly changes and/or it modifies its purpose over time, it may become appropriate to pursue a change in scope. This change can be proposed by using the [Change of Scope Template]() and can be approved via the process as described in [Approval Process](#approval-process).
+If a repository's level of activity significantly changes and/or it modifies its purpose over time, it may become appropriate to pursue a change in scope. This change can be proposed by using the [Change of Scope Template]() and can be approved via the process as described in [Approval process](#approval-process).
 
 Any approved change of scope must be reflected in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md).
 
-### Approval Process
+### Approval process
 
 All changes that occur within the lifecycle of a repository have the same approval process:
 
