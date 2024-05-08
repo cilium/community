@@ -21,7 +21,6 @@ body:
       options:
         - Core
         - Ecosystem
-        - Internal
         - Historical
     validations:
       required: true

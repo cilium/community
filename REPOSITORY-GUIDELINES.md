@@ -10,7 +10,6 @@ You can find the list of all repositories, sorted by their scope, in [REPOSITORI
   * [```Core```](#core)
   * [```Ecosystem```](#ecosystem)
   * [```Internal```](#internal)
-  * [```Historical```](#historical)
 * [Lifecycle](#lifecycle)
   * [Addition](#addition)
   * [Change of scope](#change-of-scope)
@@ -19,7 +18,7 @@ You can find the list of all repositories, sorted by their scope, in [REPOSITORI
 
 ## Scope
 
-Each repository within the Cilium GitHub organization is assigned one of four scopes: [```Core```](#core), [```Ecosystem```](#ecosystem), [```Internal```](#internal), or [```Historical```](#historical). This assigned scope helps to convey each repository's purpose and responsibility in the overall functioning of the project.
+Each repository within the Cilium GitHub organization is assigned one of three scopes: [```Core```](#core), [```Ecosystem```](#ecosystem), or [```Historical```](#historical). This assigned scope helps to convey each repository's purpose and responsibility in the overall functioning of the project.
 
 ### ```Core```
 
@@ -31,22 +30,15 @@ You can find the list of all ```Core``` repositories in [REPOSITORIES.md](https:
 
 ### ```Ecosystem```
 
-Ecosystem repositories are extensions of the core project, providing optional functionality that adopters may find useful. While not considered essential, they play a pivotal role of addressing a range of use cases and needs for Cilium adoptors.
+Ecosystem repositories are the most numerous, as this scope is intentionally broad. They include (but are not limited to) the following types of repositories:
 
-Examples of repositories of this type include useful Go libraries like [Fake](https://github.com/cilium/fake), or repositories designed to integrate Cilium with other projects like [Proxy](https://github.com/cilium/proxy).
+- Optional extensions of the core project, including useful Go libraries like [Fake](https://github.com/cilium/fake), or repositories designed to integrate Cilium with other projects like [Proxy](https://github.com/cilium/proxy)
+- Infrastructure repositories required to keep the Cilium project running smoothly, including development and testing tools like [little-vm-helper](https://github.com/cilium/little-vm-helper), or those helping with the overall contribution process like [github-actions](https://github.com/cilium/github-actions)
+- Other special repositories such as the [Community](https://github.com/cilium/community) and [.github](https://github.com/cilium/.github) repository, template repositories like [design-cfps](https://github.com/cilium/design-cfps), as well as all forks
+
+These repositories have varying levels of maturity and activity level. Discretion is advised for adoptors seeking to use any end user facing repositories in this scope.
 
 You can find the list of all ```Ecosystem``` repositories in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md#ecosystem-scope).
-
-### ```Internal```
-
-Internal repositories are those that are required to keep the Cilium project running smoothly, and are not designed to be used by adopters.
-
-Examples of repositories of this type include development and testing tools like [little-vm-helper](https://github.com/cilium/little-vm-helper), or those helping with the overall contribution process like [github-actions](https://github.com/cilium/github-actions).
-
-They also include the [Community](https://github.com/cilium/community) and [.github](https://github.com/cilium/.github) repository, template repositories like [design-cfps](https://github.com/cilium/design-cfps), as well as all forks.
-
-You can find the list of all ```Internal``` repositories in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md#infra-scope).
-
 
 ### ```Historical```
 
