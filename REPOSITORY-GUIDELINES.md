@@ -74,7 +74,7 @@ All changes that occur within the lifecycle of a repository have the same approv
 
 - An issue is opened via the appropriate issue template ([New Repository Template]() or [Change of Scope Template]())
 - Once the issue is opened, ample opportunity for discussion among both committers and the larger Cilium community is provided (for example, 1 week)
-- If the discussion suggests an alternate path should be pursued, then that discussion should be resolved prior to approval. 
+- If the discussion suggests an alternate path should be pursued, then that discussion should be resolved prior to approvals
 - If there are no objections among committers and any relevant criteria are met (for example, the criteria found in [Addition](#addition)), the change is approved
 
 In the rare case that objections from committers cannot be worked through independently, the committers decide if the change should be approved via a simple majority vote as set out in [GOVERNANCE.md](https://github.com/cilium/community/blob/main/GOVERNANCE.md#voting).
