@@ -11,6 +11,7 @@
     * [Code of Conduct](#code-of-conduct)
   * [Granting commit access](#granting-commit-access)
   * [Revoking commit access](#revoking-commit-access)
+  * [Offboarding](#offboarding)
   * [Changing the policy](#changing-the-policy)
 * [Voting](#voting)
   * [Company Block Vote Limit](#company-block-vote-limit)
@@ -70,11 +71,11 @@ Keep the [AUTHORS](https://github.com/cilium/cilium/blob/main/AUTHORS) file up t
 
 #### CNCF resources
 
-Any maintainer may suggest a request for [CNCF resources](https://www.cncf.io/services-for-projects/) through the [CNCF Service Desk](https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1). Maintainers may also choose to delegate working with the CNCF to non-maintainer community members.
+Any committer may suggest a request for [CNCF resources](https://www.cncf.io/services-for-projects/) through the [CNCF Service Desk](https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1). Committers may also choose to delegate working with the CNCF to non-committer community members.
 
 #### Code of Conduct
 
-[Code of Conduct](https://github.com/cilium/cilium/blob/main/CODE_OF_CONDUCT.md) violations by community members will be discussed and resolved on the private ```#committers``` channel on [Cilium Slack](https://cilium.herokuapp.com/). If the reported Code of Conduct violator is a maintainer, the maintainers will instead designate two maintainers to work with the [CNCF CoC Committee](https://www.cncf.io/conduct/committee/).
+[Code of Conduct](https://github.com/cilium/cilium/blob/main/CODE_OF_CONDUCT.md) violations by community members will be discussed and resolved on the private ```#committers``` channel on [Cilium Slack](https://cilium.herokuapp.com/). If the reported Code of Conduct violator is a committer, the other committers will instead designate two committers to work with the [CNCF CoC Committee](https://www.cncf.io/conduct/committee/).
 
 ### Granting commit access
 
@@ -85,7 +86,7 @@ Granting commit access should be considered when a candidate has demonstrated th
   * do not typically require many iterations of improvement to be accepted
 * Consistent participation in code review of others' patches, including existing committers, with comments consistent with the overall project standards
 * Assistance to those in the community who are less knowledgeable through active participation in project forums
-* Plans for sustained contribution to the project compatible with the project’s direction as viewed by current committers
+* Plans for sustained contribution to the project compatible with the [project’s direction](./VISION.md) as viewed by current committers
 * Commitment to meet the expectations described in [Expectations for developers with commit access](#expectations-for-developers-with-commit-access)
 
 The process to grant commit access to a candidate is as follows:
@@ -119,7 +120,7 @@ The first, more straightforward situation is a committer who is no longer active
 * If the candidate for removal states plans to continue participating, no action is taken.
 * If the candidate replies they no longer require commit access, then their access is removed.
 * If the candidate cannot be reached within 2 months of the second attempt to contact, access is removed.
-* In any case, where access is removed, this fact is published through a Slack message to all existing committers (including the candidate for removal). The candidate is also removed from the [CNCF’s list of Cilium maintainers](https://github.com/cncf/foundation/blob/main/README.md#other-content).
+* In any case, where access is removed, this fact is published through a Slack message to all existing committers (including the candidate for removal) and the [Offboarding](#offboarding) procedure is applied.
 
 The second, more difficult situation is a committer who is behaving in a manner that is viewed as detrimental to the future of the project by other committers. This is a delicate situation with the potential for division within the greater community and should be handled with care. The process in this case is:
 
@@ -130,8 +131,21 @@ The second, more difficult situation is a committer who is behaving in a manner 
 * After all votes have been collected or a reasonable time has elapsed for them to be provided (for example, a couple of business days) the votes are evaluated. For the request to revoke commit access to pass, it must receive yes votes from two thirds of the existing committers. Anyone that votes no must provide their reasoning.
 * If the proposal passes, counter-arguments found in the reasonings of no votes should be documented along with the initial reasons the revocation was proposed. Ideally there should be no new counter-arguments supplied in a no vote as all concerns should have surfaced in the discussion before the vote.
 * The original person to propose revocation summarizes the result of the vote in a Slack message to all existing committers excepting the candidate for removal.
-* If the vote to revoke commit access passes, access is removed and the candidate for revocation is informed of that fact and the reasons for it as documented in the Slack message requesting the revocation vote.
+* If the vote to revoke commit access passes, access is removed and the candidate for revocation is informed of that fact and the reasons for it as documented in the Slack message requesting the revocation vote. The [Offboarding](#offboarding) procedure is applied.
 * Ideally the revoked committer peacefully leaves the community and no further action is required. However, there is a distinct possibility that they will try to generate support for their point of view within the larger community. In this case, the reasoning for removing commit access as described in the request for a vote will be published to the community.
+
+A committer may also choose to retire at any time by notifying the team. In this simple case, no further process is needed and the [Offboarding](#offboarding) procedure is applied.
+
+### Offboarding
+
+The former committer is:
+
+* Removed from the ```#committers``` Slack channel
+* Removed from the list in [MAINTAINERS.md](https://github.com/cilium/cilium/blob/main/MAINTAINERS.md)
+* Removed from the [CNCF’s list of Cilium maintainers](https://github.com/cncf/foundation/blob/main/README.md#other-content)
+* Removed from the [Committers team](https://github.com/orgs/cilium/teams/committers)
+* Added to the list of [Cilium emeritus committers](https://github.com/cilium/cilium/blob/main/MAINTAINERS.md#cilium--hubble-emeritus-committers), if they so choose
+
 
 ### Changing the policy
 
@@ -141,15 +155,17 @@ The process for changing the policy is:
 * After an appropriate period of discussion (a few days), update the proposal based on feedback if required and resend it to all current committers with a request for a formal vote.
 * After all votes have been collected or a reasonable time has elapsed for them to be provided (for example, a couple of business days), the votes are evaluated. For the request to modify the policy to pass, it must receive yes votes from two thirds of the existing committers.
 
+This does not apply to editorial changes, which can be implemented via lazy consensus. This includes things like stylistic tweaks, fixing spelling or grammar, or updating links. 
+
 ## Voting
 
-In general, we prefer that technical issues and maintainer membership are amicably worked out between the persons involved. If a dispute cannot be decided independently, the committers and maintainers can be called in to decide on an issue. If the maintainers themselves cannot decide on an issue, the issue will be resolved by voting. The voting process is a simple majority in which each committer and each maintainer receives one vote.
+In general, we prefer that technical issues, governance issues, and community membership are amicably worked out between the persons involved. If a dispute cannot be decided independently, the committers can be called in to decide on an issue. If the committers themselves cannot decide on an issue, the issue will be resolved by voting. The voting process is a simple majority in which each committer receives one vote, subject to the Company Block Vote Limit.
 
 Votes are done in the Slack channel ```#committers``` using Slack polls. A failure to vote is an implicit abstention.
 
 ### Company Block Vote Limit
 
-In the spirit of ensuring a diverse community, the number of votes a single company can receive is limited to 6 votes. The company affiliation of maintainers and committers is documented in the [MAINTAINERS.md](https://github.com/cilium/cilium/blob/main/MAINTAINERS.md) file.
+In the spirit of ensuring a diverse community, the number of votes a single company can receive is limited to 6 votes. The company affiliation of committers is documented in the [MAINTAINERS.md](https://github.com/cilium/cilium/blob/main/MAINTAINERS.md) file.
 
 Votes are counted within the company association and then broken down proportionally. For example, if 7 committers from a company vote, with 6 voting yes and 1 voting no:
 
