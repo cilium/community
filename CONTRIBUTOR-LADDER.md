@@ -6,6 +6,7 @@
     * [Reviewer](#reviewer)
     * [Committer](#committer)
     * [Inactive Member](#inactive-member)
+* [General guidance on making contributions and expectations](#general-guidance-on-making-contributions-and-expectations)
 
 ## Contributor Ladder
 
@@ -174,11 +175,11 @@ Inactive members are defined as members of the Cilium org with **no** contributi
 
 ## General guidance on making contributions and expectations
 
-We welcome people to raise PRs, issues and CFPs in the Cilium project. If you're new to the project we'd strongly encourage you to start off with small, but meaningful, changes first, as these are easier and quicker for committers / reviewers to assess and give feedback on. You'll get the opportunity to learn about the [process and expectations](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/) of making changes within the project. 
+We welcome people to raise PRs, issues, and [CFPs](https://github.com/cilium/design-cfps) in the Cilium project. If you're new to the project, we'd strongly encourage you to start off with small, but meaningful, changes first. These types of changes are easier and quicker for committers and reviewers to assess and give feedback on. You'll get the opportunity to learn about the [process and expectations](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/) of making changes within the project. 
 
-As an open source project we don’t make any guarantees about how quickly proposed changes will get looked at. Committers and reviewers may have other pressures on their time, that mean they don’t currently have the bandwidth to look at your proposal. 
+As an open source project, we don’t make any guarantees about how quickly proposed changes will get looked at. Committers and reviewers may have other pressures on their time, which could result in a reduced bandwidth to look at new proposals.
 
 Naturally, the more an individual has already contributed to the project, the higher the level of trust and confidence that the person will have established in the community. Starting with smaller proposals, fixes and maintenance work, or making constructive and meaningful review comments on other people's suggestions, can help build up that trust and confidence. 
 
-Accepting any change into the project means that the committers are signing up to maintain it going forward. To quote [Solomon Hykes](https://x.com/solomonstre/status/715277134978113536?s=20), "no is temporary, yes is forever". For major changes, just being willing to push through the development work may not be enough - it’s likely you will need a track record of contributions to convince the community that you’ll be around to maintain changes into the future. 
+Accepting any change into the project means that the committers are signing up to maintain it going forward. To quote [Solomon Hykes](https://x.com/solomonstre/status/715277134978113536?s=20), "no is temporary, yes is forever". For major changes, being willing to push through the development work may not be enough - it’s likely you will need a track record of contributions to convince the community that you’ll be around to maintain changes into the future. 
 
