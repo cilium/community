@@ -6,26 +6,36 @@
     * [Reviewer](#reviewer)
     * [Committer](#committer)
     * [Inactive Member](#inactive-member)
+* [General guidance on making contributions and expectations](#general-guidance-on-making-contributions-and-expectations)
 
 ## Contributor Ladder
 
-Hello! We are excited that you want to learn more about our project contributor ladder! This contributor ladder outlines the different contributor roles within the Cilium project, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the project grows. Our contributors are happy to help you advance along the contributor ladder.
+This document outlines the different contributor roles within the Cilium project, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the ladder and advance up it as their involvement in the project grows. Our contributors are happy to support your growth up the ladder!
 
-Each of the contributor roles below is organized into lists of three types of things. "Requirements" are things that a contributor is expected to do at that level. "Qualifications" are qualifications a person needs to meet to be at that level (may be one or any/all of them), and "Privileges" are things contributors on that level are entitled to.
+Each of the contributor roles below is organized into three types of lists:
+- **Responsibilities:** tasks that a contributor is expected to do at this level
+- **Qualifications:** requirements a person needs to meet to be at that level
+- **Privileges:** rights contributors on that level are entitled to
 
 As the Cilium project grows, the current roles may be broken out into new roles and/or teams and roles may no longer be needed. 
 
-The final judgment on whether an individual fulfills the criteria for a role is up to the Cilium Committers. After six months of inactivity or after any behavior detrimental to the future of the project, any contributor can be removed from their position(s).
+The final judgment on whether an individual fulfills the criteria for a role is up to the Cilium Committers. After six months of inactivity for Committers and Reviewers, 18 months of inactivity for Organization Members, or after any behavior detrimental to the future of the project, any contributor can be removed from their position(s).
 
 ### Community Contributor
-Description: A Community Contributor contributes directly to the project and adds value to it. Contributions need not be code. People at the Community Contributor level may be new contributors, or they may only contribute occasionally.
 
-* Responsibilities:
+A Community Contributor contributes directly to the project and adds value to it. Contributions need not be code. People at the Community Contributor level may be new contributors, or they may only contribute occasionally.
+
+* **Responsibilities:**
+
     * Must follow the [Cilium CoC](https://github.com/cilium/cilium/blob/master/CODE_OF_CONDUCT.md)
-    * Follow the contributing guide for each project, for example see [Cilium's here](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/) 
+    * Adheres to the contributing guide for each project
+      * For example, see [Cilium's 'How to Contribute' Guide](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/) 
 
-* Qualifications:
-  Anybody that is participating in the Cilium community is welcome. Any contribution counts. Some possible forms of contribution are:
+* **Qualifications:**
+
+  Anybody that is participating in the Cilium community is welcome. Any contribution counts. 
+  Some possible forms of contribution are:
+
     * Participating in community discussions
     * Helping other users in Slack or in person
     * Submitting bug reports
@@ -42,63 +52,72 @@ Description: A Community Contributor contributes directly to the project and add
     * Test releases and patches and submit reviews
     * Promote the project in public
 
-Non-code contributions can be documented by making a PR to add yourself to CONTRIBUTORS.md. 
+  Non-code contributions can be documented by making a PR to add yourself to [CONTRIBUTORS.md](https://github.com/cilium/community/blob/main/CONTRIBUTORS.md). 
 
-* Privileges:
-    * Ability to be assigned to Issues and ask for Reviews
+* **Privileges:**
+
+    * Ability to be assigned to issues and ask for reviews
  
 Becoming a Community Contributor is the first step towards becoming an Organization Member.
 
 ### Organization Member
-Description: An Organization Member is an established contributor who regularly participates in the project. Organization Members have privileges in project repositories and as such are expected to act in the interests of the whole project. Organization Members can take on [additional roles within the project](CONTRIBUTOR-ROLES.md) and can work more independently, for example triggering CI. 
+
+An Organization Member is an established contributor who regularly participates in the project. Organization Members have privileges in project repositories and are therefore expected to act in the interests of the whole project. Organization Members can take on [additional roles within the project](CONTRIBUTOR-ROLES.md) and can work more independently, for example triggering CI. 
 
 An Organization Member has all the rights and responsibilities of a Community Contributor, plus:
 
-* Responsibilities:
+* **Responsibilities:**
+
     * Continues to contribute regularly
     * Work to accomplish the tasks they volunteer to do within the project
 
-* Qualifications:
+* **Qualifications:**
+
     * Must have successful contributions to the project, including at least one of the following:
         * Written and/or reviewed PRs,
-        * Reviewed PRs,
-        * Made contributions that resolved Issues,
+        * Made contributions that resolved issues,
         * Or some equivalent combination or contribution
-    * Must be actively contributing to at least one project area, where the privileges of Organization Member will be beneficial
+    * Must be actively contributing to at least one project area where the privileges of being an Organization Member will be beneficial
 
-* Privileges:
+* **Privileges:**
+
     * Can trigger CI
     * Can leave reviews on PRs
-    * Can recommend other contributors to become Cilium Github Org Members
+    * Can recommend other Community Contributors to become Organization Members
     * Can nominate themselves to [other roles within Cilium](CONTRIBUTOR-ROLES.md)
 
-The process for a Contributor to become an Organization Member is as follows:
+The process for a Community Contributor to become an Organization Member is as follows:
 
 1. Open a PR in the [member management file](ladder/members.yaml)
-2. Receive two "LGTM" comments from any Org Members, and approval by a committer who merges the PR
+2. Receive two "LGTM" comments from any Organization Members, and approval by a committer who merges the PR
 
 ### Reviewer
-Description: A Reviewer has responsibility for specific code, documentation, test, or other project areas. They are collectively responsible, with other Reviewers, for reviewing all changes to those areas and indicating whether those changes are ready to merge. They have a track record of contribution and review in the project.
 
-Reviewers are responsible for a "specific area." This can be a specific code directory, chapter of the docs, or other clearly-defined project component that is smaller than an entire repository or subproject. Most often it is one or a set of directories in one or more Git repositories. The "specific area" below refers to this area of responsibility.
+A Reviewer has responsibility for specific code, documentation, test, or other project areas. They are collectively responsible, with other Reviewers, for reviewing all changes to those areas and indicating whether those changes are ready to merge. They have a track record of contribution and review in the project.
+
+Reviewers are responsible for a "specific area." This can be a specific code directory, chapter of the docs, or other clearly-defined project component that is smaller than an entire repository or subproject. Most often, it is one or a set of directories in one or more Git repositories. This "specific area" as mentioned below refers to this area of responsibility.
+
 Reviewers have all the rights and responsibilities of an Organization Member, plus:
 
-* Responsibilities:
-    * Following the [reviewing guide](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/#pull-requests-review-process-for-committers) 
-    * Regularly reviewing Pull Requests against their specific areas of responsibility, including Pull Requests that are assigned to them
-    * Helping other contributors become reviewers
-    * Review CFPs and provide feedback
+* **Responsibilities:**
 
-* Requirements:
+    * Following the [reviewing guide](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/#pull-requests-review-process-for-committers) 
+    * Regularly reviewing PRs against their specific areas of responsibility, including PRs that are assigned to them
+    * Helping other contributors become reviewers
+    * Review [Cilium Feature Proposals (CFPs)](https://github.com/cilium/design-cfps) and provide feedback
+
+* **Qualifications:**
+
     * Is an Organization Member
     * Has a track record of constructive and valuable reviews
     * Has demonstrated an in-depth knowledge of the specific area, for example by resolving test failures or through contributions
     * Commits to being responsible for that specific area
     * Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
 
-* Privileges:
-    * Has GitHub rights to approve pull requests in specific directories, and to modify labels on pull requests
-    * Can recommend and review other Org Members to become Reviewers
+* **Privileges:**
+
+    * Has GitHub rights to approve PRs in specific directories, and to modify labels on PRs
+    * Can recommend and review other Organization Members to become Reviewers
 
 The process for an Organization Member to become a Reviewer is as follows:
 
@@ -108,24 +127,28 @@ The process for an Organization Member to become a Reviewer is as follows:
 Automated tooling assigns PRs across the Reviewers defined for each particular area. 
 
 ### Committer
-Description: Committers have write privileges and voting privileges, and are collectively responsible for steering the project in a positive direction. As such it represents a significant level of trust in an individual's commitment to working with other committers and the community at large for the benefit of the project. 
+
+Committers have write privileges and voting privileges, and are collectively responsible for steering the project in a positive direction. As such it represents a significant level of trust in an individual's commitment to working with other committers and the community at large for the benefit of the project. 
 
 Committers have all the rights and responsibilities of a Reviewer, plus:
 
-* Responsibilities:
+* **Responsibilities:**
+
     * Mentoring new Committers
     * Discussing strategy and policy for the project
     * [Voting](https://github.com/cilium/community/blob/main/GOVERNANCE.md#voting) on project matters when required
-    * Additional responsibilities specific to any project Roles they may have
+    * Additional responsibilities specific to any [project roles](CONTRIBUTOR-ROLES.md) they may have
     * Approve contributors to assume roles
 
-* Qualifications:
+* **Qualifications:**
+
     * Laid out in [granting commit access](https://github.com/cilium/community/blob/main/GOVERNANCE.md#granting-commit-access)
     * Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
     * Is able to exercise judgment for the good of the project, independent of their employer, friends, or team
     * Mentors other contributors
 
-* Privileges:
+* **Privileges:**
+
     * Can merge code into the repo(s) they are contributing to
     * Represent the project in public as a Committer
     * Can communicate with the CNCF on behalf of the project, and participate in CNCF maintainer activities including votes
@@ -142,7 +165,7 @@ A core principle in maintaining a healthy community is encouraging active partic
 
 However, being a member of one of the Cilium GitHub organizations comes with an elevated set of permissions. These capabilities should not be used by those that are not familiar with the current state of the Cilium project.
 
-Therefore members with an extended period away from the project with no activity will be removed from the Cilium GitHub Organizations and will be required to go through the org membership process again after re-familiarizing themselves with the current state.
+Therefore members with an extended period away from the project with no activity will be removed from the Cilium GitHub Organizations and will be required to go through the [organization membership process](https://github.com/cilium/community/blob/main/CONTRIBUTOR-LADDER.md#organization-member) again after re-familiarizing themselves with the current state.
 
 #### How inactivity is measured
 
@@ -152,11 +175,10 @@ Inactive members are defined as members of the Cilium org with **no** contributi
 
 ## General guidance on making contributions and expectations
 
-We welcome people to raise PRs, issues and CFPs in the Cilium project. If you're new to the project we'd strongly encourage you to start off with small, but meaningful, changes first, as these are easier and quicker for committers / reviewers to assess and give feedback on. You'll get the opportunity to learn about the [process and expectations](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/) of making changes within the project. 
+We welcome people to raise PRs, issues, and [CFPs](https://github.com/cilium/design-cfps) in the Cilium project. If you're new to the project, we'd strongly encourage you to start off with small, but meaningful, changes first. These types of changes are easier and quicker for committers and reviewers to assess and give feedback on. You'll get the opportunity to learn about the [process and expectations](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/) of making changes within the project. 
 
-As an open source project we don’t make any guarantees about how quickly proposed changes will get looked at. Committers and reviewers may have other pressures on their time, that mean they don’t currently have the bandwidth to look at your proposal. 
+As an open source project, we don’t make any guarantees about how quickly proposed changes will get looked at. Committers and reviewers may have other pressures on their time, which could result in a reduced bandwidth to look at new proposals.
 
 Naturally, the more an individual has already contributed to the project, the higher the level of trust and confidence that the person will have established in the community. Starting with smaller proposals, fixes and maintenance work, or making constructive and meaningful review comments on other people's suggestions, can help build up that trust and confidence. 
 
-Accepting any change into the project means that the committers are signing up to maintain it going forward. To quote [Solomon Hykes](https://x.com/solomonstre/status/715277134978113536?s=20), "no is temporary, yes is forever". For major changes, just being willing to push through the development work may not be enough - it’s likely you will need a track record of contributions to convince the community that you’ll be around to maintain changes into the future. 
-
+Accepting any change into the project means that the committers are signing up to maintain it going forward. To quote [Solomon Hykes](https://x.com/solomonstre/status/715277134978113536?s=20), "no is temporary, yes is forever". For major changes, being willing to push through the development work may not be enough - it’s likely you will need a track record of contributions to convince the community that you’ll be around to maintain changes into the future. 
