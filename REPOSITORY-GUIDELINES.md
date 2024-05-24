@@ -52,7 +52,7 @@ You can find the list of all ```Historical``` repositories in [REPOSITORIES.md](
 
 ### Addition
 
-New repositories of any type can be proposed by using the [New Repository Template]() and can be approved via the process as described in [Approval process](#approval-process). This includes both donated repositories or the creation of new repositories.
+Additional repositories can be proposed by using the [New Repository Template]() and can be approved via the process as described in [Approval process](#approval-process). This includes the creation of new repositories, adding donated repositories, or creating forks from existing repositories.
 
 In order for a new repository to be approved, it must also meet the following criteria:
 

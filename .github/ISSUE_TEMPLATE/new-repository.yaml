@@ -1,5 +1,5 @@
 name: New Repository
-description: Request the addition of a new repository.
+description: Request the addition of a repository.
 body:
   - type: input
     id: repository-name
@@ -7,10 +7,21 @@ body:
       label: Repository Name
     validations:
       required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - New
+        - Donated
+        - Fork
+    validations:
+      required: true
   - type: input
     id: repository-url
     attributes:
       label: Repository URL
+      description: Only needed for donated or fork repository types.
     validations:
       required: false
   - type: dropdown
@@ -21,7 +32,6 @@ body:
       options:
         - Core
         - Ecosystem
-        - Historical
     validations:
       required: true
   - type: textarea
