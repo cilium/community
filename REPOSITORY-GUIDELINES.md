@@ -9,7 +9,7 @@ You can find the list of all repositories, sorted by their scope, in [REPOSITORI
 * [Scope](#scope)
   * [```Core```](#core)
   * [```Ecosystem```](#ecosystem)
-  * [```Internal```](#internal)
+  * [```Historical```](#historical)
 * [Lifecycle](#lifecycle)
   * [Addition](#addition)
   * [Change of scope](#change-of-scope)
