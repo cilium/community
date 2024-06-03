@@ -1,0 +1,79 @@
+name: New Repository
+description: Request the addition of a repository.
+body:
+  - type: input
+    id: repository-name
+    attributes:
+      label: Repository Name
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - New
+        - Donated
+        - Fork
+    validations:
+      required: true
+  - type: input
+    id: repository-url
+    attributes:
+      label: Repository URL
+      description: Only needed for donated or fork repository types.
+    validations:
+      required: false
+  - type: dropdown
+    id: proposed-scope
+    attributes:
+      label: Proposed Scope
+      description: To learn more about each scope, visit [REPOSITORY-GUIDELINES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md#scope).
+      options:
+        - Core
+        - Ecosystem
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation for Request
+      description: Describe why you believe this repository should be added, including why you chose its proposed scope.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: readme
+    attributes:
+      label: README
+      description: Please ensure the README describes the intent of the repository and has usage examples. You can paste the contents of the README below or provide an external link.
+      render: markdown
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: Please ensure that the license adheres to one of the [approved licenses](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md).
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/cilium/cilium/blob/main/CODE_OF_CONDUCT.md). 
+      options:
+        - label: I agree to follow Cilium's Code of Conduct
+          required: true
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: To be filled by a Cilium committer
+      description: Please ensure this repository adheres to the following guidelines.
+      options:
+        - label: README describes the intent of the repository and has usage examples
+          required: false
+        - label: Adheres to one of the [approved licenses](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)
+          required: false
+        - label: Approved new repository is added into the appropriate list in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md)
+          required: false

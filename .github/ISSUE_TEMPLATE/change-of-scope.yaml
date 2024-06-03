@@ -1,0 +1,54 @@
+name: Change of Scope
+description: Request a change of scope for a repository.
+body:
+  - type: input
+    id: repository-url
+    attributes:
+      label: Repository URL
+    validations:
+      required: true
+  - type: dropdown
+    id: current-scope
+    attributes:
+      label: Current Scope
+      description: Current scope of the repository, as found in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md).
+      options:
+        - Core
+        - Ecosystem
+        - Historical
+    validations:
+      required: true
+  - type: dropdown
+    id: proposed-scope
+    attributes:
+      label: Proposed Scope
+      description: To learn more about each scope, visit [REPOSITORY-GUIDELINES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md#scope).
+      options:
+        - Core
+        - Ecosystem
+        - Historical
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation for Request
+      description: Describe why you believe this repository should undergo a change of scope.
+      render: markdown
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/cilium/cilium/blob/main/CODE_OF_CONDUCT.md). 
+      options:
+        - label: I agree to follow Cilium's Code of Conduct
+          required: true
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: To be filled by a Cilium committer
+      options:
+        - label: Approved change of scope is reflected in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md)
+          required: false
