@@ -18,3 +18,11 @@ Connect with the community through:
 ## Governance
 
 Find out more about Cilium's governance [here](./GOVERNANCE.md).
+
+## Values
+
+The [Cilium Community Values](https://github.com/cilium/community/blob/main/VALUES.md) are guideposts to contributors (both new and ongoing) for how the project runs. They are meant to capture the spirit of the project of how we all work collaboratively together.
+
+## Vision
+
+Learn the Cilium project direction, vision, and scope in the [Vision](https://github.com/cilium/community/blob/main/VISION.md). It is meant to capture where we are going together.
