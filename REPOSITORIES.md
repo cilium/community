@@ -2,7 +2,7 @@
 
 This document lists all repositories, sorted by their scope, within [Cilium](https://github.com/cilium).
 
-You can read more about the scope and lifecycle of repositories in [REPOSITORY-GUIDELINES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md).
+You can read more about the scope and lifecycle of repositories in [REPOSITORY-GUIDELINES.md](https://github.com/cilium/community/blob/main/REPOSITORY-GUIDELINES.md).
 
 **Table of Contents**
 
