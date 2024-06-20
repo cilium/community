@@ -148,6 +148,7 @@ Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](https:
 | [cilium/customvet](https://github.com/cilium/customvet) | Custom Go Vet tool for the Cilium Repository |
 | [cilium/ebpf.io-summit](https://github.com/cilium/ebpf.io-summit) | Pixel Point Gatsby Starter |
 | [cilium/gke](https://github.com/cilium/gke) | Guide & scripts for deploying Cilium on GKE |
+| [cilium/hubble-otel](https://github.com/cilium/hubble-otel) | Experimental integration of Hubble with OpenTelemetry |
 | [cilium/installfest](https://github.com/cilium/installfest) | Documentation and resources for Cilium Installfest |
 | [cilium/k8s-1abel](https://github.com/cilium/k8s-1abel) | Kubernetes YAML/JSON survival kit |
 | [cilium/little-vm-helper-action](https://github.com/cilium/little-vm-helper-action) | Archived version of [cilium/little-vm-helper](https://github.com/cilium/little-vm-helper) |
