@@ -52,7 +52,7 @@ You can find the list of all ```Historical``` repositories in [REPOSITORIES.md](
 
 ### Addition
 
-Additional repositories can be proposed by using the [New Repository Template]() and can be approved via the process as described in [Approval process](#approval-process). This includes the creation of new repositories, adding donated repositories, or creating forks from existing repositories.
+Additional repositories can be proposed by using the [New Repository Template](https://github.com/cilium/community/issues/new?assignees=&labels=&projects=&template=new-repository.yaml) and can be approved via the process as described in [Approval process](#approval-process). This includes the creation of new repositories, adding donated repositories, or creating forks from existing repositories.
 
 In order for a new repository to be approved, it must also meet the following criteria:
 
@@ -64,7 +64,7 @@ Any new repository must be added into the appropriate list in [REPOSITORIES.md](
 
 ### Change of scope
 
-If a repository's level of activity significantly changes and/or it modifies its purpose over time, it may become appropriate to pursue a change in scope. This change can be proposed by using the [Change of Scope Template]() and can be approved via the process as described in [Approval process](#approval-process).
+If a repository's level of activity significantly changes and/or it modifies its purpose over time, it may become appropriate to pursue a change in scope. This change can be proposed by using the [Change of Scope Template](https://github.com/cilium/community/issues/new?assignees=&labels=&projects=&template=change-of-scope.yaml) and can be approved via the process as described in [Approval process](#approval-process).
 
 Any approved change of scope must be reflected in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md).
 
@@ -72,7 +72,7 @@ Any approved change of scope must be reflected in [REPOSITORIES.md](https://gith
 
 All changes that occur within the lifecycle of a repository have the same approval process:
 
-- An issue is opened via the appropriate issue template ([New Repository Template]() or [Change of Scope Template]())
+- An issue is opened via the appropriate issue template ([New Repository Template](https://github.com/cilium/community/issues/new?assignees=&labels=&projects=&template=new-repository.yaml) or [Change of Scope Template](https://github.com/cilium/community/issues/new?assignees=&labels=&projects=&template=change-of-scope.yaml))
 - Once the issue is opened, ample opportunity for discussion among both committers and the larger Cilium community is provided (for example, 1 week)
 - If the discussion suggests an alternate path should be pursued, then that discussion should be resolved prior to approvals
 - If there are no objections among committers and any relevant criteria are met (for example, the criteria found in [Addition](#addition)), the change is approved
