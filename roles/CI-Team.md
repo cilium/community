@@ -4,3 +4,5 @@ The CI team roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](/CON
 
 * [Nicolas Busseneau](https://github.com/nbusseneau)
 * [Birol Bilgin](https://github.com/brlbil)
+* [Ryan Drew](https://github.com/learnitall)
+
