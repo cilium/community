@@ -7,12 +7,12 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 * [Joe Stringer](https://github.com/joestringer)
 * [André Martins](https://github.com/aanm)
 
-## [cilium-cli-maintainers]: Maintainers of [cilium/cilium-cli](https://github.com/cilium/cilium-cli)
+## [cilium-cli-maintainers]: Maintainers of [cilium/cilium-cli](https://github.com/cilium/cilium-cli) and [cilium/cilium/cilium-cli](https://github.com/cilium/cilium/tree/main/cilium-cli)
 
 * [Tobias Klauser](https://github.com/tklauser)
 * [Michi Mutsuzaki](https://github.com/michi-covalent)
 
-## [hubble-maintainers]: Maintainers of [cilium/hubble](https://github.com/cilium/hubble)
+## [hubble-maintainers]: Maintainers of [cilium/hubble](https://github.com/cilium/hubble) and the Hubble subsystem in [cilium/cilium](https://github.com/cilium/cilium)
 
 * [Chance Zibolski](https://github.com/chancez)
 * [Glib Smaga](https://github.com/glibsm)
