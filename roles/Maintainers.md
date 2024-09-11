@@ -2,43 +2,43 @@
 
 The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](/CONTRIBUTOR-ROLES.md#maintainers). The following are the current maintainers:
 
-## [cilium-maintainers]: Maintainers of https://github.com/cilium/cilium
+## [cilium-maintainers]: Maintainers of [cilium/cilium](https://github.com/cilium/cilium)
 
 * [Joe Stringer](https://github.com/joestringer)
 * [André Martins](https://github.com/aanm)
 
-## [cilium-cli-maintainers]: Maintainers of https://github.com/cilium/cilium-cli
+## [cilium-cli-maintainers]: Maintainers of [cilium/cilium-cli](https://github.com/cilium/cilium-cli) and [cilium/cilium/cilium-cli](https://github.com/cilium/cilium/tree/main/cilium-cli)
 
 * [Tobias Klauser](https://github.com/tklauser)
 * [Michi Mutsuzaki](https://github.com/michi-covalent)
 
-## [hubble-maintainers]: Maintainers of https://github.com/cilium/hubble
+## [hubble-maintainers]: Maintainers of [cilium/hubble](https://github.com/cilium/hubble) and the Hubble subsystem in [cilium/cilium](https://github.com/cilium/cilium)
 
-* [Chance Zibolski] (https://github.com/chancez)
+* [Chance Zibolski](https://github.com/chancez)
 * [Glib Smaga](https://github.com/glibsm)
-* [Robin Hahling] (https://github.com/rolinh)
+* [Robin Hahling](https://github.com/rolinh)
 * [Sebastian Wicki](https://github.com/gandro)
 
-## [tetragon-maintainers]: Maintainers of https://github.com/cilium/tetragon
+## [tetragon-maintainers]: Maintainers of [cilium/tetragon](https://github.com/cilium/tetragon)
 
 * [Natália Réka Ivánkó](https://github.com/sharlns)
 * [John Fastabend](https://github.com/jrfastab)
 
-## [proxy-maintainers]: Maintainers of https://github.com/cilium/proxy
+## [proxy-maintainers]: Maintainers of [cilium/proxy](https://github.com/cilium/proxy)
 
 * [Tam Mach](https://github.com/sayboras)
 * [Jarno Rajahalme](https://github.com/jrajahalme)
 
-## [ebpf-lib-maintainers]: Maintainers of https://github.com/cilium/ebpf
+## [ebpf-lib-maintainers]: Maintainers of [cilium/ebpf](https://github.com/cilium/ebpf)
 
 * [Lorenz Bauer](https://github.com/lmb)
 * [Timo Beckers](https://github.com/ti-mo)
 
-## [cilium.io-maintainers]: Maintainers of https://github.com/cilium/cilium.io
+## [cilium.io-maintainers]: Maintainers of [cilium/cilium.io](https://github.com/cilium/cilium.io)
 
 * [Bill Mulligan](https://github.com/xmulligan)
 
-## [pwru-maintainers]: Maintainers of https://github.com/cilium/pwru
+## [pwru-maintainers]: Maintainers of [cilium/pwru](https://github.com/cilium/pwru)
 
 * [Martynas Pumputis](https://github.com/brb)
 
