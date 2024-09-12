@@ -103,7 +103,6 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/m2r](https://github.com/cilium/m2r) | Forked markdown to reStructuredText converter |
 | [cilium/netlink](https://github.com/cilium/netlink) | Forked netlink library for Go |
 | [cilium/netperf](https://github.com/cilium/netperf) | Netperf related tooling for CI |
-| [cilium/networkpolicy](https://github.com/cilium/networkpolicy) | Network policy tutorials |
 | [cilium/openapi](https://github.com/cilium/openapi) | A fork of OpenAPI spec renderer for Sphinx |
 | [cilium/packer-ci-build](https://github.com/cilium/packer-ci-build) | Contains the scripts and data for building the Cilium CI testing VM |
 | [cilium/perf-tests](https://github.com/cilium/perf-tests) | A fork of Kubernetes performance tests |
@@ -153,6 +152,7 @@ Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](https:
 | [cilium/k8s-1abel](https://github.com/cilium/k8s-1abel) | Kubernetes YAML/JSON survival kit |
 | [cilium/little-vm-helper-action](https://github.com/cilium/little-vm-helper-action) | Archived version of [cilium/little-vm-helper](https://github.com/cilium/little-vm-helper) |
 | [cilium/microscope](https://github.com/cilium/microscope) | Gather monitor data data from all cilium nodes in your cluster (See: [Hubble](https://github.com/cilium/hubble/]))|
+| [cilium/networkpolicy](https://github.com/cilium/networkpolicy) | Network policy tutorials |
 | [cilium/old_pilot_repo](https://github.com/cilium/old_pilot_repo) | Deprecated home of Istio's Pilot, now in istio/istio's pilot dir |
 | [cilium/openshift-terraform-upi](https://github.com/cilium/openshift-terraform-upi) | OpenShift UPI Terraform module for Cilium |
 | [cilium/terraform-gke-management-cluser](https://github.com/cilium/terraform-gke-ci-management-cluster) | Terraform module for GKE CI management cluster |
