@@ -42,7 +42,6 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/bpf-ci-scripts](https://github.com/cilium/bpf-ci-scripts) | Test BPF trees with Jenkins |
 | [cilium/certgen](https://github.com/cilium/certgen) | A tool to generate and store certificates for Hubble Relay mTLS |
 | [cilium/chaos-monkeys](https://github.com/cilium/chaos-monkeys) | Base infrastructure plus collection of tests to assist in chaos testing |
-| [cilium/chaos-testing-examples](https://github.com/cilium/chaos-testing-examples) |Examples of using Cilium for chaos testing and fault injection |
 | [cilium/checkmate](https://github.com/cilium/checkmate) | A fork for testing the Go language |
 | [cilium/ci-kernels](https://github.com/cilium/ci-kernels) | A collection of kernels used for CI builds |
 | [cilium/cilium-perf-networking](https://github.com/cilium/cilium-perf-networking) | Utilities for Cilium networking performance evaluation |
@@ -138,6 +137,7 @@ Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](https:
 |   Name  | Description |
 |:--------|:------------|
 | [cilium/bpf-map](https://github.com/cilium/bpf-map) | Generic tool to inspect BPF maps |
+| [cilium/chaos-testing-examples](https://github.com/cilium/chaos-testing-examples) |Examples of using Cilium for chaos testing and fault injection |
 | [cilium/cilium-etcd-operator](https://github.com/cilium/cilium-etcd-operator) | Operator to manage Cilium's etcd cluster |
 | [cilium/cilium-l4lb-test](https://github.com/cilium/cilium-l4lb-test) | Scripts to test Cilium's L4LB |
 | [cilium/cilium-olm](https://github.com/cilium/cilium-olm) | Cilium packaging for OpenShift |
@@ -157,6 +157,3 @@ Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](https:
 | [cilium/openshift-terraform-upi](https://github.com/cilium/openshift-terraform-upi) | OpenShift UPI Terraform module for Cilium |
 | [cilium/terraform-gke-management-cluser](https://github.com/cilium/terraform-gke-ci-management-cluster) | Terraform module for GKE CI management cluster |
 | [cilium/ubuntu-curl](https://github.com/cilium/ubuntu-curl) | Container image for curl client |
-
-
-
