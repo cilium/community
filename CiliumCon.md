@@ -95,3 +95,6 @@ count against this limit unless they also rank talk submissions.)
 * [Amsterdam
   2023](https://www.youtube.com/playlist?list=PLj6h78yzYM2Meb36FX-bKd-3fpNvtlzpE)
   co-chaired by [Laurent Bernaille](https://github.com/lbernail) and [Liz Rice](https://github.com/lizrice)
+* [Chicago 2023](https://www.youtube.com/playlist?list=PLDg_GiBbAx-l7kyTSyrmVMeTwneGziVQ3) co-chaired by [Laurent Bernaille](https://github.com/lbernail) and [Liz Rice](https://github.com/lizrice)
+* [Paris 2024](https://www.youtube.com/playlist?list=PLDg_GiBbAx-mMcogXm5CSjB5EjEUEPbsO) co-chaired by [Laurent Bernaille](https://github.com/lbernail) and [Bill Mulligan](https://github.com/xmulligan/xmulligan)
+* [Salt Lake City 2024](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/cilium-ebpf-day/) co-chaired by [Bill Mulligan](https://github.com/xmulligan/xmulligan) and [Vlad Ungureanu](https://github.com/ungureanuvladvictor)
