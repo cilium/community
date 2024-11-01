@@ -1,0 +1,11 @@
+sigs:
+  - dir: sig-template
+    name: SIG Template
+    mission_statement: > 
+      Sample mission statement
+    charter_link: sig-template/charter.md
+    label: sig-template
+    leadership:
+      leads:
+        - github: examplehandle
+          name: Example Handle
