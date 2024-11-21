@@ -57,6 +57,7 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/deepequal-gen](https://github.com/cilium/deepequal-gen) | A fork based on the Kubernetes deepcopy-gen tool |
 | [cilium/demo-image](https://github.com/cilium/demo-image) | Docker container image for demos |
 | [cilium/design-cfps](https://github.com/cilium/design-cfps) | Cilium Feature Proposal (CFP) design docs |
+| [cilium/dev-summits](https://github.com/cilium/design-cfps) | Storing notes from Cilium Developer Summits |
 | [cilium/dns](https://github.com/cilium/dns) | Forked DNS library in Go |
 | [cilium/dnssec-client](https://github.com/cilium/dnssec-client) | Small utility for testing dnsec entries |
 | [cilium/docker-bind](https://github.com/cilium/docker-bind) | Docker Bind9 container for testing purposes |
