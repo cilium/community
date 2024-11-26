@@ -8,7 +8,7 @@ Areas covered by SIGs may be vertically focused on particular components or func
 - Scalability
 - Docs
 
-Each SIG must have a charter that specifies its scope (topics, subsystems, code repos, and/or directories), responsibilities and areas of authority, for example, a SIG Lead. See the SIG charter process for details on how charters are managed. SIGs are relatively free to customize or change how they operate, within some broad guidelines and constraints imposed by cross-project processes (e.g., the release process) and assets (e.g., the Cilium repo).
+Each SIG must have a charter that specifies its scope (topics, subsystems, code repos, and/or directories), responsibilities, and areas of authority. See the SIG charter process for details on how charters are managed. SIGs are relatively free to customize or change how they operate, within some broad guidelines and constraints imposed by cross-project processes (e.g., the release process) and assets (e.g., the Cilium repo).
 
 SIGs are designed to help contributors gain depth in a specific area of the Cilium project. Committers that are aspiring reviewers of the Cilium project can gain expertise by getting involved with a SIG and getting assigned PRs.
 
@@ -17,6 +17,7 @@ SIGs don't have any additional authority - they are expected to drive towards so
 A primary reason that SIGs exist is as forums for collaboration. Much work in a SIG should stay local within that SIG. However, SIGs must communicate in the open, ensure other SIGs and community members can find notes of meetings, discussions, designs, and decisions, and periodically communicate a high-level summary of the SIG's work to the community.
 
 # SIG Roles
+
 ## SIG Lead
 
 - Membership tracked in [sigs.yaml](./sigs.yaml)
@@ -29,9 +30,8 @@ A primary reason that SIGs exist is as forums for collaboration. Much work in a 
 - MAY delegate the actual communication and creation of content to other contributors where appropriate.
 
 ### Requirements
-Leads MUST be at least a "member" on our [contributor ladder](https://github.com/cilium/community/blob/main/CONTRIBUTOR-LADDER.md#organization-member) to be eligible to hold a leadership role within a SIG.
+Leads MUST be at least a "reviewer" on our [contributor ladder](https://github.com/cilium/community/blob/main/CONTRIBUTOR-LADDER.md#reviewer) to be eligible to hold a leadership role within a SIG.
 SIGs MAY prefer various levels of domain knowledge depending on the role. This should be documented.
-
 
 ### On-boarding and Off-boarding Leads
 Leads MAY decide to step down at anytime and propose a replacement. Use lazy consensus amongst the other Leads with fallback on majority vote to accept the proposal. The candidate SHOULD be supported by a majority of SIG contributors.
@@ -72,7 +72,6 @@ When introducing a SIG charter or modification of a charter the following proces
 1. The committers will be looking to ensure the scope of the SIG as represented in the charter is reasonable (and within the scope of Cilium) and that processes are fair.
 
 # SIG Governance
-
 To standardize Special Interest Group efforts, create maximum transparency, and route contributors to the appropriate SIG; SIGs should follow these guidelines:
 
 - Have an approved Charter.
