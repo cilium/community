@@ -1,0 +1,3222 @@
+organization: cilium
+repositories:
+  .github:
+    MAINTAIN:
+    - cilium-maintainers
+    READ:
+    - security org
+    USER-WRITE:
+    - xmulligan
+  actions-app-token:
+    READ:
+    - security org
+  actuated-runner-debug:
+    READ:
+    - security org
+    USER-ADMIN:
+    - mtardy
+  affinity-test-apps:
+    READ:
+    - security org
+    USER-ADMIN:
+    - aditighag
+  alpine-curl:
+    MAINTAIN:
+    - cilium-maintainers
+    READ:
+    - security org
+    WRITE:
+    - Committers
+    - build
+    - tophat
+  api:
+    READ:
+    - security org
+  api-router:
+    READ:
+    - security org
+  arping:
+    READ:
+    - security org
+    USER-ADMIN:
+    - jrfastab
+    USER-MAINTAIN:
+    - jrajahalme
+  bpf-ci-scripts:
+    READ:
+    - security org
+    USER-ADMIN:
+    - aalemayhu
+  bpf-map:
+    READ:
+    - security org
+  busybox:
+    MAINTAIN:
+    - build
+    READ:
+    - security org
+  certgen:
+    READ:
+    - security org
+    WRITE:
+    - Committers
+    - ci-structure
+    - contributing
+    - github-sec
+    - sig-hubble
+    - vendor
+  chaos-monkeys:
+    READ:
+    - security org
+  chaos-testing-examples:
+    READ:
+    - security org
+  charts:
+    READ:
+    - security org
+    USER-WRITE:
+    - michi-covalent
+    WRITE:
+    - cilium-maintainers
+    - release-managers
+    - tetragon-maintainers
+  checkmate:
+    READ:
+    - security org
+    USER-WRITE:
+    - lmb
+  ci-kernels:
+    ADMIN:
+    - ebpf-lib-maintainers
+    READ:
+    - Committers
+    - security org
+    TRIAGE:
+    - ebpf-go Contributors
+    USER-ADMIN:
+    - lmb
+    WRITE:
+    - ebpf-go Reviewers
+  cilium:
+    MAINTAIN:
+    - Committers
+    - cilium-maintainers
+    READ:
+    - Reviewers
+    - security org
+    TRIAGE:
+    - Bots
+    - triager
+    USER-MAINTAIN:
+    - brb
+    WRITE:
+    - Community
+    - alibabacloud
+    - api
+    - aws
+    - azure
+    - build
+    - ci-structure
+    - cli
+    - contributing
+    - docker
+    - docs-structure
+    - egress-gateway
+    - endpoint
+    - envoy
+    - fqdn
+    - github-sec
+    - helm
+    - hubble-ui
+    - ipcache
+    - ipsec
+    - kvstore
+    - loader
+    - metrics
+    - monitor
+    - operator
+    - proxy
+    - release-managers
+    - security
+    - sig-agent
+    - sig-bgp
+    - sig-cilium-cli
+    - sig-clustermesh
+    - sig-datapath
+    - sig-encryption
+    - sig-foundations
+    - sig-hubble
+    - sig-ipam
+    - sig-k8s
+    - sig-lb
+    - sig-policy
+    - sig-scalability
+    - sig-servicemesh
+    - tophat
+    - vagrant
+    - vendor
+    - wireguard
+  cilium-cli:
+    ADMIN:
+    - cilium-cli-maintainers
+    READ:
+    - Reviewers
+    - security org
+    TRIAGE:
+    - triager
+    WRITE:
+    - Committers
+    - azure
+    - ci-structure
+    - cli
+    - contributing
+    - egress-gateway
+    - envoy
+    - fqdn
+    - github-sec
+    - helm
+    - ipcache
+    - ipsec
+    - metrics
+    - proxy
+    - security
+    - sig-agent
+    - sig-bgp
+    - sig-clustermesh
+    - sig-datapath
+    - sig-encryption
+    - sig-hubble
+    - sig-k8s
+    - sig-lb
+    - sig-policy
+    - sig-scalability
+    - sig-servicemesh
+    - tophat
+    - vendor
+  cilium-conformance:
+    READ:
+    - security org
+  cilium-etcd-operator:
+    READ:
+    - security org
+  cilium-ghsa-2hwm-97gh-h99w: {}
+  cilium-ghsa-4gv8-7855-vqgg:
+    USER-WRITE:
+    - sayboras
+  cilium-ghsa-5mwp-vmpr-f6p5:
+    USER-WRITE:
+    - AdamKorcz
+    - DavidKorczynski
+    - bimmlerd
+  cilium-ghsa-5rpq-59jr-mpp8: {}
+  cilium-ghsa-m955-9fxq-rqc6: {}
+  cilium-ghsa-mxv3-27mh-wcfj: {}
+  cilium-ghsa-x2vv-c323-jfx9:
+    USER-WRITE:
+    - chancez
+    - ferozsalam
+  cilium-l4lb-test:
+    READ:
+    - security org
+    USER-ADMIN:
+    - brb
+  cilium-olm:
+    ADMIN:
+    - cilium-maintainers
+    READ:
+    - security org
+    USER-ADMIN:
+    - nathanjsweet
+    USER-WRITE:
+    - soggiest
+    WRITE:
+    - Committers
+  cilium-perf-networking:
+    READ:
+    - security org
+    USER-ADMIN:
+    - jibi
+    - kkourt
+  cilium-perf-test:
+    READ:
+    - security org
+    USER-ADMIN:
+    - nebril
+  cilium-service-mesh-beta:
+    MAINTAIN:
+    - cilium-maintainers
+    READ:
+    - security org
+    USER-ADMIN:
+    - lizrice
+    USER-WRITE:
+    - jrajahalme
+  cilium-sysdump:
+    READ:
+    - security org
+    WRITE:
+    - tophat
+  cilium.io:
+    READ:
+    - security org
+    USER-ADMIN:
+    - aanm
+    - liquidat
+    - lizrice
+    - xmulligan
+    USER-MAINTAIN:
+    - qmonnet
+    USER-WRITE:
+    - americano98
+    - andrewgolovanov
+    - annaindistress
+    - bolotskydev
+    - hacktivist123
+    - k8isdead
+    - lnikell
+    - nerucheva
+    - paularah
+    - sashasushko
+    - yasell
+    WRITE:
+    - Committers
+  client-example:
+    READ:
+    - security org
+  client-go:
+    READ:
+    - security org
+    USER-WRITE:
+    - christarazi
+    - marseel
+  cloud-custodian:
+    READ:
+    - security org
+    USER-ADMIN:
+    - Artyop
+    - auriaave
+    - brlbil
+    - nbusseneau
+    - viktor-kurchenko
+    USER-WRITE:
+    - nickolaev
+  clustermesh-apiserver:
+    READ:
+    - security org
+  clustermesh-tools:
+    READ:
+    - security org
+    USER-WRITE:
+    - kaworu
+  community:
+    READ:
+    - security org
+    USER-ADMIN:
+    - xmulligan
+    WRITE:
+    - Committers
+  conformance:
+    READ:
+    - security org
+  connectivity-container:
+    READ:
+    - security org
+  controller-tools:
+    READ:
+    - security org
+    USER-ADMIN:
+    - christarazi
+  coverbee:
+    READ:
+    - security org
+    USER-ADMIN:
+    - dylandreimerink
+  customvet:
+    READ:
+    - security org
+    USER-ADMIN:
+    - nathanjsweet
+    WRITE:
+    - Committers
+  deepequal-gen:
+    READ:
+    - security org
+    WRITE:
+    - sig-agent
+  delayed-httpd:
+    READ:
+    - security org
+  demo-image:
+    READ:
+    - security org
+    USER-MAINTAIN:
+    - pchaigno
+  design-cfps:
+    READ:
+    - security org
+    USER-ADMIN:
+    - hacktivist123
+    - xmulligan
+    WRITE:
+    - Committers
+  dns:
+    READ:
+    - security org
+    USER-ADMIN:
+    - jrajahalme
+  dnssec-client:
+    READ:
+    - security org
+    USER-WRITE:
+    - eloycoto
+  docker-bind:
+    READ:
+    - security org
+    USER-WRITE:
+    - eloycoto
+  docker-m2r:
+    READ:
+    - security org
+  docsearch-scraper-webhook:
+    READ:
+    - security org
+    USER-ADMIN:
+    - genbit
+    - michi-covalent
+    - qmonnet
+  dummylb:
+    READ:
+    - security org
+    USER-ADMIN:
+    - brb
+  ebpf:
+    ADMIN:
+    - ebpf-lib-maintainers
+    READ:
+    - security org
+    TRIAGE:
+    - ebpf-go Contributors
+    USER-ADMIN:
+    - brb
+    - joestringer
+    - lmb
+    - tgraf
+    - ti-mo
+    WRITE:
+    - ebpf-go Reviewers
+  ebpf.io-summit:
+    MAINTAIN:
+    - ebpfio
+    READ:
+    - security org
+    USER-MAINTAIN:
+    - lnikell
+    - xmulligan
+    USER-WRITE:
+    - bolotskydev
+    - brb
+    - nerucheva
+  echoserver:
+    READ:
+    - security org
+    USER-ADMIN:
+    - brb
+    WRITE:
+    - Committers
+    - tophat
+  echoserver-udp:
+    READ:
+    - security org
+    WRITE:
+    - Committers
+  endpointslice:
+    READ:
+    - security org
+    WRITE:
+    - Committers
+  endpointslice-controller:
+    READ:
+    - security org
+    WRITE:
+    - sig-k8s
+  fake:
+    READ:
+    - security org
+    USER-ADMIN:
+    - kaworu
+    - rolinh
+    WRITE:
+    - Committers
+  github-actions:
+    READ:
+    - security org
+    USER-WRITE:
+    - pchaigno
+  gke:
+    READ:
+    - security org
+    USER-ADMIN:
+    - nebril
+    - tgraf
+  go-bindata:
+    READ:
+    - security org
+  go-deadlock:
+    READ:
+    - security org
+    USER-ADMIN:
+    - jrajahalme
+  graceful-termination-test-apps:
+    MAINTAIN:
+    - cilium-maintainers
+    READ:
+    - security org
+    USER-ADMIN:
+    - aditighag
+    WRITE:
+    - build
+  health-examples:
+    READ:
+    - security org
+  helm-docs:
+    READ:
+    - security org
+  helm-gh-pages-action:
+    READ:
+    - security org
+  helm-toolbox:
+    READ:
+    - security org
+    WRITE:
+    - Committers
+  hive:
+    MAINTAIN:
+    - Committers
+    READ:
+    - security org
+    WRITE:
+    - ci-structure
+    - contributing
+    - github-sec
+    - sig-foundations
+  hubble:
+    MAINTAIN:
+    - hubble-maintainers
+    READ:
+    - security org
+    USER-ADMIN:
+    - michi-covalent
+    USER-WRITE:
+    - geakstr
+    WRITE:
+    - Committers
+    - ci-structure
+    - contributing
+    - github-sec
+    - sig-hubble
+    - tophat
+    - vendor
+  hubble-export-stdout:
+    ADMIN:
+    - tetragon-maintainers
+    MAINTAIN:
+    - hubble-maintainers
+    READ:
+    - security org
+    WRITE:
+    - tetragon
+  hubble-otel:
+    ADMIN:
+    - cilium-maintainers
+    - hubble-maintainers
+    READ:
+    - security org
+    USER-ADMIN:
+    - chancez
+    - kaworu
+    - rolinh
+    USER-WRITE:
+    - lambdanis
+  hubble-ui:
+    MAINTAIN:
+    - cilium-maintainers
+    - hubble-ui
+    READ:
+    - security org
+    USER-ADMIN:
+    - geakstr
+    - genbit
+    - michi-covalent
+    USER-MAINTAIN:
+    - yandzee
+  identity-scale-test:
+    READ:
+    - security org
+  image-tools:
+    MAINTAIN:
+    - image-tools-maintainers
+    READ:
+    - security org
+    WRITE:
+    - build
+    - ci-structure
+    - contributing
+    - github-sec
+    - loader
+    - sig-datapath
+    - tophat
+  ingress-controller-conformance:
+    READ:
+    - security org
+    USER-ADMIN:
+    - sayboras
+  installfest:
+    MAINTAIN:
+    - installfest
+    READ:
+    - security org
+    USER-ADMIN:
+    - nbusseneau
+    WRITE:
+    - Committers
+  ipam:
+    READ:
+    - security org
+    WRITE:
+    - Committers
+  json-mock:
+    MAINTAIN:
+    - cilium-maintainers
+    READ:
+    - security org
+    WRITE:
+    - Committers
+    - build
+    - tophat
+  k8s-1abel:
+    READ:
+    - security org
+    USER-ADMIN:
+    - michi-covalent
+  k8s-iptables-diagram:
+    READ:
+    - security org
+  kafka:
+    READ:
+    - security org
+    USER-WRITE:
+    - rolinh
+  kernel-bpf-ci:
+    READ:
+    - security org
+  kube-apate:
+    READ:
+    - security org
+  kubectl-image:
+    READ:
+    - security org
+  kustomize-bases:
+    ADMIN:
+    - cilium-maintainers
+    READ:
+    - security org
+  linters:
+    READ:
+    - security org
+    USER-ADMIN:
+    - rolinh
+    WRITE:
+    - Committers
+  linux:
+    READ:
+    - security org
+    USER-ADMIN:
+    - borkmann
+    - brb
+    USER-WRITE:
+    - NikAleksandrov
+    - aditighag
+    - aspsk
+    - jrfastab
+    - lmb
+    - pchaigno
+    - qmonnet
+    - tklauser
+    - vadorovsky
+  little-vm-helper:
+    READ:
+    - security org
+    USER-ADMIN:
+    - brb
+    - kkourt
+    - markpash
+    - mtardy
+    - tklauser
+    USER-WRITE:
+    - lmb
+    - mhofstetter
+    WRITE:
+    - sig-datapath
+    - tetragon
+  little-vm-helper-action:
+    READ:
+    - security org
+    USER-ADMIN:
+    - brb
+  little-vm-helper-images:
+    READ:
+    - security org
+    USER-ADMIN:
+    - brb
+    - kkourt
+    - markpash
+    - mtardy
+    - tklauser
+    USER-WRITE:
+    - dylandreimerink
+    - will-isovalent
+    WRITE:
+    - Committers
+    - sig-datapath
+    - tetragon
+  log-gatherer:
+    READ:
+    - security org
+    USER-ADMIN:
+    - brb
+    - pchaigno
+    WRITE:
+    - Committers
+  lumberjack:
+    ADMIN:
+    - cilium-maintainers
+    MAINTAIN:
+    - tetragon
+    READ:
+    - security org
+    USER-ADMIN:
+    - chancez
+  m2r:
+    READ:
+    - security org
+  metallb:
+    ADMIN:
+    - metallb-maintainers
+    READ:
+    - security org
+    USER-WRITE:
+    - ldelossa
+    WRITE:
+    - Committers
+  microscope:
+    READ:
+    - security org
+    USER-ADMIN:
+    - nebril
+  misc-scripts:
+    READ:
+    - security org
+    USER-ADMIN:
+    - brb
+    USER-MAINTAIN:
+    - pchaigno
+  mock-hubble:
+    ADMIN:
+    - hubble-maintainers
+    READ:
+    - security org
+    USER-ADMIN:
+    - kaworu
+    - rolinh
+  netlink:
+    READ:
+    - security org
+    USER-ADMIN:
+    - pchaigno
+  netperf:
+    READ:
+    - security org
+  networkpolicy:
+    READ:
+    - security org
+    USER-ADMIN:
+    - genbit
+    USER-MAINTAIN:
+    - geakstr
+  old_pilot_repo:
+    READ:
+    - security org
+  openapi:
+    READ:
+    - security org
+    USER-ADMIN:
+    - qmonnet
+  openshift-terraform-upi:
+    ADMIN:
+    - cilium-maintainers
+    - openshift-terraform-maintainers
+    READ:
+    - security org
+  packer-ci-build:
+    ADMIN:
+    - ci-structure
+    - cilium-packer-ci-build-maintainers
+    MAINTAIN:
+    - Committers
+    READ:
+    - security org
+    USER-ADMIN:
+    - brb
+    WRITE:
+    - contributing
+    - github-sec
+    - loader
+    - sig-datapath
+    - tophat
+  perf-tests:
+    READ:
+    - security org
+  proxy:
+    ADMIN:
+    - proxy-maintainers
+    READ:
+    - security org
+    WRITE:
+    - Committers
+    - envoy
+    - sig-servicemesh
+  proxy-ghsa-x86x-9rjr-fvcv:
+    ADMIN:
+    - proxy-maintainers
+    WRITE:
+    - security
+  pwru:
+    READ:
+    - security org
+    USER-ADMIN:
+    - brb
+    USER-MAINTAIN:
+    - tklauser
+    USER-WRITE:
+    - aditighag
+    - jschwinger233
+    WRITE:
+    - pwru
+  python-bmemcached:
+    READ:
+    - security org
+    USER-ADMIN:
+    - nebril
+  redhat-marketplace-operators:
+    READ:
+    - security org
+    USER-ADMIN:
+    - cmluciano
+    - mauilion
+    - michi-covalent
+    - nathanjsweet
+  release:
+    READ:
+    - security org
+    WRITE:
+    - Committers
+    - Reviewers
+    - release-managers
+  reusable-workflows:
+    READ:
+    - security org
+    WRITE:
+    - Committers
+  review-test:
+    READ:
+    - security org
+  scaffolding:
+    READ:
+    - security org
+    USER-ADMIN:
+    - christarazi
+    - giorio94
+    - learnitall
+    - marseel
+    - thorn3r
+  scale-tests-action:
+    READ:
+    - security org
+    WRITE:
+    - Committers
+    - github-sec
+    - sig-scalability
+  scruffy:
+    READ:
+    - security org
+  sphinx_rtd_theme:
+    READ:
+    - security org
+    USER-ADMIN:
+    - genbit
+    USER-MAINTAIN:
+    - geakstr
+    - michi-covalent
+    WRITE:
+    - Committers
+  stale-rules:
+    READ:
+    - security org
+    USER-ADMIN:
+    - christarazi
+  star-wars-demo:
+    READ:
+    - security org
+  star-wars-demo-automated:
+    READ:
+    - security org
+  startup-script:
+    READ:
+    - security org
+  starwars-docker:
+    READ:
+    - security org
+  state-writer:
+    READ:
+    - security org
+    WRITE:
+    - sig-foundations
+  statedb:
+    MAINTAIN:
+    - Committers
+    READ:
+    - security org
+    WRITE:
+    - ci-structure
+    - contributing
+    - github-sec
+    - sig-foundations
+  stream:
+    MAINTAIN:
+    - Committers
+    READ:
+    - security org
+    WRITE:
+    - ci-structure
+    - contributing
+    - github-sec
+    - sig-foundations
+  team-manager:
+    READ:
+    - security org
+    USER-MAINTAIN:
+    - pchaigno
+    WRITE:
+    - Committers
+  terraform-gke-ci-management-cluster:
+    READ:
+    - security org
+  test-connection-disruption:
+    READ:
+    - security org
+    USER-ADMIN:
+    - brb
+    USER-WRITE:
+    - margamanterola
+    WRITE:
+    - Committers
+  testing-recipes:
+    READ:
+    - security org
+  testing-repository:
+    READ:
+    - security org
+  tetragon:
+    ADMIN:
+    - tetragon-maintainers
+    MAINTAIN:
+    - tetragon
+    READ:
+    - Reviewers
+    - build
+    - security org
+    TRIAGE:
+    - Committers
+    USER-WRITE:
+    - PhilipSchmid
+    - dwindsor
+    - fgiloux
+    - viktor-kurchenko
+    WRITE:
+    - Tetragon Contributors
+  tetragon-testdata:
+    READ:
+    - security org
+    USER-ADMIN:
+    - kkourt
+  tetragon.cilium.io:
+    MAINTAIN:
+    - tetragon
+    READ:
+    - security org
+    USER-ADMIN:
+    - mtardy
+    - xmulligan
+    USER-WRITE:
+    - andrewgolovanov
+    - bolotskydev
+    - foalsboy
+    - lenaryan
+    - nerucheva
+    - sashasushko
+    - yasell
+  tmp-tetragon-docs:
+    MAINTAIN:
+    - tetragon
+    READ:
+    - security org
+    USER-ADMIN:
+    - mtardy
+    - xmulligan
+    USER-WRITE:
+    - foalsboy
+    - nerucheva
+    - zacharysarah
+    WRITE:
+    - Community
+  ubuntu-curl:
+    MAINTAIN:
+    - cilium-maintainers
+    READ:
+    - security org
+    WRITE:
+    - build
+    - tophat
+  vmtest:
+    READ:
+    - security org
+  workerpool:
+    READ:
+    - security org
+    USER-ADMIN:
+    - kaworu
+    - rolinh
+    - tklauser
+  xdp-config:
+    READ:
+    - security org
+members:
+  Artyop:
+    id: MDQ6VXNlcjEyOTk3NDA5
+    name: Antony Reynaud
+  DamianSawicki:
+    id: MDQ6VXNlcjg2MjM0Mjgy
+  JamesLaverack:
+    id: MDQ6VXNlcjExMTk1MjY=
+    name: James Laverack
+  MrFreezeex:
+    id: MDQ6VXNlcjM4NDUyMTM=
+    name: Arthur Outhenin-Chalandre
+  Neelajacques:
+    id: MDQ6VXNlcjY4MzA0NDcx
+    name: Neela Jacques
+  NikAleksandrov:
+    id: MDQ6VXNlcjE2Nzk5MzQ=
+    name: Nikolay Aleksandrov
+    slackID: U036BJ5EH7H
+  PhilipSchmid:
+    id: MDQ6VXNlcjU1NDkwNjM=
+    name: Philip Schmid
+    slackID: U04GD9ACYTE
+  Weil0ng:
+    id: MDQ6VXNlcjkxMDMwMTE=
+  YutaroHayakawa:
+    id: MDQ6VXNlcjkwNDU3NjU=
+    name: Yutaro Hayakawa
+    slackID: U02TGBP48M9
+  aanm:
+    id: MDQ6VXNlcjU3MTQwNjY=
+    name: André Martins
+    slackID: U3Z10R6HW
+  aditighag:
+    id: MDQ6VXNlcjIwMzExODQ1
+    name: Aditi Ghag
+    slackID: U016JEG305B
+  alan-kut:
+    id: MDQ6VXNlcjYwMTc3NzQ=
+    name: Alan Kutniewski
+  alxn:
+    id: MDQ6VXNlcjQzNjgyODc=
+    name: Alun Evans
+  anfernee:
+    id: MDQ6VXNlcjE3NDIwMA==
+    name: Yongkun Anfernee Gui
+  anubhabMajumdar:
+    id: MDQ6VXNlcjE4MjQzOTY4
+    name: Anubhab Majumdar
+  aojea:
+    id: MDQ6VXNlcjY0NTAwODE=
+    name: Antonio Ojea
+  asauber:
+    id: MDQ6VXNlcjIwNDY3NTA=
+    name: Andrew Sauber
+    slackID: U051BFW7P6F
+  aspsk:
+    id: MDQ6VXNlcjQ0MTUxMDU=
+    name: Anton Protopopov
+    slackID: U03GW9SE2D7
+  b3a-dev:
+    id: MDQ6VXNlcjU3OTU4NTAy
+    name: Beatriz Martínez
+    slackID: UJS9VPH34
+  bimmlerd:
+    id: MDQ6VXNlcjcwOTQ3NzA=
+    name: David Bimmler
+    slackID: U04599ZHW7J
+  bmcustodio:
+    id: MDQ6VXNlcjIzNjUxNzY=
+    name: Bruno M. Custódio
+    slackID: U01VAUL0GGM
+  borkmann:
+    id: MDQ6VXNlcjY3NzM5Mw==
+    name: Daniel Borkmann
+    slackID: U3ZKTLH7V
+  bowei:
+    id: MDQ6VXNlcjgzNzAzNA==
+    name: Bowei Du
+  brb:
+    id: MDQ6VXNlcjEyMjU3MQ==
+    name: Martynas Pumputis
+    slackID: UE2J16RAA
+  brendangregg:
+    id: MDQ6VXNlcjExMDEyMTE=
+    name: Brendan Gregg
+  brlbil:
+    id: MDQ6VXNlcjM3NzMzMjE=
+    name: Birol Bilgin
+    slackID: U048J5MP7QV
+  brycekahle:
+    id: MDQ6VXNlcjEwMTA0MzA=
+    name: Bryce Kahle
+  chancez:
+    id: MDQ6VXNlcjE0MDA0MDE=
+    name: Chance Zibolski
+    slackID: U0350ENND0A
+  chaunceyjiang:
+    id: MDQ6VXNlcjE3OTYyMDIx
+    name: Chauncey
+  christarazi:
+    id: MDQ6VXNlcjM4ODUzMDg=
+    name: Chris Tarazi
+    slackID: UV3AZB0QK
+  ciliumbot:
+    id: MDQ6VXNlcjI2NTU0NDU3
+  cmluciano:
+    id: MDQ6VXNlcjQ3OTA0ODc=
+    name: Christopher Luciano
+    slackID: U01SCC7FMEV
+  danwent:
+    id: MDQ6VXNlcjQxMzk5NQ==
+    name: Dan Wendlandt
+    slackID: U40C5RGGN
+  darox:
+    id: MDQ6VXNlcjk5MzQ0MDI=
+    name: Dario Mader
+  derailed:
+    id: MDQ6VXNlcjQwNjA=
+    name: Fernand Galiana
+    slackID: U04599ZFL3S
+  dlapcevic:
+    id: MDQ6VXNlcjg3MzcwNTg2
+    name: Dorde Lapcevic
+  doniacld:
+    id: MDQ6VXNlcjE5Nzk5MjY4
+    name: Donia Chaiehloudj
+    slackID: U04TWR0CG49
+  dthaler:
+    id: MDQ6VXNlcjY1NDc3ODQ=
+    name: Dave Thaler
+  dylandreimerink:
+    id: MDQ6VXNlcjE3OTk0MTU=
+    name: Dylan Reimerink
+    slackID: U03DLLRVD9B
+  eiffel-fl:
+    id: MDQ6VXNlcjEyMTcxNzU0
+  eloycoto:
+    id: MDQ6VXNlcjg2ODAxMw==
+    name: Eloy Coto
+    slackID: U5B9T5SFN
+  f1ko:
+    id: MDQ6VXNlcjI2MDQ3MjIy
+    name: Filip Nikolic
+    slackID: U05QJR09TBN
+  ferozsalam:
+    id: MDQ6VXNlcjg5NTk3MA==
+    name: Feroz Salam
+    slackID: U04NRLGHV4G
+  florianl:
+    id: MDQ6VXNlcjExMzI0OTQ=
+    name: Florian Lehner
+  fristonio:
+    id: MDQ6VXNlcjIxMjkyMzQz
+    name: Deepesh Pathak
+  gandro:
+    id: MDQ6VXNlcjUwNTY0
+    name: Sebastian Wicki
+    slackID: UK9D9H770
+  geakstr:
+    id: MDQ6VXNlcjE0OTYzNjg=
+    name: Dmitry Kharitonov
+    slackID: U5LDE5VD0
+  genbit:
+    id: MDQ6VXNlcjcyNDI4
+    name: genbit
+  gentoo-root:
+    id: MDQ6VXNlcjg2MjU1MA==
+    name: Maxim Mikityanskiy
+    slackID: U044Y7VEYNM
+  giorio94:
+    id: MDQ6VXNlcjMzMjAwNTI3
+    name: Marco Iorio
+    slackID: U04K05XBVDY
+  glibsm:
+    id: MDQ6VXNlcjE5OTA3Nw==
+    name: Glib Smaga
+    slackID: UJUQ8K085
+  glrf:
+    id: MDQ6VXNlcjEwNzg4MTUy
+    name: Fabian Fischer
+  hacktivist123:
+    id: MDQ6VXNlcjI2NTcyOTA3
+    name: Shedrack Akintayo
+    slackID: U051UAPBQG7
+  harsimran-pabla:
+    id: U_kgDOB6p2vw
+    name: Harsimran Pabla
+    slackID: U04UXHRHJDT
+  hemanthmalla:
+    id: MDQ6VXNlcjM3NzU2MTI=
+    name: Hemanth Malla
+  hhoover:
+    id: MDQ6VXNlcjU3OTQ4NA==
+    name: Hart Hoover
+  husnialhamdani:
+    id: MDQ6VXNlcjM0Mzk1OTY1
+    name: Husni Alhamdani
+  ianvernon:
+    id: MDQ6VXNlcjM4NTgyNzE=
+    name: Ian Vernon
+  jaffcheng:
+    id: MDQ6VXNlcjkzMTMxODk=
+    name: Jaff Cheng
+  jeefy:
+    id: MDQ6VXNlcjEzOTQ1NTI=
+    name: Jeffrey Sica
+  jelonka:
+    id: MDQ6VXNlcjg2NjU2MjE=
+    name: Ilona Gaweda
+  jibi:
+    id: MDQ6VXNlcjc5MTk3
+    name: Gilberto Bertin
+    slackID: U01BUSRHR17
+  joamaki:
+    id: MDQ6VXNlcjExMDIzOTY=
+    name: Jussi Mäki
+    slackID: U01T3CUGD28
+  joestringer:
+    id: MDQ6VXNlcjEyNDMzMzY=
+    name: Joe Stringer
+    slackID: U6ZQC0R8U
+  jrajahalme:
+    id: MDQ6VXNlcjY1MTgyMzU=
+    name: Jarno Rajahalme
+    slackID: U586Y5DD0
+  jrfastab:
+    id: MDQ6VXNlcjEyNDc0NzI=
+    name: John Fastabend
+    slackID: U58EHQWS0
+  jrife:
+    id: MDQ6VXNlcjI3Mzg0MTc=
+    name: Jordan Rife
+  jschwinger233:
+    id: MDQ6VXNlcjY0MzU2MjQ=
+    name: Zhichuan (Gray) Liang
+    slackID: U04LVLQD5B7
+  jshr-w:
+    id: U_kgDOCJfGAQ
+    name: Shreya Jayaraman
+  jspaleta:
+    id: MDQ6VXNlcjM5OTM3
+    name: Jef Spaleta
+    slackID: U04DBSMNH88
+  jtaleric:
+    id: MDQ6VXNlcjM5NjUxNjM=
+    name: Joe Talerico (rook)
+    slackID: U02S94E7286
+  julianwiedmann:
+    id: MDQ6VXNlcjI0MjgxMDc3
+    name: Julian Wiedmann
+    slackID: U0352QBD6LC
+  kaworu:
+    id: MDQ6VXNlcjEwOTQxNQ==
+    name: Alexandre Perrin
+    slackID: U016BB9V3H8
+  kevsecurity:
+    id: U_kgDOBc7dCQ
+    name: Kevin Sheldrake
+    slackID: U02T7J8FE3F
+  kimstacy:
+    id: MDQ6VXNlcjQ2NjU2MDcy
+    name: Stacy Kim
+    slackID: U040CC4CBSM
+  kkourt:
+    id: MDQ6VXNlcjIyMTQ4MQ==
+    name: Kornilios Kourtis
+    slackID: U0164K5BB7Y
+  kvaps:
+    id: MDQ6VXNlcjc1NTYyMTc=
+    name: Andrei Kvapil
+  kwakubiney:
+    id: MDQ6VXNlcjcxMjk2MzY3
+    name: Kwaku Biney
+  lambdanis:
+    id: MDQ6VXNlcjMxOTk0NjM=
+    name: Anna Kapuścińska
+    slackID: U033TTHBUTX
+  lbernail:
+    id: MDQ6VXNlcjUzOTE3MDc=
+    name: Laurent Bernaille
+  ldelossa:
+    id: MDQ6VXNlcjU2NDI5MDI=
+    name: Louis DeLosSantos
+    slackID: U0243PWTLCD
+  learnitall:
+    id: MDQ6VXNlcjEzMTQyMjkw
+    name: Ryan Drew
+    slackID: U03ADCC7Q15
+  liquidat:
+    id: MDQ6VXNlcjE5OTgwODQ=
+    name: Roland Wolters
+  liyihuang:
+    id: MDQ6VXNlcjgxMDYxMjM=
+    name: Liyi Huang
+  lizrice:
+    id: MDQ6VXNlcjQ1ODYxNg==
+    name: Liz Rice
+    slackID: U01RBTK7W92
+  lmb:
+    id: MDQ6VXNlcjM2ODM5Mg==
+    name: Lorenz Bauer
+    slackID: U04MMDS6RT9
+  lzang:
+    id: MDQ6VXNlcjg0OTQ3NTE=
+    name: Zang Li
+  margamanterola:
+    id: MDQ6VXNlcjYyOTg3MTgx
+    name: Marga Manterola
+  markpash:
+    id: MDQ6VXNlcjYzNTMxMjk=
+    name: Mark Pashmfouroush
+    slackID: U03GWC2DC2K
+  marqc:
+    id: MDQ6VXNlcjEwMDI2ODcz
+    name: Marek Chodor
+  marseel:
+    id: MDQ6VXNlcjIwMTE1NzU=
+    name: Marcel Zieba
+    slackID: U04MF7BB458
+  mathpl:
+    id: MDQ6VXNlcjU1MTE3NTM=
+    name: Mathieu Payeur Levallois
+    slackID: U044526NXK9
+  mauilion:
+    id: MDQ6VXNlcjE1MzQyOTY=
+    name: Duffie Cooley
+  mejedi:
+    id: MDQ6VXNlcjExNjQyOTE=
+    name: Nick Zavaritsky
+    slackID: U0446R4DWS1
+  meyskens:
+    id: MDQ6VXNlcjE2MjUyNzI=
+    name: Maartje Eyskens
+    slackID: U04MHM91YUU
+  mhofstetter:
+    id: MDQ6VXNlcjY2OTkzMTE=
+    name: Marco Hofstetter
+    slackID: U04MF421A0K
+  michi-covalent:
+    id: MDQ6VXNlcjI1NDk0NTc3
+    name: Michi Mutsuzaki
+    slackID: U3ZN8C612
+  mmat11:
+    id: MDQ6VXNlcjk4ODQ0MTk=
+    name: Mattia Meleleo
+  mtardy:
+    id: MDQ6VXNlcjExMjU2MDUx
+    name: Mahe Tardy
+    slackID: U04HR4Q9F54
+  mythi:
+    id: MDQ6VXNlcjEwNDk1NjU=
+    name: Mikko Ylinen
+  nathanjsweet:
+    id: MDQ6VXNlcjQ0Nzc5Mg==
+    name: Nathan Sweet
+    slackID: U0111PSDDRC
+  nbusseneau:
+    id: MDQ6VXNlcjQ2NTk5MTk=
+    name: Nicolas Busseneau
+    slackID: U01KPLUFSQG
+  nebril:
+    id: MDQ6VXNlcjE0MTc4ODg=
+    name: Maciej Kwiek
+    slackID: U71RQEK38
+  nickolaev:
+    id: MDQ6VXNlcjIwNzc3MTg=
+    name: Nikolay Nikolaev
+    slackID: U04KT9MJPTM
+  nirmoy:
+    id: MDQ6VXNlcjMwNjU2MDU=
+    name: Nirmoy Das
+  nvibert:
+    id: MDQ6VXNlcjI4MzkxMTMw
+    name: Nico Vibert
+    slackID: U03F0LTS4Q7
+  oblazek:
+    id: MDQ6VXNlcjE1OTA2MTU0
+    name: Ondrej Blazek
+  odinuge:
+    id: MDQ6VXNlcjE0NjcxODg=
+    name: Odin Ugedal
+    slackID: UG6GB3JF4
+  olsajiri:
+    id: MDQ6VXNlcjQyODExNTQ3
+    name: Jiri Olsa
+    slackID: U03539QV8KD
+  ovidiutirla:
+    id: MDQ6VXNlcjE5NTkzODM5
+    name: Ovidiu Tirla
+  paularah:
+    id: MDQ6VXNlcjM3OTY3NzA2
+    name: Paul Arah
+    slackID: U06C2V445FF
+  paulcacheux:
+    id: MDQ6VXNlcjI4MjIwMzc=
+    name: Paul Cacheux
+  pchaigno:
+    id: MDQ6VXNlcjE3NjQyMTA=
+    name: Paul Chaignon
+    slackID: UTH8HRSBG
+  pippolo84:
+    id: MDQ6VXNlcjE0MzI3NDA=
+    name: Fabio Falzoi
+    slackID: U03KAEN2V4L
+  qmonnet:
+    id: MDQ6VXNlcjE3MDAxNzcx
+    name: Quentin Monnet
+    slackID: UT3J0B0E7
+  raphink:
+    id: MDQ6VXNlcjY1MDQzMA==
+    name: Raphaël Pinson
+    slackID: U0352QB2U7N
+  rastislavs:
+    id: MDQ6VXNlcjE1OTI2OTgw
+    name: Rastislav Szabo
+    slackID: U055R2Q5HDY
+  raymonddejong:
+    id: MDQ6VXNlcjQxMTE3NTI2
+    name: Raymond de Jong
+  rectified95:
+    id: MDQ6VXNlcjEyODE2NTE1
+    name: Igor Klemenski
+  rgo3:
+    id: MDQ6VXNlcjE2ODY3NDky
+    name: Robin Gögge
+    slackID: U03CBFERAP3
+  robscott:
+    id: MDQ6VXNlcjQxOTMyMg==
+    name: Rob Scott
+  rolinh:
+    id: MDQ6VXNlcjEzMjQxNTc=
+    name: Robin Hahling
+    slackID: US9UUT685
+  sadath-12:
+    id: MDQ6VXNlcjkwNjE5NDU5
+    name: syedsadath-17
+  sahid:
+    id: MDQ6VXNlcjU5NjQ5
+    name: Sahid Orentino Ferdjaoui
+  sayboras:
+    id: MDQ6VXNlcjkwMTkyMjk=
+    name: Tam Mach
+    slackID: U02S1U1JM4G
+  seanmwinn:
+    id: MDQ6VXNlcjcxNTMxMzk=
+    name: Sean Winn
+    slackID: UU4U03295
+  sharlns:
+    id: MDQ6VXNlcjcwODgzNDA5
+    name: Natalia Ivanko
+    slackID: U01A9M72WN8
+  sinkap:
+    id: MDQ6VXNlcjIxNTI4MTI=
+    name: KP Singh
+  siwiutki:
+    id: U_kgDOBu5dDA
+    name: Michał Siwiński
+  skmatti:
+    id: MDQ6VXNlcjIyNzUyOTY4
+    name: Satish Kumar Matti
+  smagnani96:
+    id: MDQ6VXNlcjI0NTc2NTY3
+    name: Simone Magnani
+  squeed:
+    id: MDQ6VXNlcjU1MTM3OA==
+    name: Casey Callendrello
+    slackID: U03NB5SMN49
+  sypakine:
+    id: MDQ6VXNlcjYwNTM5ODY=
+    name: sypakine
+  tamilmani1989:
+    id: MDQ6VXNlcjExMDM4MjY=
+  tgraf:
+    id: MDQ6VXNlcjE0MTc5MTM=
+    name: Thomas Graf
+    slackID: U40CZUMP1
+  thelinuxfoundation:
+    id: MDQ6VXNlcjQ0NTA3Mjk=
+    name: The Linux Foundation
+  thorn3r:
+    id: MDQ6VXNlcjIyNTMzMDE4
+    name: Timothy Horner
+    slackID: U048ZP1R58R
+  ti-mo:
+    id: MDQ6VXNlcjMyMTQ0NjA=
+    name: Timo Beckers
+    slackID: U01BNDVMCJG
+  tixxdz:
+    id: MDQ6VXNlcjE1NDkyOTE=
+    name: Djalal Harouni
+    slackID: U037RT7CL2E
+  tklauser:
+    id: MDQ6VXNlcjUzOTcwOA==
+    name: Tobias Klauser
+    slackID: UTF2XUUCV
+  tommyp1ckles:
+    id: MDQ6VXNlcjU4ODE3NDA=
+    name: Tom Hadlaw
+    slackID: U03EJFTBK8C
+  tpapagian:
+    id: MDQ6VXNlcjcxOTMwMg==
+    name: Anastasios Papagiannis
+    slackID: U02SDE3LQ3F
+  tracypholmes:
+    id: MDQ6VXNlcjEyNzc4ODA0
+    name: Tracy Holmes
+    slackID: U03HAUSBXFD
+  tvonhacht-apple:
+    id: U_kgDOB18XvA
+  ungureanuvladvictor:
+    id: MDQ6VXNlcjE5NzY5NzA=
+    name: Vlad Ungureanu
+  vadorovsky:
+    id: MDQ6VXNlcjM0Njg1MTAz
+    name: Michal Rostecki
+  vakalapa:
+    id: MDQ6VXNlcjkyMjE2Mzk=
+    name: Vamsi Kalapala
+  viktor-kurchenko:
+    id: MDQ6VXNlcjY5NjAwODA0
+    name: Viktor Kurchenko
+    slackID: U04RAPLSKGF
+  vipul-21:
+    id: MDQ6VXNlcjg2MDA0NDE=
+    name: Vipul Singh
+  wedaly:
+    id: MDQ6VXNlcjI5NDgzOTQ=
+    name: Will Daly
+  weizhoublue:
+    id: MDQ6VXNlcjQ1MTYzMzAy
+    name: weizhoublue
+  will-isovalent:
+    id: U_kgDOC0euHg
+    name: William Findlay
+    slackID: U02TQN4TEQH
+  xmulligan:
+    id: MDQ6VXNlcjI5MDQ4ODcw
+    name: Bill Mulligan
+  yandzee:
+    id: MDQ6VXNlcjU5MTkwODg=
+    name: Tuktarov Renat
+  yannikmesserli:
+    id: MDQ6VXNlcjE5MTA0NDk=
+    name: Yannik Messerli
+  youngnick:
+    id: MDQ6VXNlcjkzNDY1OTk=
+    name: Nick Young
+    slackID: U03T3GFUJNT
+  youssefazrak:
+    id: MDQ6VXNlcjMwOTMyODY0
+    name: Youssef Azrak
+  ysksuzuki:
+    id: MDQ6VXNlcjU1NzI2ODg=
+    name: Yusuke Suzuki
+  zacharysarah:
+    id: MDQ6VXNlcjMyMTA0NDY=
+    name: Sarah Corleissen
+    slackID: U04GARBFPC2
+outsideCollaborators:
+  AdamKorcz:
+    reason: ""
+  DavidKorczynski:
+    reason: ""
+  aalemayhu:
+    reason: ""
+  americano98:
+    reason: ""
+  andrewgolovanov:
+    reason: ""
+  annaindistress:
+    reason: ""
+  auriaave:
+    reason: ""
+  bolotskydev:
+    reason: ""
+  dwindsor:
+    reason: ""
+  fgiloux:
+    reason: ""
+  foalsboy:
+    reason: ""
+  k8isdead:
+    reason: ""
+  lenaryan:
+    reason: ""
+  lnikell:
+    reason: ""
+  nerucheva:
+    reason: ""
+  sashasushko:
+    reason: ""
+  soggiest:
+    reason: ""
+  yasell:
+    reason: ""
+teams:
+  Bots:
+    id: MDQ6VGVhbTI3NzQ3ODU=
+    restID: 2774785
+    privacy: SECRET
+  Cilium Teams:
+    id: T_kwDOAUFEZs4Ah5D3
+    restID: 8884471
+    description: Teams and sigs used for Cilium projects
+    privacy: VISIBLE
+    children:
+      alibabacloud:
+        id: MDQ6VGVhbTQ3MzY2Njc=
+        restID: 4736667
+        description: Team responsible for the Alibaba Cloud integration
+        members:
+        - aanm
+        - christarazi
+        - ciliumbot
+        - doniacld
+        - joestringer
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      api:
+        id: MDQ6VGVhbTI1MTk3OTU=
+        restID: 2519795
+        description: REST API
+        members:
+        - aanm
+        - ciliumbot
+        - learnitall
+        - nathanjsweet
+        - vadorovsky
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      aws:
+        id: MDQ6VGVhbTM4MTAyNTk=
+        restID: 3810259
+        description: Team responsible for the AWS integration
+        members:
+        - christarazi
+        - ciliumbot
+        - doniacld
+        - gandro
+        - hemanthmalla
+        - tgraf
+        - ungureanuvladvictor
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      azure:
+        id: MDQ6VGVhbTM4MTAyNTY=
+        restID: 3810256
+        description: Team responsible for the azure integration
+        members:
+        - ciliumbot
+        - doniacld
+        - hemanthmalla
+        - tgraf
+        - tommyp1ckles
+        - ungureanuvladvictor
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      build:
+        id: MDQ6VGVhbTM4MTAyNTU=
+        restID: 3810255
+        description: Responsible for Makefiles and cilium build dev process
+        members:
+        - aanm
+        - borkmann
+        - ciliumbot
+        - gentoo-root
+        - joestringer
+        - michi-covalent
+        - nathanjsweet
+        - nebril
+        - rolinh
+        - thorn3r
+        - tklauser
+        - tommyp1ckles
+        - vadorovsky
+        - will-isovalent
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: gentoo-root
+            reason: Only wants to be able to approve image builds
+          - login: thorn3r
+            reason: Only wants to be able to approve image builds
+          - login: will-isovalent
+            reason: Focusing on Tetragon
+          teamMemberCount: 1
+        privacy: VISIBLE
+      ci-structure:
+        id: MDQ6VGVhbTI1MTk3ODE=
+        restID: 2519781
+        description: Makes sure all CI tests have some consistency across each other.
+        members:
+        - brlbil
+        - christarazi
+        - ciliumbot
+        - ianvernon
+        - nbusseneau
+        - nebril
+        - pchaigno
+        - sayboras
+        - viktor-kurchenko
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: pchaigno
+            reason: Focusing on IPsec
+          - login: sayboras
+            reason: CI noob, but keen to learn
+          teamMemberCount: 1
+        privacy: VISIBLE
+      cli:
+        id: MDQ6VGVhbTI1MTk3OTQ=
+        restID: 2519794
+        description: Command Line Interface tools
+        members:
+        - asauber
+        - ciliumbot
+        - derailed
+        - mhofstetter
+        - michi-covalent
+        - nathanjsweet
+        - squeed
+        - tklauser
+        - tommyp1ckles
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      contributing:
+        id: MDQ6VGVhbTI1MTk3OTc=
+        restID: 2519797
+        description: Developer contribution process
+        members:
+        - aanm
+        - aditighag
+        - bimmlerd
+        - ciliumbot
+        - ianvernon
+        - joestringer
+        - nebril
+        - pchaigno
+        - qmonnet
+        - tklauser
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: pchaigno
+            reason: Focusing on IPsec
+          teamMemberCount: 1
+        privacy: VISIBLE
+      docker:
+        id: MDQ6VGVhbTI1MTk3ODc=
+        restID: 2519787
+        description: Docker integration
+        members:
+        - aanm
+        - ciliumbot
+        - tklauser
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      docs-structure:
+        id: MDQ6VGVhbTI1MTk3ODk=
+        restID: 2519789
+        description: Documentation's overall structure and formatting style
+        members:
+        - ciliumbot
+        - joestringer
+        - lambdanis
+        - learnitall
+        - qmonnet
+        - zacharysarah
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      egress-gateway:
+        id: T_kwDOAUFEZs4AfiCq
+        restID: 8265898
+        description: Team responsible for the egress gateway feature
+        members:
+        - ciliumbot
+        - jibi
+        - julianwiedmann
+        - pchaigno
+        - pippolo84
+        - tommyp1ckles
+        - ysksuzuki
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: jibi
+            reason: Focusing on mesh
+          - login: pchaigno
+            reason: Focusing on IPsec
+          teamMemberCount: 1
+        privacy: VISIBLE
+      endpoint:
+        id: MDQ6VGVhbTI1MTk3OTg=
+        restID: 2519798
+        description: Endpoint abstraction
+        members:
+        - aanm
+        - christarazi
+        - ciliumbot
+        - ianvernon
+        - jrajahalme
+        - nathanjsweet
+        - squeed
+        - tklauser
+        - tommyp1ckles
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      envoy:
+        id: T_kwDOAUFEZs4Aixa5
+        restID: 9115321
+        description: Responsible for the envoy proxy integration
+        members:
+        - ciliumbot
+        - jrajahalme
+        - mhofstetter
+        - sayboras
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      fqdn:
+        id: T_kwDOAUFEZs4Aixay
+        restID: 9115314
+        description: Responsible for the FQDN/DNS proxy integration
+        members:
+        - ciliumbot
+        - doniacld
+        - gandro
+        - jrajahalme
+        - nathanjsweet
+        - pippolo84
+        - squeed
+        - tklauser
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: pippolo84
+            reason: Focusing on networking and frameworks
+          teamMemberCount: 1
+        privacy: VISIBLE
+      github-sec:
+        id: MDQ6VGVhbTQ4NjMzNjg=
+        restID: 4863368
+        description: Team dedicated to see if GH workflows are safe to be merged
+        members:
+        - aanm
+        - brlbil
+        - ciliumbot
+        - joestringer
+        - nbusseneau
+        - pchaigno
+        - viktor-kurchenko
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: pchaigno
+            reason: Focusing on IPsec
+          teamMemberCount: 1
+        privacy: VISIBLE
+      helm:
+        id: MDQ6VGVhbTM4NjIxODM=
+        restID: 3862183
+        description: Team responsible for vetting helm changes to ensure best practices
+        members:
+        - brlbil
+        - ciliumbot
+        - gandro
+        - nbusseneau
+        - nebril
+        - seanmwinn
+        - squeed
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: seanmwinn
+            reason: Architecture team
+          teamMemberCount: 1
+        privacy: VISIBLE
+      hubble-ui:
+        id: MDQ6VGVhbTM4MTM4ODU=
+        restID: 3813885
+        description: Hubble UI team
+        members:
+        - chancez
+        - geakstr
+        - genbit
+        - kimstacy
+        - rolinh
+        - tgraf
+        - yandzee
+        - yannikmesserli
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: chancez
+            reason: Only need access to help manage issues and triage, not to review
+          teamMemberCount: 1
+        privacy: VISIBLE
+      image-tools-maintainers:
+        id: MDQ6VGVhbTQxNzI2MDE=
+        restID: 4172601
+        members:
+        - aanm
+        - borkmann
+        - gandro
+        - joestringer
+        - nebril
+        - pchaigno
+        - qmonnet
+        - tklauser
+        privacy: VISIBLE
+      installfest:
+        id: T_kwDOAUFEZs4AUKzS
+        restID: 5287122
+        description: Cilium Installfest crew
+        members:
+        - bmcustodio
+        - cmluciano
+        - nbusseneau
+        - seanmwinn
+        privacy: VISIBLE
+      ipcache:
+        id: MDQ6VGVhbTI3NDUxMzQ=
+        restID: 2745134
+        description: Maintenance of pkg/ipcache
+        members:
+        - christarazi
+        - ciliumbot
+        - doniacld
+        - gandro
+        - joestringer
+        - jrajahalme
+        - jrfastab
+        - squeed
+        - tklauser
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: jrfastab
+            reason: Focusing on Tetragon
+          teamMemberCount: 1
+        privacy: VISIBLE
+      iproute2-maintainers:
+        id: MDQ6VGVhbTQ5MDExMjE=
+        restID: 4901121
+        description: cilium/iproute2 maintainers
+        members:
+        - brb
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      ipsec:
+        id: T_kwDOAUFEZs4AZayX
+        restID: 6663319
+        description: Manages IPSec integration with Cilium
+        members:
+        - ciliumbot
+        - gentoo-root
+        - jrfastab
+        - jschwinger233
+        - julianwiedmann
+        - ldelossa
+        - pchaigno
+        - rgo3
+        - smagnani96
+        - tommyp1ckles
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: gentoo-root
+            reason: Manual review assignments done by pchaigno.
+          - login: jrfastab
+            reason: Focusing on Tetragon
+          - login: smagnani96
+            reason: Onboarding. Manual review assignments done by pchaigno.
+          - login: tommyp1ckles
+            reason: Here to learn more.
+          teamMemberCount: 1
+        privacy: VISIBLE
+      kvstore:
+        id: MDQ6VGVhbTI1MTk3ODM=
+        restID: 2519783
+        description: Key/Value store integrations
+        members:
+        - aanm
+        - ciliumbot
+        - fristonio
+        - giorio94
+        - marseel
+        - nirmoy
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      loader:
+        id: MDQ6VGVhbTQ2NTY4Nzc=
+        restID: 4656877
+        description: Preparing & loading eBPF programs
+        members:
+        - ciliumbot
+        - dylandreimerink
+        - rgo3
+        - ti-mo
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      metallb-maintainers:
+        id: MDQ6VGVhbTQ5MDExMTY=
+        restID: 4901116
+        description: cilium/metallb maintainers
+        members:
+        - christarazi
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      metrics:
+        id: MDQ6VGVhbTI4MzQ2NzI=
+        restID: 2834672
+        description: cilium-agent metrics
+        members:
+        - aanm
+        - chancez
+        - ciliumbot
+        - derailed
+        - joestringer
+        - learnitall
+        - tommyp1ckles
+        - vadorovsky
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      monitor:
+        id: MDQ6VGVhbTI1MTk3OTM=
+        restID: 2519793
+        description: Monitoring layer
+        members:
+        - gandro
+        - joestringer
+        - nebril
+        - rolinh
+        - ti-mo
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      openshift-terraform-maintainers:
+        id: T_kwDOAUFEZs4AVnfN
+        restID: 5666765
+        members:
+        - nathanjsweet
+        privacy: VISIBLE
+      operator:
+        id: MDQ6VGVhbTMxOTk0MjE=
+        restID: 3199421
+        members:
+        - aanm
+        - christarazi
+        - ciliumbot
+        - dlapcevic
+        - fristonio
+        - joamaki
+        - nebril
+        - pippolo84
+        - squeed
+        - tgraf
+        - tklauser
+        - ungureanuvladvictor
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      proxy:
+        id: MDQ6VGVhbTI1MTk3ODg=
+        restID: 2519788
+        description: Proxy layer
+        members:
+        - christarazi
+        - ciliumbot
+        - jrajahalme
+        - mhofstetter
+        - nebril
+        - pippolo84
+        - sayboras
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: pippolo84
+            reason: Focusing on egress-gateway and foundations
+          teamMemberCount: 1
+        privacy: VISIBLE
+      pwru:
+        id: T_kwDOAUFEZs4AkMdG
+        restID: 9488198
+        description: Team responsible for the pwru
+        members:
+        - brb
+        - jschwinger233
+        - tklauser
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      release-managers:
+        id: T_kwDOAUFEZs4AmIqm
+        restID: 9996966
+        description: Team responsible for preparing and publishing Cilium releases
+        members:
+        - aanm
+        - ciliumbot
+        - joestringer
+        - jrajahalme
+        - michi-covalent
+        - nathanjsweet
+        - nebril
+        - qmonnet
+        privacy: VISIBLE
+      security:
+        id: MDQ6VGVhbTI1Mjk5Mjk=
+        restID: 2529929
+        members:
+        - aanm
+        - borkmann
+        - brb
+        - ciliumbot
+        - ferozsalam
+        - joestringer
+        - jrajahalme
+        - mtardy
+        - rolinh
+        - sharlns
+        - tgraf
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-agent:
+        id: MDQ6VGVhbTQ5MjY2NTU=
+        restID: 4926655
+        description: All control plane logic in Cilium
+        members:
+        - aanm
+        - bimmlerd
+        - borkmann
+        - christarazi
+        - ciliumbot
+        - doniacld
+        - fristonio
+        - gandro
+        - giorio94
+        - harsimran-pabla
+        - joamaki
+        - joestringer
+        - ldelossa
+        - marseel
+        - meyskens
+        - mhofstetter
+        - nathanjsweet
+        - nebril
+        - pippolo84
+        - rastislavs
+        - sayboras
+        - squeed
+        - thorn3r
+        - tklauser
+        - tommyp1ckles
+        - vadorovsky
+        - youngnick
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: aanm
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: borkmann
+            reason: Focusing on datapath
+          - login: harsimran-pabla
+            reason: Onboarding
+          - login: joestringer
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: pippolo84
+            reason: Focusing on egress-gateway and foundations
+          - login: rastislavs
+            reason: Onboarding
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-bgp:
+        id: T_kwDOAUFEZs4AcTU_
+        restID: 7419199
+        description: Team responsible for the BGP integration
+        members:
+        - YutaroHayakawa
+        - ciliumbot
+        - harsimran-pabla
+        - rastislavs
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-cilium-cli:
+        id: MDQ6VGVhbTQ5MjY2ODM=
+        restID: 4926683
+        description: All code for cilium-cli
+        members:
+        - michi-covalent
+        - tklauser
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-clustermesh:
+        id: MDQ6VGVhbTQ5MjY2NzM=
+        restID: 4926673
+        description: All code related with clustermesh
+        members:
+        - ciliumbot
+        - giorio94
+        - jrajahalme
+        - marseel
+        - tgraf
+        - thorn3r
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: thorn3r
+            reason: Temporarily disabling reviews to focus on ILB
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-datapath:
+        id: MDQ6VGVhbTQ5MjY2NTY=
+        restID: 4926656
+        description: All dataplane logic in Cilium
+        members:
+        - NikAleksandrov
+        - YutaroHayakawa
+        - aditighag
+        - aspsk
+        - borkmann
+        - brb
+        - christarazi
+        - ciliumbot
+        - dylandreimerink
+        - fristonio
+        - gentoo-root
+        - harsimran-pabla
+        - jibi
+        - joamaki
+        - joestringer
+        - jrfastab
+        - jschwinger233
+        - julianwiedmann
+        - kkourt
+        - ldelossa
+        - markpash
+        - nirmoy
+        - pchaigno
+        - rastislavs
+        - tommyp1ckles
+        - vadorovsky
+        - ysksuzuki
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: borkmann
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: brb
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: harsimran-pabla
+            reason: Onboarding
+          - login: joestringer
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: jrfastab
+            reason: Focusing on FGS
+          - login: kkourt
+            reason: Focusing on Tetragon
+          - login: pchaigno
+            reason: Focusing on IPsec
+          - login: rastislavs
+            reason: Onboarding
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-encryption:
+        id: MDQ6VGVhbTQ5MjY2Njk=
+        restID: 4926669
+        description: All control and data plane logic related with encryption (IPSec
+          and WireGuard)
+        members:
+        - brb
+        - christarazi
+        - gandro
+        - joestringer
+        - jrfastab
+        - jschwinger233
+        - ldelossa
+        - pchaigno
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: brb
+            reason: Focusing on Isovalent LB
+          - login: jrfastab
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-foundations:
+        id: T_kwDOAUFEZs4Adj8M
+        restID: 7749388
+        members:
+        - bimmlerd
+        - ciliumbot
+        - derailed
+        - dylandreimerink
+        - joamaki
+        - ovidiutirla
+        - pippolo84
+        - tommyp1ckles
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-hubble:
+        id: MDQ6VGVhbTQ5MjY2NzQ=
+        restID: 4926674
+        description: All code related with hubble (and hubble-cli)
+        members:
+        - chancez
+        - ciliumbot
+        - gandro
+        - genbit
+        - glibsm
+        - jrfastab
+        - kaworu
+        - michi-covalent
+        - rolinh
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: gandro
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: glibsm
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: jrfastab
+            reason: Focusing on FGS
+          teamMemberCount: 1
+        privacy: VISIBLE
+        children:
+          sig-hubble-api:
+            id: T_kwDOAUFEZs4AaTPD
+            restID: 6894531
+            description: Hubble-API related changes
+            members:
+            - ciliumbot
+            - gandro
+            - glibsm
+            - kaworu
+            - rolinh
+            codeReviewAssignment:
+              algorithm: LOAD_BALANCE
+              enabled: true
+              teamMemberCount: 1
+            privacy: VISIBLE
+      sig-ipam:
+        id: MDQ6VGVhbTQ5MjY2Nzc=
+        restID: 4926677
+        description: All code related with different types of IPAM
+        members:
+        - aanm
+        - christarazi
+        - ciliumbot
+        - doniacld
+        - gandro
+        - hemanthmalla
+        - pippolo84
+        - tgraf
+        - tklauser
+        - tommyp1ckles
+        - ungureanuvladvictor
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: aanm
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-k8s:
+        id: MDQ6VGVhbTQ5MjY2Nzg=
+        restID: 4926678
+        description: All code related with Kubernetes
+        members:
+        - aanm
+        - christarazi
+        - ciliumbot
+        - fristonio
+        - gandro
+        - ianvernon
+        - joamaki
+        - nathanjsweet
+        - nebril
+        - squeed
+        - tgraf
+        - tommyp1ckles
+        - youngnick
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: aanm
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: gandro
+            reason: Here for learning, not comfortable giving reviews
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-lb:
+        id: MDQ6VGVhbTQ5MjY2ODA=
+        restID: 4926680
+        description: All control and data plane code related with LB
+        members:
+        - aditighag
+        - aspsk
+        - borkmann
+        - brb
+        - christarazi
+        - ciliumbot
+        - dylandreimerink
+        - joamaki
+        - jschwinger233
+        - julianwiedmann
+        - ysksuzuki
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: borkmann
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: brb
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: jschwinger233
+            reason: Focusing on encryption area
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-policy:
+        id: MDQ6VGVhbTQ5MjY2ODE=
+        restID: 4926681
+        description: All control plane code related with Policy
+        members:
+        - christarazi
+        - ciliumbot
+        - derailed
+        - doniacld
+        - fristonio
+        - gandro
+        - joestringer
+        - jrajahalme
+        - nathanjsweet
+        - nebril
+        - sayboras
+        - squeed
+        - tklauser
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: joestringer
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: jrajahalme
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          - login: sayboras
+            reason: Here for learning, not comfortable giving reviews
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-scalability:
+        id: T_kwDOAUFEZs4Ai5D9
+        restID: 9146621
+        description: All code / workflows related with scalability improvements.
+        members:
+        - ciliumbot
+        - dlapcevic
+        - giorio94
+        - learnitall
+        - marseel
+        - thorn3r
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      sig-servicemesh:
+        id: MDQ6VGVhbTQ5MjY2NzE=
+        restID: 4926671
+        description: All code related with Service Mesh features (Mutual Auth, Gateway
+          API, Ingress, Envoy)
+        members:
+        - ciliumbot
+        - jrajahalme
+        - meyskens
+        - mhofstetter
+        - sayboras
+        - youngnick
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: jrajahalme
+            reason: Current superhero - can fix any issue. Include back once knowledge
+              is spread
+          teamMemberCount: 1
+        privacy: VISIBLE
+      tetragon:
+        id: T_kwDOAUFEZs4AXMXX
+        restID: 6079959
+        description: Tetragon developers
+        members:
+        - jrfastab
+        - kevsecurity
+        - kkourt
+        - lambdanis
+        - michi-covalent
+        - mtardy
+        - olsajiri
+        - sharlns
+        - tixxdz
+        - tpapagian
+        - will-isovalent
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: michi-covalent
+            reason: Focusing on enterprise value
+          - login: sharlns
+            reason: Focusing on use-cases
+          teamMemberCount: 1
+        privacy: VISIBLE
+      tophat:
+        id: MDQ6VGVhbTI1MTk3OTY=
+        restID: 2519796
+        description: Rotating team of janitors for unowned code
+        members:
+        - ciliumbot
+        privacy: VISIBLE
+      vagrant:
+        id: MDQ6VGVhbTI1MjQ2Mzc=
+        restID: 2524637
+        description: Vagrant use
+        members:
+        - aanm
+        - nbusseneau
+        - nebril
+        - pchaigno
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: pchaigno
+            reason: Focusing on IPsec
+          teamMemberCount: 1
+        privacy: VISIBLE
+      vendor:
+        id: MDQ6VGVhbTI1MTk3OTE=
+        restID: 2519791
+        description: Vendor dependencies
+        members:
+        - aanm
+        - ciliumbot
+        - learnitall
+        - marseel
+        - ovidiutirla
+        - sayboras
+        - tklauser
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      wireguard:
+        id: MDQ6VGVhbTQ3MDU1NTY=
+        restID: 4705556
+        description: Manages wireguard integration with Cilium
+        members:
+        - brb
+        - ciliumbot
+        - gandro
+        - jschwinger233
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          excludedMembers:
+          - login: brb
+            reason: Focusing on Isovalent LB
+          teamMemberCount: 1
+        privacy: VISIBLE
+  Committers:
+    id: MDQ6VGVhbTIwOTg2MTk=
+    restID: 2098619
+    description: Contributors with commit access
+    members:
+    - YutaroHayakawa
+    - aanm
+    - aditighag
+    - b3a-dev
+    - bmcustodio
+    - borkmann
+    - brb
+    - chancez
+    - christarazi
+    - ciliumbot
+    - danwent
+    - dlapcevic
+    - dylandreimerink
+    - eloycoto
+    - fristonio
+    - gandro
+    - glibsm
+    - hemanthmalla
+    - ianvernon
+    - jibi
+    - joamaki
+    - joestringer
+    - jrajahalme
+    - jrfastab
+    - julianwiedmann
+    - kaworu
+    - kkourt
+    - lbernail
+    - ldelossa
+    - lizrice
+    - lmb
+    - michi-covalent
+    - nathanjsweet
+    - nbusseneau
+    - nebril
+    - nirmoy
+    - pchaigno
+    - qmonnet
+    - rolinh
+    - sayboras
+    - sharlns
+    - squeed
+    - tgraf
+    - ti-mo
+    - tklauser
+    - tommyp1ckles
+    - ungureanuvladvictor
+    - vadorovsky
+    - xmulligan
+    - youngnick
+    privacy: VISIBLE
+  Organization Members:
+    id: MDQ6VGVhbTIzMjgxMTg=
+    restID: 2328118
+    description: Members that belong to the organization.
+    members:
+    - Artyop
+    - DamianSawicki
+    - JamesLaverack
+    - MrFreezeex
+    - Neelajacques
+    - NikAleksandrov
+    - PhilipSchmid
+    - Weil0ng
+    - YutaroHayakawa
+    - aanm
+    - aditighag
+    - alan-kut
+    - anfernee
+    - anubhabMajumdar
+    - aojea
+    - asauber
+    - aspsk
+    - b3a-dev
+    - bimmlerd
+    - bmcustodio
+    - borkmann
+    - bowei
+    - brb
+    - brendangregg
+    - brlbil
+    - brycekahle
+    - chancez
+    - chaunceyjiang
+    - christarazi
+    - ciliumbot
+    - cmluciano
+    - danwent
+    - darox
+    - derailed
+    - dlapcevic
+    - doniacld
+    - dthaler
+    - dylandreimerink
+    - eiffel-fl
+    - eloycoto
+    - f1ko
+    - ferozsalam
+    - florianl
+    - fristonio
+    - gandro
+    - geakstr
+    - genbit
+    - gentoo-root
+    - giorio94
+    - glibsm
+    - glrf
+    - hacktivist123
+    - harsimran-pabla
+    - hemanthmalla
+    - hhoover
+    - husnialhamdani
+    - ianvernon
+    - jaffcheng
+    - jeefy
+    - jelonka
+    - jibi
+    - joamaki
+    - joestringer
+    - jrajahalme
+    - jrfastab
+    - jrife
+    - jschwinger233
+    - jshr-w
+    - jspaleta
+    - jtaleric
+    - julianwiedmann
+    - kaworu
+    - kevsecurity
+    - kimstacy
+    - kkourt
+    - kvaps
+    - lambdanis
+    - lbernail
+    - ldelossa
+    - learnitall
+    - liquidat
+    - liyihuang
+    - lizrice
+    - lmb
+    - lzang
+    - margamanterola
+    - markpash
+    - marqc
+    - marseel
+    - mathpl
+    - mauilion
+    - mejedi
+    - meyskens
+    - mhofstetter
+    - michi-covalent
+    - mmat11
+    - mtardy
+    - mythi
+    - nathanjsweet
+    - nbusseneau
+    - nebril
+    - nickolaev
+    - nirmoy
+    - nvibert
+    - oblazek
+    - odinuge
+    - olsajiri
+    - ovidiutirla
+    - paularah
+    - paulcacheux
+    - pchaigno
+    - pippolo84
+    - qmonnet
+    - raphink
+    - rastislavs
+    - raymonddejong
+    - rectified95
+    - rgo3
+    - robscott
+    - rolinh
+    - sadath-12
+    - sahid
+    - sayboras
+    - seanmwinn
+    - sharlns
+    - sinkap
+    - siwiutki
+    - skmatti
+    - smagnani96
+    - squeed
+    - sypakine
+    - tamilmani1989
+    - tgraf
+    - thelinuxfoundation
+    - thorn3r
+    - ti-mo
+    - tixxdz
+    - tklauser
+    - tommyp1ckles
+    - tpapagian
+    - tracypholmes
+    - ungureanuvladvictor
+    - vadorovsky
+    - vakalapa
+    - viktor-kurchenko
+    - vipul-21
+    - wedaly
+    - weizhoublue
+    - will-isovalent
+    - xmulligan
+    - yandzee
+    - yannikmesserli
+    - youngnick
+    - youssefazrak
+    - ysksuzuki
+    - zacharysarah
+    privacy: VISIBLE
+  Reviewers:
+    id: T_kwDOAUFEZs4Ah48O
+    restID: 8883982
+    description: Members that have reviewer privileges
+    members:
+    - Neelajacques
+    - NikAleksandrov
+    - Weil0ng
+    - YutaroHayakawa
+    - aanm
+    - aditighag
+    - anfernee
+    - asauber
+    - aspsk
+    - b3a-dev
+    - bimmlerd
+    - bmcustodio
+    - borkmann
+    - brb
+    - brlbil
+    - chancez
+    - christarazi
+    - cmluciano
+    - danwent
+    - derailed
+    - doniacld
+    - dylandreimerink
+    - eloycoto
+    - ferozsalam
+    - fristonio
+    - gandro
+    - geakstr
+    - genbit
+    - gentoo-root
+    - giorio94
+    - glibsm
+    - hacktivist123
+    - harsimran-pabla
+    - hemanthmalla
+    - ianvernon
+    - jibi
+    - joamaki
+    - joestringer
+    - jrajahalme
+    - jrfastab
+    - jschwinger233
+    - jspaleta
+    - julianwiedmann
+    - kaworu
+    - kevsecurity
+    - kimstacy
+    - kkourt
+    - lambdanis
+    - lbernail
+    - ldelossa
+    - learnitall
+    - liquidat
+    - lizrice
+    - lmb
+    - margamanterola
+    - markpash
+    - marseel
+    - mathpl
+    - mauilion
+    - meyskens
+    - mhofstetter
+    - michi-covalent
+    - mtardy
+    - nathanjsweet
+    - nbusseneau
+    - nebril
+    - nickolaev
+    - nirmoy
+    - olsajiri
+    - pchaigno
+    - pippolo84
+    - qmonnet
+    - rastislavs
+    - rgo3
+    - rolinh
+    - sayboras
+    - seanmwinn
+    - sharlns
+    - squeed
+    - tgraf
+    - thorn3r
+    - ti-mo
+    - tixxdz
+    - tklauser
+    - tommyp1ckles
+    - tpapagian
+    - tracypholmes
+    - ungureanuvladvictor
+    - vadorovsky
+    - viktor-kurchenko
+    - will-isovalent
+    - xmulligan
+    - yandzee
+    - youngnick
+    - ysksuzuki
+    - zacharysarah
+    privacy: VISIBLE
+  Roles Teams:
+    id: T_kwDOAUFEZs4Ah5D4
+    restID: 8884472
+    description: Roles that exist inside the Cilium organization
+    privacy: VISIBLE
+    children:
+      Community:
+        id: T_kwDOAUFEZs4AW0pZ
+        restID: 5982809
+        members:
+        - ciliumbot
+        - hacktivist123
+        - jspaleta
+        - lizrice
+        - paularah
+        - tgraf
+        - tracypholmes
+        - xmulligan
+        privacy: VISIBLE
+      Maintainers:
+        id: T_kwDOAUFEZs4Ah5D5
+        restID: 8884473
+        description: Responsible for maintaining a Cilium project
+        privacy: VISIBLE
+        children:
+          cilium-cli-maintainers:
+            id: MDQ6VGVhbTQ5MDExMjM=
+            restID: 4901123
+            description: cilium/cilium-cli maintainers
+            members:
+            - michi-covalent
+            - tklauser
+            codeReviewAssignment:
+              algorithm: LOAD_BALANCE
+              enabled: true
+              teamMemberCount: 1
+            privacy: VISIBLE
+          cilium-maintainers:
+            id: MDQ6VGVhbTI3MjEyMjE=
+            restID: 2721221
+            description: cilium/cilium maintainers
+            members:
+            - aanm
+            - joestringer
+            codeReviewAssignment:
+              algorithm: LOAD_BALANCE
+              enabled: true
+              teamMemberCount: 1
+            privacy: VISIBLE
+          cilium-packer-ci-build-maintainers:
+            id: MDQ6VGVhbTQ5MjM4MjY=
+            restID: 4923826
+            description: cilium/packer-ci-build maintainers
+            members:
+            - nbusseneau
+            - nebril
+            codeReviewAssignment:
+              algorithm: LOAD_BALANCE
+              enabled: true
+              teamMemberCount: 1
+            privacy: VISIBLE
+          cilium.io-maintainers:
+            id: T_kwDOAUFEZs4Ah5D7
+            restID: 8884475
+            members:
+            - xmulligan
+            codeReviewAssignment:
+              algorithm: LOAD_BALANCE
+              enabled: true
+              teamMemberCount: 1
+            privacy: VISIBLE
+          ebpf-lib-maintainers:
+            id: T_kwDOAUFEZs4AYyEh
+            restID: 6496545
+            description: Maintainers of cilium/ebpf
+            members:
+            - lmb
+            - ti-mo
+            privacy: VISIBLE
+          hubble-maintainers:
+            id: MDQ6VGVhbTQ5MDExMTg=
+            restID: 4901118
+            description: cilium/hubble maintainers
+            members:
+            - chancez
+            - gandro
+            - glibsm
+            - rolinh
+            codeReviewAssignment:
+              algorithm: LOAD_BALANCE
+              enabled: true
+              teamMemberCount: 1
+            privacy: VISIBLE
+          proxy-maintainers:
+            id: MDQ6VGVhbTQ5MDExMTM=
+            restID: 4901113
+            description: cilium/proxy maintainers
+            members:
+            - jrajahalme
+            - sayboras
+            codeReviewAssignment:
+              algorithm: LOAD_BALANCE
+              enabled: true
+              teamMemberCount: 1
+            privacy: VISIBLE
+          pwru-maintainers:
+            id: T_kwDOAUFEZs4Ah5D8
+            restID: 8884476
+            members:
+            - brb
+            codeReviewAssignment:
+              algorithm: LOAD_BALANCE
+              enabled: true
+              teamMemberCount: 1
+            privacy: VISIBLE
+          tetragon-maintainers:
+            id: T_kwDOAUFEZs4AXEMC
+            restID: 6046466
+            description: cilium/tetragon maintainers
+            members:
+            - jrfastab
+            - kkourt
+            - olsajiri
+            - will-isovalent
+            privacy: VISIBLE
+      ci:
+        id: T_kwDOAUFEZs4Ah5D6
+        restID: 8884474
+        description: Responsible for keeping the CI infrastructure up and running
+        members:
+        - brlbil
+        - nbusseneau
+        codeReviewAssignment:
+          algorithm: LOAD_BALANCE
+          enabled: true
+          teamMemberCount: 1
+        privacy: VISIBLE
+      security org:
+        id: T_kwDOAUFEZs4Ah5D9
+        restID: 8884477
+        description: Responsible for responding to all security issues reported to
+          security@cilium.io
+        members:
+        - aanm
+        - borkmann
+        - brb
+        - ferozsalam
+        - gandro
+        - joestringer
+        - jrajahalme
+        - jrfastab
+        - lizrice
+        - nebril
+        - sayboras
+        - sharlns
+        - tgraf
+        privacy: VISIBLE
+      triager:
+        id: T_kwDOAUFEZs4Ah5D-
+        restID: 8884478
+        description: Help to triage issues. They can set assignments and labels.
+        members:
+        - margamanterola
+        - mathpl
+        privacy: VISIBLE
+  Tetragon Contributors:
+    id: T_kwDOAUFEZs4AftaC
+    restID: 8312450
+    description: Trusted Contributors to Tetragon (Access to CI)
+    members:
+    - jrfastab
+    privacy: VISIBLE
+  ebpf-bsc:
+    id: T_kwDOAUFEZs4AUCiK
+    restID: 5253258
+    description: eBPF Steering Committee
+    members:
+    - borkmann
+    - brendangregg
+    - dthaler
+    - joestringer
+    - sinkap
+    privacy: VISIBLE
+  ebpf-go Contributors:
+    id: T_kwDOAUFEZs4AdETM
+    restID: 7619788
+    description: Contributors of cilium/ebpf
+    members:
+    - alxn
+    - kwakubiney
+    - mythi
+    - paulcacheux
+    - tklauser
+    privacy: VISIBLE
+    children:
+      ebpf-go Reviewers:
+        id: T_kwDOAUFEZs4AhYhz
+        restID: 8751219
+        description: Contributors to cilium/ebpf with review privileges
+        members:
+        - brycekahle
+        - dylandreimerink
+        - florianl
+        - mejedi
+        - mmat11
+        - rgo3
+        privacy: VISIBLE
+  ebpfio:
+    id: MDQ6VGVhbTM5OTYxNjc=
+    restID: 3996167
+    members:
+    - Neelajacques
+    - borkmann
+    - geakstr
+    - genbit
+    - lizrice
+    - qmonnet
+    - tgraf
+    privacy: VISIBLE
+excludeCodeReviewAssignmentFromAllTeams:
+- Neelajacques
+- NikAleksandrov
+- chancez
+- ciliumbot
+- fristonio
+- genbit
+- hemanthmalla
+- ianvernon
+- markpash
+- mathpl
+- meyskens
+- nbusseneau
+- nirmoy
+- tgraf
+- ungureanuvladvictor
+- vadorovsky
+- zacharysarah
