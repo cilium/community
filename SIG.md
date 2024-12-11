@@ -21,7 +21,6 @@ A primary reason that SIGs exist is as forums for collaboration. Much work in a 
 ## SIG Lead
 
 - Membership tracked in [sigs.yaml](./sigs.yaml)
-- MUST be an odd number of SIG Leads in a group.
 - MUST be a reviewer of one or more areas of the project, and should be a subject matter expert in their SIG area.
 - SHOULD drive charter changes (including creation) to get community buy-in but MAY delegate content creation to SIG contributors.
 - MUST organize a method of keeping cadence (meetings, async channel in Cilium Slack, etc.), and make sure [sigs.yaml](./sigs.yaml) is up to date.
