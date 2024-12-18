@@ -5,6 +5,7 @@ sigs:
       Sample mission statement
     charter_link: sig-template/charter.md
     label: sig-template
+    chat_link: cilium.slack.com/archives/example-channel
     leadership:
       leads:
         - github: examplehandle

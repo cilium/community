@@ -9,5 +9,5 @@ Join our [slack channel]() in the Cilium Slack, or join our meetings on
 
 ## Leads
 
-The Leads are responsible to drive the operations and technical decisions of a SIG area.
+The Leads are responsible to drive the operations and technical decisions of a SIG area, and uphold the [community values](https://github.com/cilium/community/blob/main/VALUES.md).
 * Example Lead (@examplehandle)

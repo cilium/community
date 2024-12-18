@@ -34,7 +34,7 @@ SIGs MAY prefer various levels of domain knowledge depending on the role. This s
 
 ### On-boarding and Off-boarding Leads
 Leads MAY decide to step down at anytime and propose a replacement. Use lazy consensus amongst the other Leads with fallback on majority vote to accept the proposal. The candidate SHOULD be supported by a majority of SIG contributors.
-Leads MAY select additional Leads through a super-majority vote amongst Leads. This SHOULD be supported by a majority of SIG contributors.
+Leads MAY select additional Leads through a super-majority vote amongst Leads. This SHOULD be supported by a majority of SIG contributors (active members of the Cilium organization engaged with creating and reviweing changes within the SIG).
 
 ## Other Roles
 This governance document outlines the required roles for SIGs; however, SIGs are allowed to operate how they see fit outside of minimum governance requirements, including defining more roles to sustain the group. If a SIG needs to change the Lead position to include or remove duties, this needs to be approved by the committers. Newly created roles that don't assume any responsibility of Leads should follow the governing processes in the SIG's charter.
@@ -67,7 +67,7 @@ When introducing a SIG charter or modification of a charter the following proces
 
 1. Identify a small set of people from the SIG to drive the changes. Most typically this will be the SIG Leads.
 1. Work with the rest of the SIG in question to craft the changes. Make sure to keep the SIG in the loop as discussions progress with the committers.
-1. Work with the committers to gain approval. This can simply be submitting a PR and sending a slack message. If more substantial changes are desired it is advisable to socialize those before drafting a PR.
+1. Work with the committers to gain approval. This can simply be submitting a PR and sending a slack message. If more substantial changes are desired it is advisable to socialize those before drafting a PR, for instance by connecting with a committer to act as a mentor and sponsor for this process.
 1. The committers will be looking to ensure the scope of the SIG as represented in the charter is reasonable (and within the scope of Cilium) and that processes are fair.
 
 # SIG Governance
@@ -76,7 +76,7 @@ To standardize Special Interest Group efforts, create maximum transparency, and 
 - Have an approved Charter.
 - Keep up-to-date meeting notes, linked from the SIG's page in the community repo.
 - Ensure related work happens in a project-owned GitHub org and repository.
-- Use the forums provided as the primary means of working, communicating, and collaborating, as opposed to private emails and meetings.
+- Use the forums (in order of preference: GitHub, Slack, recorded group meetings) provided as the primary means of working, communicating, and collaborating, as opposed to private emails and meetings.
 - Track and identify all CFPs and other project enhancements related to the SIG area.
 
 ## SIG Retirement
