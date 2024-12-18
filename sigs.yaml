@@ -1,0 +1,12 @@
+sigs:
+  - dir: sig-template
+    name: SIG Template
+    mission_statement:
+      Sample mission statement
+    charter_link: sig-template/charter.md
+    label: sig-template
+    chat_link: cilium.slack.com/archives/example-channel
+    leadership:
+      leads:
+        - github: examplehandle
+          name: Example Name
