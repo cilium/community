@@ -42,7 +42,7 @@ This governance document outlines the required roles for SIGs; however, SIGs are
 # SIG Creation
 
 ## Goals
-The primary goal of the charters is to define the scope of the SIG within Cilium and how the SIG leaders exercise ownership of these areas by taking care of their responsibilities. A majority of the effort should be spent on these concerns. SIG Leads are also reponsible for driving reviews for CFPs for their focus area, and have a responsibility to bring concerns to committers if they are unsure. 
+The primary goal of the charters is to define the scope of the SIG within Cilium and how the SIG leaders exercise ownership of these areas by taking care of their responsibilities. SIG Leads and SIGs are responsible for reviewing CFPs in their focus area, and have a responsibility to bring concerns to committers if they are unsure. 
 
 ### SIG Charter Guide
 All Cilium SIGs must define a charter defining the scope and governance of the SIG.
