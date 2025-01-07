@@ -121,7 +121,7 @@ Reviewers have all the rights and responsibilities of an Organization Member, pl
 
 The process for an Organization Member to become a Reviewer is as follows:
 
-1. Open a PR in the member management file for [at least two teams](ladder/teams), each assigned to a specific review area.
+1. Open a PR in the member management file for [the corresponding team](ladder/teams) assigned to a specific review area.
 2. At least two members who are already Committers, approve the PR
 
 Automated tooling assigns PRs across the Reviewers defined for each particular area. 
