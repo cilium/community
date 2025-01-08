@@ -26,7 +26,7 @@ A primary reason that SIGs exist is as forums for collaboration. Much work in a 
 - MUST organize a method of keeping cadence (meetings, async channel in Cilium Slack, etc.), and make sure [sigs.yaml](./sigs.yaml) is up to date.
 - SHOULD facilitate cadence but MAY delegate to other members or future Leads/Leads in training.
 - SHOULD drive charter changes (including creation) to get community buy-in but MAY delegate content creation to SIG contributors.
-- MAY delegate the actual communication and creation of content to other contributors where appropriate.
+- MAY delegate communication and note taking to other contributors in the same SIG where appropriate.
 
 ### Requirements
 Leads MUST be at least a "reviewer" on our [contributor ladder](https://github.com/cilium/community/blob/main/CONTRIBUTOR-LADDER.md#reviewer) to be eligible to hold a leadership role within a SIG.
