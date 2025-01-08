@@ -33,7 +33,7 @@ Leads MUST be at least a "reviewer" on our [contributor ladder](https://github.c
 SIGs MAY prefer various levels of domain knowledge depending on the role. This should be documented.
 
 ### On-boarding and Off-boarding Leads
-Leads MAY decide to step down at anytime and propose a replacement. Use lazy consensus amongst the other Leads with fallback on majority vote to accept the proposal. The candidate SHOULD be supported by a majority of SIG contributors.
+Leads MAY decide to step down at anytime and propose a replacement. Use lazy consensus amongst the other Leads with fallback on majority vote to accept the proposal. The candidate SHOULD be supported by a majority of SIG contributors (active members of the Cilium organization engaged with creation and reviews in the scope of the SIG).
 Leads MAY nominate additional Leads for a SIG, or MAY choose to step down at any time. The change SHOULD be supported by a majority of SIG contributors (active members of the Cilium organization engaged with creating and reviweing changes within the SIG). All changes to SIG leadership MUST be conducted in consultation with the Committer group. 
 
 ## Other Roles
