@@ -1,9 +1,10 @@
 
 # SIG Charter Template
-### Scope
+
+## Scope
 Include a 2-3 sentence summary of what work SIG TODO does. Imagine trying to explain your work to a colleague who is familiar with Cilium but not necessarily all of the internals.
 
-#### In scope
+### In scope
 **Code, Binaries and Services**
 - list of what qualifies a piece of code, binary or service
 - as falling into the scope of this SIG
@@ -17,5 +18,5 @@ Include a 2-3 sentence summary of what work SIG TODO does. Imagine trying to exp
 - e.g. qualifying and cutting a Cilium release,
 - organizing mentorship programs, etc
 
-#### Out of scope
+### Out of scope
 Outline of things that could be confused as falling into this SIG but don't or don't right now.

@@ -22,10 +22,10 @@ A primary reason that SIGs exist is as forums for collaboration. Much work in a 
 
 - Membership tracked in [sigs.yaml](./sigs.yaml)
 - MUST be a reviewer of one or more areas of the project, and should be a subject matter expert in their SIG area.
-- SHOULD drive charter changes (including creation) to get community buy-in but MAY delegate content creation to SIG contributors.
+- MUST ensure notes are made available.
 - MUST organize a method of keeping cadence (meetings, async channel in Cilium Slack, etc.), and make sure [sigs.yaml](./sigs.yaml) is up to date.
 - SHOULD facilitate cadence but MAY delegate to other members or future Leads/Leads in training.
-- MUST ensure notes made available.
+- SHOULD drive charter changes (including creation) to get community buy-in but MAY delegate content creation to SIG contributors.
 - MAY delegate the actual communication and creation of content to other contributors where appropriate.
 
 ### Requirements
@@ -37,12 +37,12 @@ Leads MAY decide to step down at anytime and propose a replacement. Use lazy con
 Leads MAY select additional Leads through a super-majority vote amongst Leads. This SHOULD be supported by a majority of SIG contributors (active members of the Cilium organization engaged with creating and reviweing changes within the SIG).
 
 ## Other Roles
-This governance document outlines the required roles for SIGs; however, SIGs are allowed to operate how they see fit outside of minimum governance requirements, including defining more roles to sustain the group. If a SIG needs to change the Lead position to include or remove duties, this needs to be approved by the committers. Newly created roles that don't assume any responsibility of Leads should follow the governing processes in the SIG's charter.
+This governance document outlines the required roles for SIGs; however, SIGs are allowed to operate how they see fit outside of minimum governance requirements, including defining more roles to sustain the group. If a SIG needs to change the Lead position to include or remove duties, this needs to be approved by the Committers. Newly created roles that don't assume any responsibility of Leads should follow the governing processes in the SIG's charter.
 
 # SIG Creation
 
 ## Goals
-The primary goal of the charters is to define the scope of the SIG within Cilium and how the SIG leaders exercise ownership of these areas by taking care of their responsibilities. SIG Leads and SIGs are responsible for reviewing CFPs in their focus area, and have a responsibility to bring concerns to committers if they are unsure. 
+The primary goal of the charters is to define the scope of the SIG within Cilium and how the SIG leaders exercise ownership of these areas by taking care of their responsibilities. SIG Leads and SIGs are responsible for reviewing CFPs in their focus area, and have a responsibility to bring concerns to Committers if they are unsure. 
 
 ### SIG Charter Guide
 All Cilium SIGs must define a charter defining the scope and governance of the SIG.
@@ -55,23 +55,23 @@ The governance must outline the responsibilities within the SIG as well as the r
 1. Fill out the template for your SIG
 1. Update sigs.yaml with the individuals holding the roles as defined in the template.
 1. Create a pull request with a draft of your charter.md and sigs.yaml changes. Communicate it within your SIG and get feedback as needed.
-1. Send the SIG Charter out for review to the Cilium committers.
-1. Once accepted, the committers will ratify the PR by merging it.
+1. Send the SIG Charter out for review to the Cilium Committers.
+1. Once accepted, the Committers will ratify the PR by merging it.
 
 ### Steps to update an existing SIG charter
-For significant changes, or any changes that could impact other SIGs, such as the scope, create a PR and send it to the committers for review with the subject: "SIG Charter Update: YOURSIG".
+For significant changes, or any changes that could impact other SIGs, such as the scope, create a PR and send it to the Committers for review with the subject: "SIG Charter Update: YOURSIG".
 For minor updates to that only impact issues or areas within the scope of the SIG the SIG Leads should facilitate the change.
 
 ### SIG Charter approval process
 When introducing a SIG charter or modification of a charter the following process should be used.
 
 1. Identify a small set of people from the SIG to drive the changes. Most typically this will be the SIG Leads.
-1. Work with the rest of the SIG in question to craft the changes. Make sure to keep the SIG in the loop as discussions progress with the committers.
-1. Work with the committers to gain approval. This can simply be submitting a PR and sending a slack message. If more substantial changes are desired it is advisable to socialize those before drafting a PR, for instance by connecting with a committer to act as a mentor and sponsor for this process.
-1. The committers will be looking to ensure the scope of the SIG as represented in the charter is reasonable (and within the scope of Cilium) and that processes are fair.
+1. Work with the rest of the SIG in question to craft the changes. Make sure to keep the SIG in the loop as discussions progress with the Committers.
+1. Work with the Committers to gain approval. This can simply be submitting a PR and sending a slack message. If more substantial changes are desired it is advisable to socialize those before drafting a PR, for instance by connecting with a committer to act as a mentor and sponsor for this process.
+1. The Committers will be looking to ensure the scope of the SIG as represented in the charter is reasonable (and within the scope of Cilium) and that processes are fair.
 
 # SIG Governance
-To standardize Special Interest Group efforts, create maximum transparency, and route contributors to the appropriate SIG; SIGs should follow these guidelines:
+To standardize SIGs efforts, create maximum transparency, and route contributors to the appropriate SIG, SIGs should follow these guidelines:
 
 - Have an approved Charter.
 - Keep up-to-date meeting notes, linked from the SIG's page in the community repo.
