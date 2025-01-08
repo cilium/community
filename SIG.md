@@ -83,3 +83,4 @@ To standardize SIGs efforts, create maximum transparency, and route contributors
 In the event that the SIG is inactive 
 - after 3 or more months it SHOULD be retired
 - after 6 or more months it MUST be retired
+SIGs could be dissolved in the future if needed (for example, counter-productive, contradiction with Cilium Code of Conduct) at the discretion of the Committers.
