@@ -20,7 +20,7 @@ A primary reason that SIGs exist is as forums for collaboration. Much of the wor
 
 ## SIG Lead
 
-- Membership tracked in [sigs.yaml](./sigs.yaml)
+- Membership MUST be tracked in [sigs.yaml](./sigs.yaml)
 - MUST be a reviewer of one or more areas of the project, and should be a subject matter expert in their SIG area.
 - MUST ensure notes are made available.
 - MUST organize a method of keeping cadence (meetings, async channel in Cilium Slack, etc.), and make sure [sigs.yaml](./sigs.yaml) is up to date.
