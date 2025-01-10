@@ -8,13 +8,13 @@ Areas covered by SIGs may be vertically focused on particular components or func
 - Scalability
 - Docs
 
-Each SIG must have a charter that specifies its scope (topics, subsystems, code repos, and/or directories), responsibilities, and areas of authority. See the SIG charter process for details on how charters are managed. SIGs are relatively free to customize or change how they operate, within some broad guidelines and constraints imposed by cross-project processes (e.g., the release process) and assets (e.g., the Cilium repo).
+Each SIG must have a charter that specifies its scope (topics, subsystems, code repos, and/or directories), and responsibilities. See the SIG charter process for details on how charters are managed. SIGs are relatively free to customize or change how they operate, within some broad guidelines and constraints imposed by cross-project processes (e.g., the release process) and assets (e.g., the Cilium repo).
 
 SIGs are designed to help contributors gain depth in a specific area of the Cilium project. Committers that are aspiring reviewers of the Cilium project can gain expertise by getting involved with a SIG and getting assigned PRs.
 
 SIGs don't have any additional authority - they are expected to drive towards solutions that can be accepted by the project's committer community - ideally by consensus, and if necessary, a vote. 
 
-A primary reason that SIGs exist is as forums for collaboration. Much work in a SIG should stay local within that SIG. However, SIGs must communicate in the open, ensure other SIGs and community members can find notes of meetings, discussions, designs, and decisions, and periodically communicate a high-level summary of the SIG's work to the community.
+A primary reason that SIGs exist is as forums for collaboration. Much of the work in a SIG should stay local within that SIG. However, SIGs must communicate in the open, ensure other SIGs and community members can find notes of meetings, discussions, designs, and decisions, and periodically communicate a high-level summary of the SIG's work to the community.
 
 # SIG Roles
 
@@ -33,7 +33,6 @@ Leads MUST be at least a "reviewer" on our [contributor ladder](https://github.c
 SIGs MAY prefer various levels of domain knowledge depending on the role. This should be documented.
 
 ### On-boarding and Off-boarding Leads
-Leads MAY decide to step down at anytime and propose a replacement. Use lazy consensus amongst the other Leads with fallback on majority vote to accept the proposal. The candidate SHOULD be supported by a majority of SIG contributors (active members of the Cilium organization engaged with creation and reviews in the scope of the SIG).
 Leads MAY nominate additional Leads for a SIG, or MAY choose to step down at any time. The change SHOULD be supported by a majority of SIG contributors (active members of the Cilium organization engaged with creating and reviweing changes within the SIG). All changes to SIG leadership MUST be conducted in consultation with the Committer group. 
 
 ## Other Roles
