@@ -30,7 +30,7 @@ A primary reason that SIGs exist is as forums for collaboration. Much of the wor
 
 ### Requirements
 Leads MUST be at least a "reviewer" on our [contributor ladder](https://github.com/cilium/community/blob/main/CONTRIBUTOR-LADDER.md#reviewer) to be eligible to hold a leadership role within a SIG.
-SIGs MAY prefer various levels of domain knowledge depending on the role. This should be documented.
+Individual Leads MAY focus on specific subdomains for the SIG, such as security or networking in the context of a given SIG's scope, for example. If some Leads chose to focus on particular domains of knowledge inside of the SIG, this SHOULD be documented.
 
 ### On-boarding and Off-boarding Leads
 Leads MAY nominate additional Leads for a SIG, or MAY choose to step down at any time. The change SHOULD be supported by a majority of SIG contributors (active members of the Cilium organization engaged with creating and reviweing changes within the SIG). All changes to SIG leadership MUST be conducted in consultation with the Committer group. 
