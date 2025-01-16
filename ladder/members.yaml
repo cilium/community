@@ -1,157 +1,158 @@
 members:
-- DamianSawicki
-- Neelajacques
-- NikAleksandrov
-- PhilipSchmid
-- Weil0ng
-- YutaroHayakawa
-- aanm
-- aditighag
-- alan-kut
-- anfernee
-- anubhabMajumdar
-- aojea
-- Artyop
-- asauber
-- aspsk
-- b3a-dev
-- bimmlerd
-- bmcustodio
-- borkmann
-- bowei
-- brb
-- brendangregg
-- brlbil
-- brycekahle
-- chancez
-- chaunceyjiang
-- christarazi
-- ciliumbot
-- cmluciano
-- danwent
-- darox
-- derailed
-- dlapcevic
-- doniacld
-- dthaler
-- dylandreimerink
-- eiffel-fl
-- eloycoto
-- f1ko
-- ferozsalam
-- florianl
-- fristonio
-- gandro
-- geakstr
-- genbit
-- gentoo-root
-- giorio94
-- glibsm
-- glrf
-- hacktivist123
-- harsimran-pabla
-- hemanthmalla
-- hhoover
-- husnialhamdani
-- ianvernon
-- jaffcheng
-- jameslaverack
-- jeefy
-- jelonka
-- jibi
-- joamaki
-- joestringer
-- jrajahalme
-- jrfastab
-- jrife
-- jschwinger233
-- jshr-w
-- jspaleta
-- jtaleric
-- julianwiedmann
-- kaworu
-- kevsecurity
-- kimstacy
-- kkourt
-- kvaps
-- lambdanis
-- lbernail
-- ldelossa
-- learnitall
-- liquidat
-- liyihuang
-- MrFreezeex
-- lizrice
-- lmb
-- lzang
-- margamanterola
-- markpash
-- marqc
-- marseel
-- mathpl
-- mauilion
-- meyskens
-- mhofstetter
-- michi-covalent
-- mmat11
-- mtardy
-- mythi
-- nathanjsweet
-- nbusseneau
-- nebril
-- nickolaev
-- nirmoy
-- nvibert
-- oblazek
-- odinuge
-- olsajiri
-- ovidiutirla
-- paularah
-- paulcacheux
-- pchaigno
-- pippolo84
-- qmonnet
-- raphink
-- rastislavs
-- raymonddejong
-- rectified95
-- rgo3
-- robscott
-- rolinh
-- sadath-12
-- sahid
-- sayboras
-- seanmwinn
-- sharlns
-- sinkap
-- siwiutki
-- skmatti
-- smagnani96
-- squeed
-- sypakine
-- tamilmani1989
-- tgraf
-- thelinuxfoundation
-- thorn3r
-- ti-mo
-- tixxdz
-- tklauser
-- tommyp1ckles
-- tpapagian
-- tracypholmes
-- tvonhacht-apple
-- ungureanuvladvictor
-- vadorovsky
-- vakalapa
-- viktor-kurchenko
-- vipul-21
-- wedaly
-- weizhoublue
-- will-isovalent
-- xmulligan
-- yandzee
-- yannikmesserli
-- youngnick
-- youssefazrak
-- ysksuzuki
-- zacharysarah
+  - DamianSawicki
+  - Neelajacques
+  - NikAleksandrov
+  - PhilipSchmid
+  - Weil0ng
+  - YutaroHayakawa
+  - aanm
+  - aditighag
+  - alan-kut
+  - anfernee
+  - anubhabMajumdar
+  - aojea
+  - Artyop
+  - asauber
+  - aspsk
+  - b3a-dev
+  - bimmlerd
+  - bmcustodio
+  - borkmann
+  - bowei
+  - brb
+  - brendangregg
+  - brlbil
+  - brycekahle
+  - chancez
+  - chaunceyjiang
+  - christarazi
+  - ciliumbot
+  - cmluciano
+  - danwent
+  - darox
+  - derailed
+  - dlapcevic
+  - doniacld
+  - dthaler
+  - dylandreimerink
+  - eiffel-fl
+  - eloycoto
+  - f1ko
+  - ferozsalam
+  - florianl
+  - fristonio
+  - gandro
+  - geakstr
+  - genbit
+  - gentoo-root
+  - giorio94
+  - glibsm
+  - glrf
+  - hacktivist123
+  - harsimran-pabla
+  - hemanthmalla
+  - hhoover
+  - husnialhamdani
+  - ianvernon
+  - jaffcheng
+  - jameslaverack
+  - jeefy
+  - jelonka
+  - jibi
+  - joamaki
+  - joestringer
+  - jrajahalme
+  - jrfastab
+  - jrife
+  - jschwinger233
+  - jshr-w
+  - jspaleta
+  - jtaleric
+  - julianwiedmann
+  - kaworu
+  - kevsecurity
+  - kimstacy
+  - kkourt
+  - kvaps
+  - lambdanis
+  - lbernail
+  - ldelossa
+  - learnitall
+  - liquidat
+  - liyihuang
+  - MrFreezeex
+  - lizrice
+  - lmb
+  - lzang
+  - margamanterola
+  - markpash
+  - marqc
+  - marseel
+  - mathpl
+  - mauilion
+  - meyskens
+  - mhofstetter
+  - michi-covalent
+  - mmat11
+  - mtardy
+  - mythi
+  - nathanjsweet
+  - nbusseneau
+  - nebril
+  - nickolaev
+  - nirmoy
+  - nvibert
+  - oblazek
+  - odinuge
+  - olsajiri
+  - ovidiutirla
+  - paularah
+  - paulcacheux
+  - pchaigno
+  - pippolo84
+  - qmonnet
+  - raphink
+  - rastislavs
+  - raymonddejong
+  - rectified95
+  - rgo3
+  - robscott
+  - rolinh
+  - sadath-12
+  - sahid
+  - saiaunghlyanhtet
+  - sayboras
+  - seanmwinn
+  - sharlns
+  - sinkap
+  - siwiutki
+  - skmatti
+  - smagnani96
+  - squeed
+  - sypakine
+  - tamilmani1989
+  - tgraf
+  - thelinuxfoundation
+  - thorn3r
+  - ti-mo
+  - tixxdz
+  - tklauser
+  - tommyp1ckles
+  - tpapagian
+  - tracypholmes
+  - tvonhacht-apple
+  - ungureanuvladvictor
+  - vadorovsky
+  - vakalapa
+  - viktor-kurchenko
+  - vipul-21
+  - wedaly
+  - weizhoublue
+  - will-isovalent
+  - xmulligan
+  - yandzee
+  - yannikmesserli
+  - youngnick
+  - youssefazrak
+  - ysksuzuki
+  - zacharysarah
