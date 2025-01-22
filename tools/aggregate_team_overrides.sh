@@ -26,6 +26,8 @@ for file in *.yaml; do
      >&2 echo ">> Processing: $file"
      f="${file%.*}"
      echo "  $f:" 
-     sed 's/^/    /' "$file" 
+     sed 's/^/    /' "$file"
+     #Add one blank line after each team just to make sure it exists"
+     echo "" 
 done
 
