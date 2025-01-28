@@ -19,7 +19,7 @@ Each of the contributor roles below is organized into three types of lists:
 
 As the Cilium project grows, the current roles may be broken out into new roles and/or teams and roles may no longer be needed. 
 
-The final judgment on whether an individual fulfills the criteria for a role is up to the Cilium Committers. After six months of inactivity for Committers and Reviewers, 18 months of inactivity for Organization Members, or after any behavior detrimental to the future of the project, any contributor can be removed from their position(s).
+The final judgment on whether an individual fulfills the criteria for a role is up to the Cilium Committers. After six months of inactivity for Committers and Reviewers, 12 months of inactivity for Organization Members, or after any behavior detrimental to the future of the project, any contributor can be removed from their position(s).
 
 ### Community Contributor
 
@@ -169,7 +169,7 @@ Therefore members with an extended period away from the project with no activity
 
 #### How inactivity is measured
 
-Inactive members are defined as members of the Cilium org with **no** contributions across any repository within 18 months. This is measured by the CNCF [DevStats project](https://cilium.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m).
+Inactive members are defined as members of the Cilium org with **no** contributions across any repository within 12 months. This is measured by the CNCF [DevStats project](https://cilium.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m).
 
 **Note:** Devstats does not take into account non-code contributions. If a non-code contributing member is accidentally removed this way, they may open an issue to quickly be re-instated.
 
