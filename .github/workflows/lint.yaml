@@ -33,3 +33,18 @@ jobs:
             echo "Run './tools/generate-codeowners.sh' and submit your changes"
             exit 1
           fi
+  members:
+    if: github.repository == 'cilium/community'
+    name: Validate
+    runs-on: ubuntu-latest
+    environment: team-management
+    steps:
+      - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f
+        with:
+          persist-credentials: false
+          fetch-depth: '0'
+      # Lint team membership files for org members
+      - name: Run tools/lint_members.sh
+        run: tools/lint_members.sh ladder/teams cilium
+        env:
+          GITHUB_TOKEN: ${{ secrets.TM_READ_ORG_TOKEN }}
