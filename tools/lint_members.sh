@@ -24,11 +24,32 @@ fi
 CDIR=`pwd`
 cd "$1"
 
-logins=( `curl -L \
-  -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer $GITHUB_TOKEN" \
-  -H "X-GitHub-Api-Version: 2022-11-28" \
-  https://api.github.com/orgs/$2/members | jq -r '.[].login'` )
+# Use GitHub API with paging to recover Org member login list
+url="https://api.github.com/orgs/$2/members"
+page=1
+flag=true
+logins=()
+while $flag; do
+  response=$( curl -s -I -H "Authorization: Bearer $GITHUB_TOKEN" "${url}?page=${page}" )
+  # Append to logins array
+  logins+=( `curl --no-progress-meter -L \
+    -H "Accept: application/vnd.github+json" \
+    -H "Authorization: Bearer $GITHUB_TOKEN" \
+    -H "X-GitHub-Api-Version: 2022-11-28" \
+    ${url}?page=${page} | jq -r '.[].login'` )
+
+  # Check to see if there is a next page to grab
+  set +o pipefail
+  next_page=$(echo "$response" | grep -s 'rel="next"' | sed 's/.*<//' | sed 's/>.*//')
+  set -o pipefail
+
+  if [[ -z "$next_page" ]]; then
+    flag=false
+  fi
+  
+  page=$((page + 1))
+done
+
 >&2 echo "Org Members:"
 for login in "${logins[@]}"; do
   >&2 echo "$login"
