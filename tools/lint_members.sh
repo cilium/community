@@ -30,6 +30,11 @@ page=1
 flag=true
 logins=()
 while $flag; do
+  status=$(curl --head --location --connect-timeout 5 --write-out %{http_code} --silent --output /dev/null -H "Authorization: Bearer $GITHUB_TOKEN" ${url}?page=${page})
+  if [[ "$status" -gt 399 ]] ; then
+    echo "GitHub API Status Code: $status"
+    exit 1
+  fi
   response=$( curl -s -I -H "Authorization: Bearer $GITHUB_TOKEN" "${url}?page=${page}" )
   # Append to logins array
   logins+=( `curl --no-progress-meter -L \
