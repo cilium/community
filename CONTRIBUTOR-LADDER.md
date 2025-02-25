@@ -97,6 +97,8 @@ A Reviewer has responsibility for specific code, documentation, test, or other p
 
 Reviewers are responsible for a "specific area." This can be a specific code directory, chapter of the docs, or other clearly-defined project component that is smaller than an entire repository or subproject. Most often, it is one or a set of directories in one or more Git repositories. This "specific area" as mentioned below refers to this area of responsibility.
 
+Being a Reviewer is a very significant responsibility, because Committers who merge PRs rely on the code approvals of Reviewers who are considered to be experts in their specific areas. Reviewers should not assume that Committers will also do an in-depth code review. 
+
 Reviewers have all the rights and responsibilities of an Organization Member, plus:
 
 * **Responsibilities:**
@@ -116,7 +118,7 @@ Reviewers have all the rights and responsibilities of an Organization Member, pl
 
 * **Privileges:**
 
-    * Has GitHub rights to approve PRs in specific directories, and to modify labels on PRs
+    * Has GitHub rights to approve PRs in specific directories, and to modify labels on PRs. This requires write privileges on GitHub, so that a Reviewer's approvals appear as a green tick ✅
     * Can recommend and review other Organization Members to become Reviewers
 
 The process for an Organization Member to become a Reviewer is as follows:
@@ -128,7 +130,7 @@ Automated tooling assigns PRs across the Reviewers defined for each particular a
 
 ### Committer
 
-Committers have write privileges and voting privileges, and are collectively responsible for steering the project in a positive direction. As such it represents a significant level of trust in an individual's commitment to working with other committers and the community at large for the benefit of the project. 
+Committers have write, merge, and voting privileges, and are collectively responsible for steering the project in a positive direction. As such it represents a significant level of trust in an individual's commitment to working with other committers and the community at large for the benefit of the project. 
 
 Committers have all the rights and responsibilities of a Reviewer, plus:
 
