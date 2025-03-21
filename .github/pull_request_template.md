@@ -1,9 +1,9 @@
 # Moving up the [Contributor Ladder](https://github.com/cilium/community/blob/main/CONTRIBUTOR-LADDER.md)
    
-## My Relevant Contributions to the Cilium Project:
-- [ ] Link to issues you have opened. Check this with https://github.com/cilium/cilium/issues?q=is%3Aissue+author%3AGITHUB-USER-ID
-- [ ] Link to pull requests you have reviewed. Check this with https://github.com/cilium/cilium/pulls?q=is%3Apr+reviewed-by%3AGITHUB-USER-ID
-- [ ] Link to pull requests you have authored. Check this with https://github.com/cilium/cilium/pulls?q=is%3Aopen%7Cclosed+author%3AGITHUB-USER-ID
+## My Relevant Contributions to the Cilium Ecosystem:
+- [ ] Link to issues you have opened. Check this [here](https://github.com/search?q=org%3Acilium+author%3A%40me+&type=issues)
+- [ ] Link to pull requests you have reviewed. Check this [here](https://github.com/search?q=org%3Acilium+reviewed-by%3A%40me&type=pullrequests)
+- [ ] Link to pull requests you have authored. Check this [here](https://github.com/search?q=org%3Acilium+author%3A%40me&type=pullrequests)
 - [ ] Links to discussions or issues you actively participated in
 - [ ] Other relevant community involvement
 
