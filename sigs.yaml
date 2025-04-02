@@ -1,4 +1,16 @@
 sigs:
+  - dir: sig-scalability
+    name: SIG Scalability
+    mission_statement:
+      Maintain, track and improve scalability of Cilium. Partner and advise other SIGs on scalability of different sub-systems.
+    charter_link: sig-scalability/charter.md
+    chat_link: https://cilium.slack.com/archives/C069SNDMLA2
+    leadership:
+      leads:
+        - github: marseel
+          name: Marcel Zięba
+        - github: hemanthmalla
+          name: Hemanth Malla
   - dir: sig-template
     name: SIG Template
     mission_statement:
