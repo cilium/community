@@ -9,7 +9,7 @@ SIG Scalability is responsible for defining, evaluating, and enhancing Cilium’
 - Identifying and coordinating fixes of performance regressions with other SIGs
 - Consulting and providing guidance for other SIGs related to scalability and performance of Cilium
 
-- Some focus areas include but not limited to : 
+- Some focus areas include but not limited to: 
     - Cilium Control Plane Scalability
     - Scalability of Cross Cluster Solutions like Clustermesh, KVStoreMesh and MCS API
     - Scalability of Identity Allocation Backends

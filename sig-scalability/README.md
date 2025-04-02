@@ -7,7 +7,7 @@ The [charter](charter.md) defines the scope and governance.
 ## Meetings and Channel
 
 Join our [slack channel](https://cilium.slack.com/archives/C069SNDMLA2) in the Cilium Slack, or join our meetings on
-* Monthly on the fourth Thursday - [Meeting Notes](https://www.google.com/url?q=https://docs.google.com/document/d/18OSu3vj44PV8gsnHTgOROWnDvY7SEyWEqVY_ONO_Rr0/edit%23heading%3Dh.hcbawmvewsin&sa=D&source=calendar&usd=2&usg=AOvVaw1WpX1WrXpJkEs8QDKnsuG2)
+* Monthly on the fourth Thursday - [Meeting Notes](https://docs.google.com/document/d/18OSu3vj44PV8gsnHTgOROWnDvY7SEyWEqVY_ONO_Rr0/edit?usp=sharing)
 
 ## Leadership
 
