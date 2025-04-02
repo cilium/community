@@ -1,4 +1,16 @@
 sigs:
+  - dir: sig-community
+    name: SIG community
+    mission_statement:
+      SIG Community is responsible for fostering, growing, and sustaining the Cilium open source community. This includes contributor experience, community engagement, governance updates, and advocacy efforts.
+    charter_link: sig-community/charter.md
+    chat_link: https://cilium.slack.com/TBD
+    leadership:
+      leads:
+        - github: xmulligan
+          name: Bill Mulligan
+        - github: 
+          name: 
   - dir: sig-scalability
     name: SIG Scalability
     mission_statement:
