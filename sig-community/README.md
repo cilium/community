@@ -6,7 +6,7 @@ The [charter](charter.md) defines the scope and governance.
 
 ## Meetings and Channel
 
-Join our [Slack channel](TBD) in the Cilium Slack, or join our meetings:  
+Join our [Slack channel](https://cilium.slack.com/archives/C08MR0FQRCM) in the Cilium Slack, or join our meetings:  
 * Monthly on the [TBD] - [Meeting Notes](TBD)
 
 ## Leadership
