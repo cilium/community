@@ -12,6 +12,7 @@ We collaborate with other SIGs to streamline contribution workflows, grow the co
 - Maintaining contributor governance  
 - Encouraging diversity and inclusion in the contributor community
 - Improving transparency around project decision making processes
+- Hearing feedback from contributors
 
 ### Governance & Communication
 - Defining and refining governance processes, including SIG structures  
@@ -34,6 +35,7 @@ We collaborate with other SIGs to streamline contribution workflows, grow the co
 
 ## Out of scope
 
+- Making changes to governance without approval of the Committers
 - Technical development and maintenance of Cilium’s core features and codebase
 - Directly managing technical infrastructure for CI/CD, testing, benchmarking, ect.
 - Setting project vision or strategy

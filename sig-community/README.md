@@ -1,6 +1,6 @@
 # SIG Community
 
-SIG Community is responsible for fostering, growing, and sustaining the Cilium open source community. This includes contributor experience, community engagement, governance updates, and advocacy efforts.
+SIG Community is responsible for fostering, growing, and sustaining the Cilium open source community. This includes contributor experience, community engagement, recommending governance updates, and advocacy efforts.
 
 The [charter](charter.md) defines the scope and governance.
 
