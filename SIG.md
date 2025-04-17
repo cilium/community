@@ -8,7 +8,7 @@ Areas covered by SIGs may be vertically focused on particular components or func
 - Scalability
 - Docs
 
-Each SIG must have a charter that specifies its scope (topics, subsystems, code repos, and/or directories), and responsibilities. See the SIG charter process for details on how charters are managed. SIGs are relatively free to customize or change how they operate, within some broad guidelines and constraints imposed by cross-project processes (e.g., the release process) and assets (e.g., the Cilium repo).
+Each SIG must have a charter that specifies its scope (topics, subsystems, code repos, and/or directories), and responsibilities. See the [SIG charter process](#sig-creation) for details on how charters are managed. SIGs are relatively free to customize or change how they operate, within some broad guidelines and constraints imposed by cross-project processes (e.g., the release process) and assets (e.g., the Cilium repo).
 
 SIGs are designed to help contributors gain depth in a specific area of the Cilium project. Committers that are aspiring reviewers of the Cilium project can gain expertise by getting involved with a SIG and getting assigned PRs.
 
@@ -54,7 +54,7 @@ The governance must outline the responsibilities within the SIG as well as the r
 1. Fill out the template for your SIG
 1. Update sigs.yaml with the individuals holding the roles as defined in the template.
 1. Create a pull request with a draft of your charter.md and sigs.yaml changes. Communicate it within your SIG and get feedback as needed.
-1. Send the SIG Charter out for review to the Cilium Committers.
+1. Send the SIG Charter out for review to the Cilium Committers (see the [approval process](#sig-charter-approval-process) below).
 1. Once accepted, the Committers will ratify the PR by merging it.
 
 ### Steps to update an existing SIG charter
@@ -82,4 +82,5 @@ To standardize SIGs efforts, create maximum transparency, and route contributors
 In the event that the SIG is inactive 
 - after 3 or more months it SHOULD be retired
 - after 6 or more months it MUST be retired
-SIGs could be dissolved in the future if needed (for example, counter-productive, contradiction with Cilium Code of Conduct) at the discretion of the Committers.
+  
+SIGs could also be dissolved if needed at the discretion of the Committers (for example, counter-productive, contradiction with Cilium Code of Conduct).
