@@ -37,7 +37,7 @@ We collaborate with other SIGs to streamline contribution workflows, grow the co
 
 - Making changes to governance without approval of the Committers
 - Technical development and maintenance of Cilium’s core features and codebase
-- Directly managing technical infrastructure for CI/CD, testing, benchmarking, ect.
+- Directly managing technical infrastructure for CI/CD, testing, benchmarking, etc.
 - Setting project vision or strategy
 - Providing end-user technical support
 - Vendor-specific integrations and commercial adoption strategies
