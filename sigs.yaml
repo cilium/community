@@ -9,8 +9,8 @@ sigs:
       leads:
         - github: xmulligan
           name: Bill Mulligan
-        - github: 
-          name: 
+        - github: bowei
+          name: Bowei Du
   - dir: sig-scalability
     name: SIG Scalability
     mission_statement:
