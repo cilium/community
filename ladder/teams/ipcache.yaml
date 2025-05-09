@@ -3,8 +3,9 @@ members:
 - christarazi
 - doniacld
 - gandro
-- joestringer
 - jrajahalme
 - jrfastab
 - squeed
 - tklauser
+mentors:
+- joestringer
