@@ -18,3 +18,5 @@ Join our [Slack channel](https://cilium.slack.com/archives/C08MR0FQRCM) in the C
 The Leads are responsible for driving the operations and community initiatives of SIG Community, as well as upholding the [community values](https://github.com/cilium/community/blob/main/VALUES.md).  
 * **[Bill Mulligan]** (@xmulligan)  
 * **[Bowei Du]** (@bowei)
+* **[Tamilmani Manoharan]** (@tamilmani1989)
+

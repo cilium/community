@@ -11,6 +11,8 @@ sigs:
           name: Bill Mulligan
         - github: bowei
           name: Bowei Du
+        - github: tamilmani1989
+          name: Tamilmani Manoharan
   - dir: sig-scalability
     name: SIG Scalability
     mission_statement:
