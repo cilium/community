@@ -4,9 +4,10 @@ members:
 - derailed
 - doniacld
 - gandro
-- joestringer
 - jrajahalme
 - nathanjsweet
 - nebril
 - squeed
 - tklauser
+mentors:
+- joestringer
