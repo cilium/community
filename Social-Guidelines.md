@@ -1,7 +1,7 @@
 # Social Media Guidelines
 
 This document highlights the social media guidelines for the use of the Cilium
-project's Twitter/X, LinkedIn and other social media channels that belong to the
+project's Bluesky, LinkedIn and other social media channels that belong to the
 Cilium project.
 
 These guidelines apply to all the Cilium project social media channels, regardless of who manages them.
@@ -22,15 +22,22 @@ This guide will help you effectively manage the channels while incorporating the
 
 ## Channel Selection
 
-- **Twitter:** Use this platform to share news, events, and updates, and engage in conversations with the community.
+- **Bluesky:** Use this platform to share news, events, and updates, and engage in conversations with the community.
 - **LinkedIn:** Focus on professional discussions, project highlights, events promotion, and industry trends.
 
 ## Strategy
 
 - Share content across social media channels that benefit the project as a whole.
-- Infuse tweets with the bee emoji 🐝 to create a sense of fun, identity, and community.
+- Infuse posts with the bee emoji 🐝 to create a sense of fun, identity, and community.
 - Share vendor-neutral, community-sourced posts that are informational, engaging, and ecosystem-focused.
 - Content is to be vendor-neutral and project-positive sourced from contributors, maintainers, news outlets, etc., including blog posts, news coverage, thought leadership bylines, technology demos, sketch notes, GitHub work, Cilium or eBPF-specific Meetups, etc.
+
+### Implementation
+
+- Like and repost anything that puts the project in a positive light.
+- Make posts about project headlines and updates like releases, blogs, or other project news items.
+- Where possible promote community talks and recordings.
+- Support [community social media requests](https://cilium.io/telling-story/) as needed.
 
 ## Guidelines
 
