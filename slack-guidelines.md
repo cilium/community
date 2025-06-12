@@ -2,7 +2,7 @@
 
 Welcome to the Cilium and eBPF Slack! This is a space for users, contributors, and maintainers to collaborate, ask questions, and share ideas around **Cilium**, **Hubble**, **Tetragon**, and the broader **eBPF ecosystem**.
 
-To keep our community welcoming and productive, we ask that you follow these guidelines.
+To keep our community welcoming and productive, we ask that you follow these guidelines. If you have any questions about them, please reach out to the [Cilium community team](https://github.com/cilium/community/blob/main/CONTRIBUTOR-ROLES.md#community-team).
 
 ## 📜 Code of Conduct
 
@@ -24,7 +24,7 @@ If you experience or witness behavior that violates the Code of Conduct, please 
 
 ## Channel List
 
-You can find a list of public channels [docs](https://docs.cilium.io/en/stable/community/community/#slack).
+You can find a list of [public channels docs](https://docs.cilium.io/en/stable/community/community/#slack).
 
 ## 🙌 Thanks for Being Here
 
