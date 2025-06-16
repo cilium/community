@@ -103,7 +103,7 @@ Reviewers have all the rights and responsibilities of an Organization Member, pl
 
 * **Responsibilities:**
 
-    * Following the [reviewing guide](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/#pull-requests-review-process-for-committers) 
+    * Following the [reviewing guide](https://docs.cilium.io/en/stable/contributing/development/reviewers_committers/review_process/#review-process) 
     * Regularly reviewing PRs against their specific areas of responsibility, including PRs that are assigned to them
     * Helping other contributors become reviewers
     * Review [Cilium Feature Proposals (CFPs)](https://github.com/cilium/design-cfps) and provide feedback
