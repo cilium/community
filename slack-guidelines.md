@@ -8,7 +8,7 @@ To keep our community welcoming and productive, we ask that you follow these gui
 
 All Slack activity is governed by the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md). Be respectful, inclusive, and considerate in your communication.
 
-If you experience or witness behavior that violates the Code of Conduct, please reach out to a maintainer or email [conduct@cncf.io](mailto:conduct@cncf.io).
+If you experience or witness behavior that violates the Code of Conduct, please reach out to a maintainer or email <conduct@cncf.io>.
 
 ## Slack Best Practices
 
