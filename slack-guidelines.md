@@ -16,7 +16,7 @@ If you experience or witness behavior that violates the Code of Conduct, please 
 - **Use Threads**: Keep discussions organized by replying in threads.
 - **Stick to the Channel Topic**: Post in the most relevant channel and stay on topic.
 - **No Cross-Posting**: Don’t repeat the same question in multiple channels.
-- **Don’t DM Without Permission**: Always ask before sending a direct message.
+- **Don't DM about technical questions without permission**: Always ask before sending a direct message or ask in public so everyone can learn.
 - **No Spam or Promotions**: Commercial or promotional content is not allowed, unless explicitly permitted in a specific channel.
 - **Keep Company Business Elsewhere**: Use your company’s own tools for proprietary or internal discussions.
 - **Jobs & Resumes:** `#careers` Nowhere else.
