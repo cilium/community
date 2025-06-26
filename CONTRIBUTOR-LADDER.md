@@ -112,6 +112,7 @@ Reviewers have all the rights and responsibilities of an Organization Member, pl
 
     * Is an Organization Member
     * Has a track record of constructive and valuable reviews
+        * You can leave reviews on PRs before becoming a reviewer and this is a valuable way to show your experience in a specific area of the code base
     * Has demonstrated an in-depth knowledge of the specific area, for example by resolving test failures or through contributions
     * Commits to being responsible for that specific area
     * Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
@@ -183,4 +184,4 @@ As an open source project, we don’t make any guarantees about how quickly prop
 
 Naturally, the more an individual has already contributed to the project, the higher the level of trust and confidence that the person will have established in the community. Starting with smaller proposals, fixes and maintenance work, or making constructive and meaningful review comments on other people's suggestions, can help build up that trust and confidence. 
 
-Accepting any change into the project means that the committers are signing up to maintain it going forward. To quote [Solomon Hykes](https://x.com/solomonstre/status/715277134978113536?s=20), "no is temporary, yes is forever". For major changes, being willing to push through the development work may not be enough - it’s likely you will need a track record of contributions to convince the community that you’ll be around to maintain changes into the future. 
+Accepting any change into the project means that the committers are signing up to maintain it going forward. To quote [Solomon Hykes](https://x.com/solomonstre/status/715277134978113536?s=20), "no is temporary, yes is forever". For major changes, being willing to push through the development work may not be enough - it’s likely you will need a track record of contributions to convince the community that you’ll be around to maintain changes into the future.
