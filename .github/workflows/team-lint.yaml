@@ -1,0 +1,26 @@
+name: Team Linter
+on:
+
+  # manual trigger
+  workflow_dispatch:
+
+  # on pull request involving the ladder/teams directory
+  pull_request:
+    paths: 
+      - 'ladder/teams/**'
+      - '.github/workflows/team-lint.yaml'
+    
+jobs:
+  team-management-linter:
+    if: github.repository == 'cilium/community'
+    name: Team Management Linter Workflow
+    runs-on: ubuntu-latest
+    environment: team-management  
+    steps:
+      # Checkout repo with full config
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      # Lint team membership files for org members
+      - name: check team membership for org membership
+        run: tools/lint_members.sh ladder/teams cilium
+        env:
+          GITHUB_TOKEN: ${{ secrets.TM_ORG_READ_TOKEN }}
