@@ -1,0 +1,28 @@
+name: Lint
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+permissions: read-all
+
+jobs:
+  lint:
+    name: Generate
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f
+        with:
+          persist-credentials: false
+          fetch-depth: '0'
+      - name: Generate reviewers
+        run: |
+          ./tools/generate-reviewers.sh
+          if ! git diff --exit-code; then
+            echo "Run './tools/generate-reviewers.sh' and submit your changes"
+            exit 1
+          fi
