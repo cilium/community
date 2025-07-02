@@ -26,3 +26,10 @@ jobs:
             echo "Run './tools/generate-reviewers.sh' and submit your changes"
             exit 1
           fi
+      - name: Generate code owners
+        run: |
+          ./tools/generate-codeowners.sh
+          if ! git diff --exit-code; then
+            echo "Run './tools/generate-codeowners.sh' and submit your changes"
+            exit 1
+          fi
