@@ -8,7 +8,7 @@ REVIEWERS="ladder/reviewers.yaml"
 
 function main() {
     echo "reviewers:" > $REVIEWERS
-    for f in ladder/teams/*; do
+    for f in ladder/teams/*.yaml; do
         yq '.members' "$f";
     done >> $REVIEWERS.new
     LANG=C sort -u $REVIEWERS.new >> $REVIEWERS
