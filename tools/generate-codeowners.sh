@@ -6,7 +6,7 @@ set -eu
 
 function main() {
     echo "* @cilium/committers" > CODEOWNERS
-    for f in ladder/teams/*; do
+    for f in ladder/teams/*.yaml; do
         echo "/$f @cilium/$(basename $f | sed 's/.yaml//')";
     done >> CODEOWNERS
 }
