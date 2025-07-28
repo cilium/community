@@ -16,6 +16,7 @@ reviewers:
 - christarazi
 - ciliumbot
 - derailed
+- doniacld
 - dylandreimerink
 - ferozsalam
 - fristonio
@@ -36,8 +37,10 @@ reviewers:
 - kaworu
 - kevsecurity
 - kkourt
+- krmeinders
 - ldelossa
 - liyihuang
+- lizrice
 - marseel
 - mhofstetter
 - michi-covalent
@@ -46,6 +49,7 @@ reviewers:
 - nebril
 - olsajiri
 - ovidiutirla
+- paularah
 - pchaigno
 - pippolo84
 - qmonnet
@@ -60,6 +64,7 @@ reviewers:
 - squeed
 - tamilmani1989
 - tgraf
+- thebsdbox
 - thorn3r
 - ti-mo
 - tixxdz
@@ -69,6 +74,7 @@ reviewers:
 - ungureanuvladvictor
 - viktor-kurchenko
 - will-isovalent
+- xmulligan
 - yandzee
 - yannikmesserli
 - youngnick
