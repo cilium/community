@@ -5,6 +5,9 @@
 set -eu
 
 REVIEWERS="ladder/reviewers.yaml"
+MEMBERS="ladder/members.yaml"
+
+status=0
 
 function build_reviewer_list() {
     echo "reviewers:" > $REVIEWERS
@@ -15,8 +18,24 @@ function build_reviewer_list() {
     rm $REVIEWERS.new
 }
 
+function update_member_list() {
+    yq '.members' $MEMBERS > $MEMBERS.new
+    for user in $(yq '.reviewers[]' < "$REVIEWERS"); do
+        if [ "$(yq '.members | select(.. == "'"$user"'") == null' < $MEMBERS)" = "true" ]; then
+            >&2 echo "User $user is in Reviewers, but not Members"
+            echo "- $user"
+            status=1
+        fi
+    done >> $MEMBERS.new
+    echo "members:" > $MEMBERS
+    LANG=C sort -u $MEMBERS.new >> $MEMBERS
+    rm $MEMBERS.new
+}
+
 function main() {
     build_reviewer_list
+    update_member_list
+    exit $status
 }
 
 main "$@"
