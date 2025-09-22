@@ -21,8 +21,11 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 
 ## [tetragon-maintainers]: Maintainers of [cilium/tetragon](https://github.com/cilium/tetragon)
 
-* [Natália Réka Ivánkó](https://github.com/sharlns)
 * [John Fastabend](https://github.com/jrfastab)
+* [Kornilios Kourtis](https://github.com/kkourt)
+* [Jiri Olsa](https://github.com/olsajiri)
+* [William Findlay](https://github.com/will-isovalent)
+* [Mahé Tardy](https://github.com/mtardy)
 
 ## [proxy-maintainers]: Maintainers of [cilium/proxy](https://github.com/cilium/proxy)
 
