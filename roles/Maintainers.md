@@ -14,10 +14,10 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 
 ## [hubble-maintainers]: Maintainers of [cilium/hubble](https://github.com/cilium/hubble) and the Hubble subsystem in [cilium/cilium](https://github.com/cilium/cilium)
 
+* [Alexandre Perrin](https://github.com/kaworu)
 * [Chance Zibolski](https://github.com/chancez)
 * [Glib Smaga](https://github.com/glibsm)
 * [Robin Hahling](https://github.com/rolinh)
-* [Sebastian Wicki](https://github.com/gandro)
 
 ## [tetragon-maintainers]: Maintainers of [cilium/tetragon](https://github.com/cilium/tetragon)
 
