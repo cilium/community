@@ -47,3 +47,4 @@
 /ladder/teams/tetragon.yaml @cilium/tetragon
 /ladder/teams/vendor.yaml @cilium/vendor
 /ladder/teams/wireguard.yaml @cilium/wireguard
+/ladder/teams/ztunnel.yaml @cilium/ztunnel
