@@ -28,6 +28,9 @@ are expected to take an active role in ensuring the overall success of the event
     SIG Lead, or Reviewer in the Cilium organization
   * Experience of participating in and/or reviewing talks for similar conferences is preferred
   * The two co-chairs must be from different companies/organizations
+  * Co-chairs may remain in role for up to three consecutive CiliumCon events (preferably
+    two, but allowing for three ensures we can have continuity as described in
+    the next bullet)
   * Where possible, there should be at least one co-chair who has fulfilled the
     role on a previous occasion, so that learnings from previous events are
     carried forward
