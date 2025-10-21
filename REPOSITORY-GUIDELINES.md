@@ -58,7 +58,7 @@ In order for a new repository to be approved, it must also meet the following cr
 
 - Approved by at least two committers
 - README describes the intent of the repository and has usage examples
-- Adheres to one of the [approved licenses](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)
+- Adheres to Apache 2.0 or one of the other [approved licenses](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md)
 
 Any new repository must be added into the appropriate list in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md).
 
