@@ -24,8 +24,8 @@ logistics, CiliumCon program co-chairs have responsibility for the content and
 are expected to take an active role in ensuring the overall success of the event.
 
 * Qualifications
-  * [Committer](https://github.com/cilium/community/blob/main/CONTRIBUTOR-LADDER.md#committer)
-    in the Cilium organization
+  * [Committer](https://github.com/cilium/community/blob/main/CONTRIBUTOR-LADDER.md#committer),
+    SIG Lead, or Reviewer in the Cilium organization
   * Experience of participating in and/or reviewing talks for similar conferences is preferred
   * The two co-chairs must be from different companies/organizations
   * Co-chairs may remain in role for up to three consecutive CiliumCon events (preferably
