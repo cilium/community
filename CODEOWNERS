@@ -1,6 +1,7 @@
 * @cilium/committers
 /ladder/teams/alibabacloud.yaml @cilium/alibabacloud
 /ladder/teams/api.yaml @cilium/api
+/ladder/teams/ariane.yaml @cilium/ariane
 /ladder/teams/aws.yaml @cilium/aws
 /ladder/teams/azure.yaml @cilium/azure
 /ladder/teams/build.yaml @cilium/build
