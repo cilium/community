@@ -4,6 +4,8 @@
 
 set -eu
 
+LANG=C
+
 function main() {
     echo "* @cilium/committers" > CODEOWNERS
     for f in ladder/teams/*.yaml; do
