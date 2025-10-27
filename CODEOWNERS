@@ -15,6 +15,7 @@
 /ladder/teams/envoy.yaml @cilium/envoy
 /ladder/teams/fqdn.yaml @cilium/fqdn
 /ladder/teams/github-sec.yaml @cilium/github-sec
+/ladder/teams/gke.yaml @cilium/gke
 /ladder/teams/helm.yaml @cilium/helm
 /ladder/teams/hubble-metrics.yaml @cilium/hubble-metrics
 /ladder/teams/hubble-ui.yaml @cilium/hubble-ui
