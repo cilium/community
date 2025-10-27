@@ -31,6 +31,10 @@
 
 A [Cilium committer](https://github.com/cilium/community/blob/main/CONTRIBUTOR-LADDER.md#committer) is a participant in the project with the ability to commit code directly to the main branch. Commit access grants a broad ability to affect the progress of the project as presented by its most important artifact, the code and related resources that produce working binaries of Cilium. As such it represents a significant level of trust in an individual’s commitment to working with other committers and the community at large for the benefit of the project. It cannot be granted lightly and, in the worst case, must be revocable if the trust placed in an individual was inappropriate.
 
+Cilium committers comprise:
+- `cilium/cilium` committers that can commit code directly in `cilium/cilium`'s main branch
+- `cilium/tetragon` committers that can commit code directly in `cilium/tetragon`'s main branch
+
 Becoming a Cilium committer also grants the status of Cilium [“maintainer” in CNCF parlance](https://contribute.cncf.io/about/maintainers-circle/#who-is-a-maintainer). This means that Cilium committers can use the [CNCF Service Desk](https://github.com/cncf/servicedesk) to request services on behalf of the project, and will also receive a vote on certain CNCF matters. 
 
 This document suggests guidelines for granting and revoking commit access. It is intended to provide a framework for evaluation of such decisions without specifying deterministic rules that wouldn’t be sensitive to the nuance of specific situations. In the end, the decision to grant or revoke committer privileges is a judgment call made by the existing set of committers.
