@@ -37,6 +37,7 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/alpine-curl](https://github.com/cilium/alpine-curl) | Container image for curl client |
 | [cilium/api](https://github.com/cilium/api) | A fork of API definitions for the Istio project |
 | [cilium/api-router](https://github.com/cilium/api-router) | Simple HTTP API router |
+| [cilium/ariane](https://github.com/cilium/ariane) | GitHub App for triggering Cilium CI workflows |
 | [cilium/busybox](https://github.com/cilium/busybox) | Tiny versions of many common UNIX utilities into a single small executable |
 | [cilium/bpf-ci-scripts](https://github.com/cilium/bpf-ci-scripts) | Test BPF trees with Jenkins |
 | [cilium/certgen](https://github.com/cilium/certgen) | A tool to generate and store certificates for Hubble Relay mTLS |
