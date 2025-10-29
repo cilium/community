@@ -36,6 +36,7 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 
 * [Lorenz Bauer](https://github.com/lmb)
 * [Timo Beckers](https://github.com/ti-mo)
+* [Dylan Reimerink](https://github.com/dylandreimerink)
 
 ## [cilium.io-maintainers]: Maintainers of [cilium/cilium.io](https://github.com/cilium/cilium.io)
 
