@@ -4,6 +4,7 @@
     * [Community Contributor](#community-contributor)
     * [Organization Member](#organization-member)
     * [Reviewer](#reviewer)
+    * [Sub-Project Committer](#sub-project-committer)
     * [Committer](#committer)
     * [Inactive Member](#inactive-member)
 * [General guidance on making contributions and expectations](#general-guidance-on-making-contributions-and-expectations)
@@ -129,16 +130,49 @@ The process for an Organization Member to become a Reviewer is as follows:
 
 Automated tooling assigns PRs across the Reviewers defined for each particular area.
 
+### Sub-Project Committer
+
+A Sub-Project Committer is a role scoped to a Cilium sub-project maintained as a repository under the Cilium organization. Sub-project committers have write and merge privileges in their corresponding repository, and are collectively responsible for steering the sub-project they are contributing to in a positive direction. As such it represents a significant level of trust in an individual's commitment to working with other committers and the community at large for the benefit of the applicable sub-project.
+
+Sub-Project Committers are similar to Committers but only within the scope of the repository they contribute to. Note that Sub-Project Committers are not granted the status of Cilium "maintainer" in CNCF parlance. See a list of repositories in [REPOSITORIES.md](REPOSITORIES.md).
+
+Sub-Project Committers have all the rights and responsibilities of a Reviewer, plus:
+
+* **Responsibilities:**
+
+    * Mentoring new Sub-Project Committers
+    * Discussing strategy and policy for the sub-project they are contributing to
+    * [Voting](https://github.com/cilium/community/blob/main/GOVERNANCE.md#voting) on sub-project matters when required
+    * Additional responsibilities specific to any [project roles](CONTRIBUTOR-ROLES.md) they may have
+    * Approve contributors to assume roles
+
+* **Qualifications:**
+
+    * Is a Reviewer in the sub-project
+    * Voted in as laid out in [granting commit access](https://github.com/cilium/community/blob/main/GOVERNANCE.md#granting-commit-access) by the other Sub-Project Committers unless otherwise defined by the sub-project
+    * Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
+    * Is able to exercise judgment for the good of the project, independent of their employer, friends, or team
+    * Mentors other contributors
+
+* **Privileges:**
+
+    * Can merge code into the repo(s) they are contributing to
+    * Represent the sub-project in public as a Committer
+    * Can nominate new Sub-Project Committers
+    * Is listed as a Committer in the repo's MAINTAINERS.md
+
 ### Committer
 
-Committers have write, merge, and voting privileges, and are collectively responsible for steering the project in a positive direction. As such it represents a significant level of trust in an individual's commitment to working with other committers and the community at large for the benefit of the project. 
+Committers have write, merge, and voting privileges, and are collectively responsible for steering the project in a positive direction. As such it represents a significant level of trust in an individual's commitment to working with other committers and the community at large for the benefit of the project.
 
-Committers have all the rights and responsibilities of a Reviewer, plus:
+Committers are similar to Sub-Project Committers, except that their role applies to all repositories in the Cilium project. Committers are not required to be a Sub-Project Committers beforehand, see more below in qualifications.
+
+Committers have all the rights and responsibilities of a Sub-Project Committer, plus:
 
 * **Responsibilities:**
 
     * Mentoring new Committers
-    * Discussing strategy and policy for the project
+    * Discussing strategy and policy for the whole Cilium project and organization
     * [Voting](https://github.com/cilium/community/blob/main/GOVERNANCE.md#voting) on project matters when required
     * Additional responsibilities specific to any [project roles](CONTRIBUTOR-ROLES.md) they may have
     * Approve contributors to assume roles
