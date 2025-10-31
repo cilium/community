@@ -4,6 +4,7 @@
     * [Community Contributor](#community-contributor)
     * [Organization Member](#organization-member)
     * [Reviewer](#reviewer)
+    * [Sub-Project Committer](#sub-project-committer)
     * [Committer](#committer)
     * [Inactive Member](#inactive-member)
 * [General guidance on making contributions and expectations](#general-guidance-on-making-contributions-and-expectations)
@@ -17,7 +18,7 @@ Each of the contributor roles below is organized into three types of lists:
 - **Qualifications:** requirements a person needs to meet to be at that level
 - **Privileges:** rights contributors on that level are entitled to
 
-As the Cilium project grows, the current roles may be broken out into new roles and/or teams and roles may no longer be needed. 
+As the Cilium project grows, the current roles may be broken out into new roles and/or teams and roles may no longer be needed.
 
 The final judgment on whether an individual fulfills the criteria for a role is up to the Cilium Committers. After six months of inactivity for Committers and Reviewers, 12 months of inactivity for Organization Members, or after any behavior detrimental to the future of the project, any contributor can be removed from their position(s).
 
@@ -29,11 +30,11 @@ A Community Contributor contributes directly to the project and adds value to it
 
     * Must follow the [Cilium CoC](https://github.com/cilium/cilium/blob/master/CODE_OF_CONDUCT.md)
     * Adheres to the contributing guide for each project
-      * For example, see [Cilium's 'How to Contribute' Guide](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/) 
+      * For example, see [Cilium's 'How to Contribute' Guide](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/)
 
 * **Qualifications:**
 
-  Anybody that is participating in the Cilium community is welcome. Any contribution counts. 
+  Anybody that is participating in the Cilium community is welcome. Any contribution counts.
   Some possible forms of contribution are:
 
     * Participating in community discussions
@@ -52,17 +53,17 @@ A Community Contributor contributes directly to the project and adds value to it
     * Test releases and patches and submit reviews
     * Promote the project in public
 
-  Non-code contributions can be documented by making a PR to add yourself to [CONTRIBUTORS.md](https://github.com/cilium/community/blob/main/CONTRIBUTORS.md). 
+  Non-code contributions can be documented by making a PR to add yourself to [CONTRIBUTORS.md](https://github.com/cilium/community/blob/main/CONTRIBUTORS.md).
 
 * **Privileges:**
 
     * Ability to be assigned to issues and ask for reviews
- 
+
 Becoming a Community Contributor is the first step towards becoming an Organization Member.
 
 ### Organization Member
 
-An Organization Member is an established contributor who regularly participates in the project. Organization Members have privileges in project repositories and are therefore expected to act in the interests of the whole project. Organization Members can take on [additional roles within the project](CONTRIBUTOR-ROLES.md) and can work more independently, for example triggering CI. 
+An Organization Member is an established contributor who regularly participates in the project. Organization Members have privileges in project repositories and are therefore expected to act in the interests of the whole project. Organization Members can take on [additional roles within the project](CONTRIBUTOR-ROLES.md) and can work more independently, for example triggering CI.
 
 An Organization Member has all the rights and responsibilities of a Community Contributor, plus:
 
@@ -97,13 +98,13 @@ A Reviewer has responsibility for specific code, documentation, test, or other p
 
 Reviewers are responsible for a "specific area." This can be a specific code directory, chapter of the docs, or other clearly-defined project component that is smaller than an entire repository or subproject. Most often, it is one or a set of directories in one or more Git repositories. This "specific area" as mentioned below refers to this area of responsibility.
 
-Being a Reviewer is a very significant responsibility, because Committers who merge PRs rely on the code approvals of Reviewers who are considered to be experts in their specific areas. Reviewers should not assume that Committers will also do an in-depth code review. 
+Being a Reviewer is a very significant responsibility, because Committers who merge PRs rely on the code approvals of Reviewers who are considered to be experts in their specific areas. Reviewers should not assume that Committers will also do an in-depth code review.
 
 Reviewers have all the rights and responsibilities of an Organization Member, plus:
 
 * **Responsibilities:**
 
-    * Following the [reviewing guide](https://docs.cilium.io/en/stable/contributing/development/reviewers_committers/review_process/#review-process) 
+    * Following the [reviewing guide](https://docs.cilium.io/en/stable/contributing/development/reviewers_committers/review_process/#review-process)
     * Regularly reviewing PRs against their specific areas of responsibility, including PRs that are assigned to them
     * Helping other contributors become reviewers
     * Review [Cilium Feature Proposals (CFPs)](https://github.com/cilium/design-cfps) and provide feedback
@@ -127,18 +128,49 @@ The process for an Organization Member to become a Reviewer is as follows:
 1. Open a PR in the member management file for [the corresponding team](ladder/teams) assigned to a specific review area.
 2. At least two members who are already Committers, approve the PR
 
-Automated tooling assigns PRs across the Reviewers defined for each particular area. 
+Automated tooling assigns PRs across the Reviewers defined for each particular area.
+
+### Sub-Project Committer
+
+Sub-Project Committers have write and merge privileges, and are collectively responsible for steering the repo they are contributing to in a positive direction. As such it represents a significant level of trust in an individual's commitment to working with other committers and the community at large for the benefit of the applicable sub-project.
+
+Sub-Project Committers are similar to Committers but only within the scope of the repository they contribute to. Note that Sub-Project Committers are not granted the status of Cilium "maintainer" in CNCF parlance. See a list of repositories in [REPOSITORIES.md](REPOSITORIES.md).
+
+Sub-Project Committers have all the rights and responsibilities of a Reviewer, plus:
+
+* **Responsibilities:**
+
+    * Mentoring new Sub-Project Committers
+    * Discussing strategy and policy for the sub-project they are contributing to
+    * Additional responsibilities specific to any [project roles](CONTRIBUTOR-ROLES.md) they may have
+    * Approve contributors to assume roles
+
+* **Qualifications:**
+
+    * Laid out in [granting commit access](https://github.com/cilium/community/blob/main/GOVERNANCE.md#granting-commit-access)
+    * Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
+    * Is able to exercise judgment for the good of the project, independent of their employer, friends, or team
+    * Mentors other contributors
+
+* **Privileges:**
+
+    * Can merge code into the repo(s) they are contributing to
+    * Can nominate new Sub-Project Committers
+    * Is listed as a Committer in the repo's MAINTAINERS.md.
+
 
 ### Committer
 
-Committers have write, merge, and voting privileges, and are collectively responsible for steering the project in a positive direction. As such it represents a significant level of trust in an individual's commitment to working with other committers and the community at large for the benefit of the project. 
+Committers have write, merge, and voting privileges, and are collectively responsible for steering the project in a positive direction. As such it represents a significant level of trust in an individual's commitment to working with other committers and the community at large for the benefit of the project.
 
-Committers have all the rights and responsibilities of a Reviewer, plus:
+Committers are similar to Sub-Project Committers, except that their role applies to all repositories in the Cilium project.
+
+Committers have all the rights and responsibilities of a Sub-Project Committer, plus:
 
 * **Responsibilities:**
 
     * Mentoring new Committers
-    * Discussing strategy and policy for the project
+    * Discussing strategy and policy for the whole Cilium project
     * [Voting](https://github.com/cilium/community/blob/main/GOVERNANCE.md#voting) on project matters when required
     * Additional responsibilities specific to any [project roles](CONTRIBUTOR-ROLES.md) they may have
     * Approve contributors to assume roles
@@ -178,10 +210,10 @@ Inactive members are defined as members of the Cilium org with **no** contributi
 
 ## General guidance on making contributions and expectations
 
-We welcome people to raise PRs, issues, and [CFPs](https://github.com/cilium/design-cfps) in the Cilium project. If you're new to the project, we'd strongly encourage you to start off with small, but meaningful, changes first. These types of changes are easier and quicker for committers and reviewers to assess and give feedback on. You'll get the opportunity to learn about the [process and expectations](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/) of making changes within the project. 
+We welcome people to raise PRs, issues, and [CFPs](https://github.com/cilium/design-cfps) in the Cilium project. If you're new to the project, we'd strongly encourage you to start off with small, but meaningful, changes first. These types of changes are easier and quicker for committers and reviewers to assess and give feedback on. You'll get the opportunity to learn about the [process and expectations](https://docs.cilium.io/en/stable/contributing/development/contributing_guide/) of making changes within the project.
 
 As an open source project, we don’t make any guarantees about how quickly proposed changes will get looked at. Committers and reviewers may have other pressures on their time, which could result in a reduced bandwidth to look at new proposals.
 
-Naturally, the more an individual has already contributed to the project, the higher the level of trust and confidence that the person will have established in the community. Starting with smaller proposals, fixes and maintenance work, or making constructive and meaningful review comments on other people's suggestions, can help build up that trust and confidence. 
+Naturally, the more an individual has already contributed to the project, the higher the level of trust and confidence that the person will have established in the community. Starting with smaller proposals, fixes and maintenance work, or making constructive and meaningful review comments on other people's suggestions, can help build up that trust and confidence.
 
 Accepting any change into the project means that the committers are signing up to maintain it going forward. To quote [Solomon Hykes](https://x.com/solomonstre/status/715277134978113536?s=20), "no is temporary, yes is forever". For major changes, being willing to push through the development work may not be enough - it’s likely you will need a track record of contributions to convince the community that you’ll be around to maintain changes into the future.
