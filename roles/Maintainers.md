@@ -46,6 +46,11 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 
 * [Martynas Pumputis](https://github.com/brb)
 
+## [certgen-maintainers]: Maintainers of [cilium/certgen](https://github.com/cilium/certgen)
+
+* [Marco Iorio](https://github.com/giorio94)
+
+[certgen-maintainers]: https://github.com/orgs/cilium/teams/certgen-maintainers
 [cilium-cli-maintainers]: https://github.com/orgs/cilium/teams/cilium-cli-maintainers
 [cilium-maintainers]: https://github.com/orgs/cilium/teams/cilium-maintainers
 [cilium.io-maintainers]: https://github.com/orgs/cilium/teams/cilium-io-maintainers
