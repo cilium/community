@@ -6,13 +6,13 @@ You can read more about the scope and lifecycle of repositories in [REPOSITORY-G
 
 **Table of Contents**
 
-* [```Core``` Scope](#core-scope)
+* [```Sub-project``` Scope](#sub-project-scope)
 * [```Ecosystem``` Scope](#ecosystem-scope)
 * [```Historical``` Scope](#historical-scope)
 
-## ```Core``` Scope
+## ```Sub-project``` Scope
 
-Learn more about the ```Core``` scope in [REPOSITORY-GUIDELINES.md](https://github.com/cilium/community/blob/main/REPOSITORY-GUIDELINES.md#core).
+Learn more about the ```Sub-project``` scope in [REPOSITORY-GUIDELINES.md](https://github.com/cilium/community/blob/main/REPOSITORY-GUIDELINES.md#sub-project).
 
 |   Name  | Description |
 |:--------|:------------|
