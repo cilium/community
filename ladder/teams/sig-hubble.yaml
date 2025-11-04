@@ -1,9 +1,9 @@
 members:
 - chancez
-- gandro
 - glibsm
-- glrf
-- jrfastab
 - kaworu
-- michi-covalent
 - rolinh
+mentors:
+- glrf
+- gandro
+- michi-covalent
