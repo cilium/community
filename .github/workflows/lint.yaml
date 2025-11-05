@@ -33,3 +33,10 @@ jobs:
             echo "Run './tools/generate-codeowners.sh' and submit your changes"
             exit 1
           fi
+      - name: Check members
+        run: |
+          ./tools/check-members.sh
+          if ! git diff --exit-code; then
+            echo "Run './tools/check-members.sh' and submit your changes"
+            exit 1
+          fi
