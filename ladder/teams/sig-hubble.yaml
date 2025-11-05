@@ -4,9 +4,9 @@ members:
 - glibsm
 - glrf
 - kaworu
-- rolinh
 - michi-covalent
+- rolinh
 mentors:
-- glrf
 - gandro
+- glrf
 - michi-covalent
