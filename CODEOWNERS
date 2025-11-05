@@ -12,6 +12,7 @@
 /ladder/teams/contributing.yaml @cilium/contributing
 /ladder/teams/docker.yaml @cilium/docker
 /ladder/teams/docs-structure.yaml @cilium/docs-structure
+/ladder/teams/ebpf-go-windows-reviewers.yaml @cilium/ebpf-go-windows-reviewers
 /ladder/teams/egress-gateway.yaml @cilium/egress-gateway
 /ladder/teams/endpoint.yaml @cilium/endpoint
 /ladder/teams/envoy.yaml @cilium/envoy
