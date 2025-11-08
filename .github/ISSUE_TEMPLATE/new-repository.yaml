@@ -30,7 +30,7 @@ body:
       label: Proposed Scope
       description: To learn more about each scope, visit [REPOSITORY-GUIDELINES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md#scope).
       options:
-        - Core
+        - Sub-project
         - Ecosystem
     validations:
       required: true

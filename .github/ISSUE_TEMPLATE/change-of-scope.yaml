@@ -13,7 +13,7 @@ body:
       label: Current Scope
       description: Current scope of the repository, as found in [REPOSITORIES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md).
       options:
-        - Core
+        - Sub-project
         - Ecosystem
         - Historical
     validations:
@@ -24,7 +24,7 @@ body:
       label: Proposed Scope
       description: To learn more about each scope, visit [REPOSITORY-GUIDELINES.md](https://github.com/cilium/community/blob/main/REPOSITORIES.md#scope).
       options:
-        - Core
+        - Sub-project
         - Ecosystem
         - Historical
     validations:
