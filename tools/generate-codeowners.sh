@@ -7,10 +7,14 @@ set -eu
 LANG=C
 
 function main() {
-    echo "* @cilium/committers" > CODEOWNERS
+    echo "* @cilium/committers" > CODEOWNERS.new
     for f in ladder/teams/*.yaml; do
-        echo "/$f @cilium/$(basename $f | sed 's/.yaml//')";
-    done >> CODEOWNERS
+        team="$(basename --suffix '.yaml' "$f")"
+        if ! grep "teams/$team.yaml" CODEOWNERS; then
+        echo "/$f @cilium/$team";
+        fi
+    done >> CODEOWNERS.new
+    mv CODEOWNERS.new CODEOWNERS
 }
 
 main "$@"
