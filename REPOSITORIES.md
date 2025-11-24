@@ -22,7 +22,8 @@ Learn more about the ```Sub-project``` scope in [REPOSITORY-GUIDELINES.md](https
 | [cilium/cilium.io](https://github.com/cilium/cilium.io) | Cilium project website |
 | [cilium/ebpf](https://github.com/cilium/ebpf) | A Go library to read, modify and load eBPF programs and attach them to various hooks in the Linux kernel |
 | [cilium/hubble](https://github.com/cilium/hubble) | Network, Service & Security Observability for Kubernetes using eBPF |
-| [cilium/hubble-ui](https://github.com/cilium/hubble-ui) | User interface for [cilium/hubble](https://github.com/cilium/hubble)
+| [cilium/hubble-ui](https://github.com/cilium/hubble-ui) | User interface for [cilium/hubble](https://github.com/cilium/hubble) |
+| [cilium/proxy](https://github.com/cilium/proxy) | Envoy proxy with Cilium policy enforcement filters |
 | [cilium/pwru](https://github.com/cilium/pwru) | eBPF-based Linux kernel networking debugger |
 | [cilium/tetragon](https://github.com/cilium/tetragon) | eBPF-based Security Observability and Runtime Enforcement |
 
@@ -104,7 +105,6 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/openapi](https://github.com/cilium/openapi) | A fork of OpenAPI spec renderer for Sphinx |
 | [cilium/packer-ci-build](https://github.com/cilium/packer-ci-build) | Contains the scripts and data for building the Cilium CI testing VM |
 | [cilium/perf-tests](https://github.com/cilium/perf-tests) | A fork of Kubernetes performance tests |
-| [cilium/proxy](https://github.com/cilium/proxy) | Envoy proxy with Cilium policy enforcement filters |
 | [cilium/python-bmemcached](https://github.com/cilium/python-bmemcached) | Dockerfile for python-binary-memcached |
 | [cilium/redhat-marketplace-operators](https://github.com/cilium/redhat-marketplace-operators) | A fork of the production catalog for Red Hat Marketplace Operator Bundles |
 | [cilium/release](https://github.com/cilium/release) | Generates release notes for Cilium releases |
