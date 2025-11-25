@@ -32,7 +32,7 @@ You can find the list of all ```Sub-project``` repositories in [REPOSITORIES.md]
 
 Ecosystem repositories are the most numerous, as this scope is intentionally broad. They include (but are not limited to) the following types of repositories:
 
-- Optional extensions of the sub-projects, including useful Go libraries like [Fake](https://github.com/cilium/fake), or repositories designed to integrate Cilium with other projects like [Proxy](https://github.com/cilium/proxy)
+- Useful libraries like [Fake](https://github.com/cilium/fake), or repositories designed to be used in Cilium sub-projects like [statedb](https://github.com/cilium/statedb)
 - Infrastructure repositories required to keep the Cilium project running smoothly, including development and testing tools like [little-vm-helper](https://github.com/cilium/little-vm-helper), or those helping with the overall contribution process like [github-actions](https://github.com/cilium/github-actions)
 - Other special repositories such as the [Community](https://github.com/cilium/community) and [.github](https://github.com/cilium/.github) repository, template repositories like [design-cfps](https://github.com/cilium/design-cfps), as well as all forks
 
