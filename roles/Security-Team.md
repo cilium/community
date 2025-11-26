@@ -8,6 +8,7 @@ The security team roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md
 * [Jarno Rajahalme](https://github.com/jrajahalme)
 * [Joe Stringer](https://github.com/joestringer)
 * [John Fastabend](https://github.com/jrfastab)
+* [Kateryna Nezdolii](https://github.com/nezdolik)
 * [Kyle Simmons](https://github.com/kyle-c-simmons)
 * [Liz Rice](https://github.com/lizrice)
 * [Martynas Pumputis](https://github.com/brb)
