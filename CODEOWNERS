@@ -9,6 +9,7 @@
 /ladder/teams/ci-structure.yaml @cilium/ci-structure
 /ladder/teams/cilium-io.yaml @cilium/cilium-io
 /ladder/teams/cli.yaml @cilium/cli
+/ladder/teams/community.yaml @cilium/community
 /ladder/teams/contributing.yaml @cilium/contributing
 /ladder/teams/docker.yaml @cilium/docker
 /ladder/teams/docs-structure.yaml @cilium/docs-structure
