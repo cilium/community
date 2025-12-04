@@ -41,7 +41,7 @@ The process of becoming a security team member is:
 2. Shadowing an existing security team member
 
 ### Community Team
-Community Team members are listed in the [community team file](roles/Community-Team.md). The community team is responsible for helping grow the community around Cilium including managing the public presence of the project, helping the project be present at events and meetups, and applying to relevant programs on the project’s behalf.
+Community Team members are listed in the [community team file](https://github.com/cilium/community/blob/main/ladder/teams/community.yaml). The community team is responsible for helping grow the community around Cilium including managing the public presence of the project, helping the project be present at events and meetups, and applying to relevant programs on the project’s behalf.
 
 * Responsibilities:
     * Keeping the Cilium website and social media accounts up to date, following
@@ -58,10 +58,11 @@ Community Team members are listed in the [community team file](roles/Community-T
 
 * Privileges:
     * Access to Cilium social media accounts and mailing lists
+    * Review and approve on behalf of the community team
 
 The process of becoming a Community Team member is:
 
-1. Make a PR against the [community team file](roles/Community-Team.md)
+1. Make a PR against the [community team file](https://github.com/cilium/community/blob/main/ladder/teams/community.yaml)
 2. Approval by one committer
 
 ### CI Team
