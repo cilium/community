@@ -42,7 +42,6 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/busybox](https://github.com/cilium/busybox) | Tiny versions of many common UNIX utilities into a single small executable |
 | [cilium/bpf-ci-scripts](https://github.com/cilium/bpf-ci-scripts) | Test BPF trees with Jenkins |
 | [cilium/certgen](https://github.com/cilium/certgen) | A tool to generate and store certificates for Hubble Relay mTLS |
-| [cilium/chaos-monkeys](https://github.com/cilium/chaos-monkeys) | Base infrastructure plus collection of tests to assist in chaos testing |
 | [cilium/checkmate](https://github.com/cilium/checkmate) | A fork for testing the Go language |
 | [cilium/ci-kernels](https://github.com/cilium/ci-kernels) | A collection of kernels used for CI builds |
 | [cilium/cilium-perf-networking](https://github.com/cilium/cilium-perf-networking) | Utilities for Cilium networking performance evaluation |
@@ -85,7 +84,6 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/ingress-controller-conformance](https://github.com/cilium/ingress-controller-conformance) | A fork of Kubernetes ingress-controller-conformance |
 | [cilium/ipam](https://github.com/cilium/ipam) | A fork of k8s.io/kubernetes/pkg/registry/core/service package |
 | [cilium/json-mock](https://github.com/cilium/json-mock) | Simple container image for json-server to mock REST/JSON APIs |
-| [cilium/kafka](https://github.com/cilium/kafka) | Forked Go driver for [Kafka](https://kafka.apache.org/) |
 | [cilium/kernel-bpf-ci](https://github.com/cilium/kernel-bpf-ci) | A fork of BPF CI for testing & development |
 | [cilium/k8s-iptables-diagram](https://github.com/cilium/k8s-iptables-diagram) | Diagram of Kubernetes / kube-proxy iptables rules architecture |
 | [cilium/kube-apate](https://github.com/cilium/kube-apate) | Emulate Kubernetes using [Apate](https://apatekubernetes.nl/) |
@@ -97,7 +95,6 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/little-vm-helper-images](https://github.com/cilium/little-vm-helper-images) | little-vm-helper files for building kernel and rootfs images |
 | [cilium/log-gatherer](https://github.com/cilium/log-gatherer) | Log-gatherer Dockerfile used by Cilium CI testing | 
 | [cilium/lumberjack](https://github.com/cilium/lumberjack) | Forked log rolling package for Go |
-| [cilium/metallb](https://github.com/cilium/metallb) | Forked network load balancer for Kubernetes using standard routing protocols |
 | [cilium/misc-scripts](https://github.com/cilium/misc-scripts) | Misc netperf scripts |
 | [cilium/m2r](https://github.com/cilium/m2r) | Forked markdown to reStructuredText converter |
 | [cilium/netlink](https://github.com/cilium/netlink) | Forked netlink library for Go |
@@ -106,7 +103,6 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/packer-ci-build](https://github.com/cilium/packer-ci-build) | Contains the scripts and data for building the Cilium CI testing VM |
 | [cilium/perf-tests](https://github.com/cilium/perf-tests) | A fork of Kubernetes performance tests |
 | [cilium/python-bmemcached](https://github.com/cilium/python-bmemcached) | Dockerfile for python-binary-memcached |
-| [cilium/redhat-marketplace-operators](https://github.com/cilium/redhat-marketplace-operators) | A fork of the production catalog for Red Hat Marketplace Operator Bundles |
 | [cilium/release](https://github.com/cilium/release) | Generates release notes for Cilium releases |
 | [cilium/reusable-workflows](https://github.com/cilium/reusable-workflows) | Reusable Github Action workflows |
 | [cilium/scaffolding](https://github.com/cilium/scaffolding) | A framework for writing simple scripts to execute performance benchmarks |
@@ -135,11 +131,11 @@ Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](https:
 |:--------|:------------|
 | [cilium/arping](https://github.com/cilium/arping) | Go Library to ping a host per arp datagram or query a host mac address |
 | [cilium/bpf-map](https://github.com/cilium/bpf-map) | Generic tool to inspect BPF maps |
+| [cilium/chaos-monkeys](https://github.com/cilium/chaos-monkeys) | Base infrastructure plus collection of tests to assist in chaos testing |
 | [cilium/chaos-testing-examples](https://github.com/cilium/chaos-testing-examples) |Examples of using Cilium for chaos testing and fault injection |
 | [cilium/cilium-etcd-operator](https://github.com/cilium/cilium-etcd-operator) | Operator to manage Cilium's etcd cluster |
 | [cilium/cilium-l4lb-test](https://github.com/cilium/cilium-l4lb-test) | Scripts to test Cilium's L4LB |
 | [cilium/cilium-olm](https://github.com/cilium/cilium-olm) | Cilium packaging for OpenShift |
-| [cilium-service-mesh-beta](https://github.com/cilium/cilium-service-mesh-beta) | Instructions and issue tracking for Service Mesh capabilities of Cilium |
 | [cilium/cilium-sysdump](https://github.com/cilium/cilium-sysdump) | Tool to collect system information to troubleshoot Cilium & Hubble related issues |
 | [cilium/client-example](https://github.com/cilium/client-example) | Cilium API example as linked to in the [Cilium docs](https://docs.cilium.io/en/```STABLE```/api/) |
 | [cilium/clustermesh-apiserver](https://github.com/cilium/clustermesh-apiserver) | API server for ClusterMesh |
@@ -149,12 +145,16 @@ Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](https:
 | [cilium/hubble-otel](https://github.com/cilium/hubble-otel) | Experimental integration of Hubble with OpenTelemetry |
 | [cilium/installfest](https://github.com/cilium/installfest) | Documentation and resources for Cilium Installfest |
 | [cilium/k8s-1abel](https://github.com/cilium/k8s-1abel) | Kubernetes YAML/JSON survival kit |
+| [cilium/kafka](https://github.com/cilium/kafka) | Forked Go driver for [Kafka](https://kafka.apache.org/) |
 | [cilium/little-vm-helper-action](https://github.com/cilium/little-vm-helper-action) | Archived version of [cilium/little-vm-helper](https://github.com/cilium/little-vm-helper) |
+| [cilium/metallb](https://github.com/cilium/metallb) | Forked network load balancer for Kubernetes using standard routing protocols |
 | [cilium/microscope](https://github.com/cilium/microscope) | Gather monitor data data from all cilium nodes in your cluster (See: [Hubble](https://github.com/cilium/hubble/]))|
 | [cilium/mock-hubble](https://github.com/cilium/mock-hubble) | A mock implementation of Hubble API |
 | [cilium/networkpolicy](https://github.com/cilium/networkpolicy) | Network policy tutorials |
 | [cilium/old_pilot_repo](https://github.com/cilium/old_pilot_repo) | Deprecated home of Istio's Pilot, now in istio/istio's pilot dir |
 | [cilium/openshift-terraform-upi](https://github.com/cilium/openshift-terraform-upi) | OpenShift UPI Terraform module for Cilium |
+| [cilium/redhat-marketplace-operators](https://github.com/cilium/redhat-marketplace-operators) | A fork of the production catalog for Red Hat Marketplace Operator Bundles |
+| [cilium-service-mesh-beta](https://github.com/cilium/cilium-service-mesh-beta) | Instructions and issue tracking for Service Mesh capabilities of Cilium |
 | [cilium/stale-rules](https://github.com/cilium/stale-rules) | A tool to detect and remove stale routing rules |
 | [cilium/state-writer](https://github.com/cilium/state-writer) | Restore endpoint state from API and write to disk |
 | [cilium/terraform-gke-management-cluser](https://github.com/cilium/terraform-gke-ci-management-cluster) | Terraform module for GKE CI management cluster |
