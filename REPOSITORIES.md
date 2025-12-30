@@ -154,7 +154,7 @@ Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](https:
 | [cilium/old_pilot_repo](https://github.com/cilium/old_pilot_repo) | Deprecated home of Istio's Pilot, now in istio/istio's pilot dir |
 | [cilium/openshift-terraform-upi](https://github.com/cilium/openshift-terraform-upi) | OpenShift UPI Terraform module for Cilium |
 | [cilium/redhat-marketplace-operators](https://github.com/cilium/redhat-marketplace-operators) | A fork of the production catalog for Red Hat Marketplace Operator Bundles |
-| [cilium-service-mesh-beta](https://github.com/cilium/cilium-service-mesh-beta) | Instructions and issue tracking for Service Mesh capabilities of Cilium |
+| [cilium/cilium-service-mesh-beta](https://github.com/cilium/cilium-service-mesh-beta) | Instructions and issue tracking for Service Mesh capabilities of Cilium |
 | [cilium/stale-rules](https://github.com/cilium/stale-rules) | A tool to detect and remove stale routing rules |
 | [cilium/state-writer](https://github.com/cilium/state-writer) | Restore endpoint state from API and write to disk |
 | [cilium/terraform-gke-management-cluser](https://github.com/cilium/terraform-gke-ci-management-cluster) | Terraform module for GKE CI management cluster |
