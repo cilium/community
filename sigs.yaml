@@ -13,6 +13,16 @@ sigs:
           name: Bowei Du
         - github: tamilmani1989
           name: Tamilmani Manoharan
+   - dir: sig-policy
+    name: SIG Policy
+    mission_statement:
+      Defining, maintaining, and evolving network policy and security policy capabilities in Cilium
+    charter_link: sig-policy/charter.md
+    chat_link: https://cilium.slack.com/archives/CDLN7836J
+    leadership:
+      leads:
+        - github: squeed
+          name: Casey Callendrello     
   - dir: sig-scalability
     name: SIG Scalability
     mission_statement:
