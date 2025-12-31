@@ -34,7 +34,6 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 
 ## [ebpf-lib-maintainers]: Maintainers of [cilium/ebpf](https://github.com/cilium/ebpf)
 
-* [Lorenz Bauer](https://github.com/lmb)
 * [Timo Beckers](https://github.com/ti-mo)
 * [Dylan Reimerink](https://github.com/dylandreimerink)
 
