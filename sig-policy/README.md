@@ -15,6 +15,6 @@ Join our [Slack channel](https://cilium.slack.com/archives/CDLN7836J) in the Cil
 
 ### Leads
 
-The Leads are responsible for driving the operations and community initiatives of SIG Community, as well as upholding the [community values](https://github.com/cilium/community/blob/main/VALUES.md).  
+The Leads are responsible for driving the operations and initiatives of SIG Policy, as well as upholding the [community values](https://github.com/cilium/community/blob/main/VALUES.md).  
 
 * **[Casey Callendrello]** (@squeed)
