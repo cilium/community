@@ -1,6 +1,8 @@
 # Maintainers
 
-The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](/CONTRIBUTOR-ROLES.md#maintainers). The following are the current maintainers:
+The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](/CONTRIBUTOR-ROLES.md#maintainers). The following are the current maintainers for sub-project and ecosystem scope repositories:
+
+# [Sub-Project](https://github.com/cilium/community/blob/main/REPOSITORY-GUIDELINES.md#sub-project) Maintainers
 
 ## [cilium-maintainers]: Maintainers of [cilium/cilium](https://github.com/cilium/cilium)
 
@@ -45,6 +47,8 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 ## [pwru-maintainers]: Maintainers of [cilium/pwru](https://github.com/cilium/pwru)
 
 * [Martynas Pumputis](https://github.com/brb)
+
+# [Ecosystem](https://github.com/cilium/community/blob/main/REPOSITORY-GUIDELINES.md#ecosystem) Maintainers
 
 ## [certgen-maintainers]: Maintainers of [cilium/certgen](https://github.com/cilium/certgen)
 
