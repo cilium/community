@@ -41,7 +41,6 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/busybox](https://github.com/cilium/busybox) | Tiny versions of many common UNIX utilities into a single small executable |
 | [cilium/bpf-ci-scripts](https://github.com/cilium/bpf-ci-scripts) | Test BPF trees with Jenkins |
 | [cilium/certgen](https://github.com/cilium/certgen) | A tool to generate and store certificates for Hubble Relay mTLS |
-| [cilium/chaos-monkeys](https://github.com/cilium/chaos-monkeys) | Base infrastructure plus collection of tests to assist in chaos testing |
 | [cilium/charts](https://github.com/cilium/charts) | Helm charts repository for the Cilium project |
 | [cilium/checkmate](https://github.com/cilium/checkmate) | A fork for testing the Go language |
 | [cilium/ci-kernels](https://github.com/cilium/ci-kernels) | A collection of kernels used for CI builds |
