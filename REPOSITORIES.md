@@ -35,7 +35,6 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/actions-app-token](https://github.com/cilium/actions-app-token) | A fork to impersonate a GitHub App Token inside Actions |
 | [cilium/affinity-test-apps](https://github.com/cilium/affinity-test-apps) | Apps to test connection affinity with load-balancing endpoint updates |
 | [cilium/alpine-curl](https://github.com/cilium/alpine-curl) | Container image for curl client |
-| [cilium/api](https://github.com/cilium/api) | A fork of API definitions for the Istio project |
 | [cilium/api-router](https://github.com/cilium/api-router) | Simple HTTP API router |
 | [cilium/ariane](https://github.com/cilium/ariane) | GitHub App for triggering Cilium CI workflows |
 | [cilium/busybox](https://github.com/cilium/busybox) | Tiny versions of many common UNIX utilities into a single small executable |
