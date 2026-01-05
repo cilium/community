@@ -2,6 +2,10 @@
 
 The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](/CONTRIBUTOR-ROLES.md#maintainers). The following are the current maintainers:
 
+## [certgen-maintainers]: Maintainers of [cilium/certgen](https://github.com/cilium/certgen)
+
+* [Marco Iorio](https://github.com/giorio94)
+
 ## [cilium-maintainers]: Maintainers of [cilium/cilium](https://github.com/cilium/cilium)
 
 * [Joe Stringer](https://github.com/joestringer)
@@ -12,12 +16,30 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 * [Tobias Klauser](https://github.com/tklauser)
 * [Michi Mutsuzaki](https://github.com/michi-covalent)
 
+## [cilium.io-maintainers]: Maintainers of [cilium/cilium.io](https://github.com/cilium/cilium.io)
+
+* [Bill Mulligan](https://github.com/xmulligan)
+
+## [ebpf-lib-maintainers]: Maintainers of [cilium/ebpf](https://github.com/cilium/ebpf)
+
+* [Timo Beckers](https://github.com/ti-mo)
+* [Dylan Reimerink](https://github.com/dylandreimerink)
+
 ## [hubble-maintainers]: Maintainers of [cilium/hubble](https://github.com/cilium/hubble) and the Hubble subsystem in [cilium/cilium](https://github.com/cilium/cilium)
 
 * [Alexandre Perrin](https://github.com/kaworu)
 * [Chance Zibolski](https://github.com/chancez)
 * [Glib Smaga](https://github.com/glibsm)
 * [Robin Hahling](https://github.com/rolinh)
+
+## [proxy-maintainers]: Maintainers of [cilium/proxy](https://github.com/cilium/proxy)
+
+* [Tam Mach](https://github.com/sayboras)
+* [Jarno Rajahalme](https://github.com/jrajahalme)
+
+## [pwru-maintainers]: Maintainers of [cilium/pwru](https://github.com/cilium/pwru)
+
+* [Martynas Pumputis](https://github.com/brb)
 
 ## [tetragon-maintainers]: Maintainers of [cilium/tetragon](https://github.com/cilium/tetragon)
 
@@ -26,28 +48,6 @@ The Maintainers roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](
 * [Jiri Olsa](https://github.com/olsajiri)
 * [William Findlay](https://github.com/will-isovalent)
 * [Mahé Tardy](https://github.com/mtardy)
-
-## [proxy-maintainers]: Maintainers of [cilium/proxy](https://github.com/cilium/proxy)
-
-* [Tam Mach](https://github.com/sayboras)
-* [Jarno Rajahalme](https://github.com/jrajahalme)
-
-## [ebpf-lib-maintainers]: Maintainers of [cilium/ebpf](https://github.com/cilium/ebpf)
-
-* [Timo Beckers](https://github.com/ti-mo)
-* [Dylan Reimerink](https://github.com/dylandreimerink)
-
-## [cilium.io-maintainers]: Maintainers of [cilium/cilium.io](https://github.com/cilium/cilium.io)
-
-* [Bill Mulligan](https://github.com/xmulligan)
-
-## [pwru-maintainers]: Maintainers of [cilium/pwru](https://github.com/cilium/pwru)
-
-* [Martynas Pumputis](https://github.com/brb)
-
-## [certgen-maintainers]: Maintainers of [cilium/certgen](https://github.com/cilium/certgen)
-
-* [Marco Iorio](https://github.com/giorio94)
 
 [certgen-maintainers]: https://github.com/orgs/cilium/teams/certgen-maintainers
 [cilium-cli-maintainers]: https://github.com/orgs/cilium/teams/cilium-cli-maintainers
