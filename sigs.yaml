@@ -13,7 +13,7 @@ sigs:
           name: Bowei Du
         - github: tamilmani1989
           name: Tamilmani Manoharan
-   - dir: sig-policy
+  - dir: sig-policy
     name: SIG Policy
     mission_statement:
       Defining, maintaining, and evolving network policy and security policy capabilities in Cilium
