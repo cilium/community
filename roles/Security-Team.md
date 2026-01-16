@@ -15,4 +15,3 @@ The security team roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md
 * [Maciej Kwiek](https://github.com/nebril)
 * [Sebastian Wicki](https://github.com/gandro)
 * [Tam Mach](https://github.com/sayboras)
-* [Thomas Graf](https://github.com/tgraf)
