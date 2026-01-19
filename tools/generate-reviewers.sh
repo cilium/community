@@ -14,7 +14,7 @@ function build_reviewer_list() {
     for f in ladder/teams/*.yaml; do
         yq '.members' "$f";
     done >> $REVIEWERS.new
-    LANG=C sort -u $REVIEWERS.new >> $REVIEWERS
+    LC_ALL=C sort -u $REVIEWERS.new >> $REVIEWERS
     rm $REVIEWERS.new
 }
 
@@ -28,7 +28,7 @@ function update_member_list() {
         fi
     done >> $MEMBERS.new
     echo "members:" > $MEMBERS
-    LANG=C sort -u $MEMBERS.new >> $MEMBERS
+    LC_ALL=C sort -u $MEMBERS.new >> $MEMBERS
     rm $MEMBERS.new
 }
 
