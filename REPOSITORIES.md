@@ -121,6 +121,7 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/vmtest](https://github.com/cilium/vmtest) | A fork of vmtest, an upstream kernel BPF CI |
 | [cilium/workerpool](https://github.com/cilium/workerpool) | A Go package to run tasks concurrently with limits |
 | [cilium/xdp-config](https://github.com/cilium/xdp-config) | XDP troubleshooting documents |
+| [cilium/ztunnel](https://github.com/cilium/ztunnel) | ZTunnel fork focused on Cilium integration |
 
 ## ```Historical``` Scope
 
