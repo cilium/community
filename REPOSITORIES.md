@@ -43,7 +43,6 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/charts](https://github.com/cilium/charts) | Helm charts repository for the Cilium project |
 | [cilium/checkmate](https://github.com/cilium/checkmate) | A fork for testing the Go language |
 | [cilium/ci-kernels](https://github.com/cilium/ci-kernels) | A collection of kernels used for CI builds |
-| [cilium/cilium-perf-networking](https://github.com/cilium/cilium-perf-networking) | Utilities for Cilium networking performance evaluation |
 | [cilium/cilium-perf-test](https://github.com/cilium/cilium-perf-test) | Cilium performance testing and evaluation | 
 | [cilium/client-go](https://github.com/cilium/client-go) | A fork of Kubernetes Go client |
 | [cilium/clustermesh-tools](https://github.com/cilium/clustermesh-tools) | Tooling to set up a cluster mesh |
@@ -136,6 +135,7 @@ Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](https:
 | [cilium/cilium-etcd-operator](https://github.com/cilium/cilium-etcd-operator) | Operator to manage Cilium's etcd cluster |
 | [cilium/cilium-l4lb-test](https://github.com/cilium/cilium-l4lb-test) | Scripts to test Cilium's L4LB |
 | [cilium/cilium-olm](https://github.com/cilium/cilium-olm) | Cilium packaging for OpenShift |
+| [cilium/cilium-perf-networking](https://github.com/cilium/cilium-perf-networking) | Utilities for Cilium networking performance evaluation |
 | [cilium/cilium-sysdump](https://github.com/cilium/cilium-sysdump) | Tool to collect system information to troubleshoot Cilium & Hubble related issues |
 | [cilium/client-example](https://github.com/cilium/client-example) | Cilium API example as linked to in the [Cilium docs](https://docs.cilium.io/en/```STABLE```/api/) |
 | [cilium/clustermesh-apiserver](https://github.com/cilium/clustermesh-apiserver) | API server for ClusterMesh |
