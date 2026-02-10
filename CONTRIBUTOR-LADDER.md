@@ -53,8 +53,6 @@ A Community Contributor contributes directly to the project and adds value to it
     * Test releases and patches and submit reviews
     * Promote the project in public
 
-  Non-code contributions can be documented by making a PR to add yourself to [CONTRIBUTORS.md](https://github.com/cilium/community/blob/main/CONTRIBUTORS.md).
-
 * **Privileges:**
 
     * Ability to be assigned to issues and ask for reviews
