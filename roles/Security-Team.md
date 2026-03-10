@@ -13,5 +13,6 @@ The security team roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md
 * [Liz Rice](https://github.com/lizrice)
 * [Martynas Pumputis](https://github.com/brb)
 * [Maciej Kwiek](https://github.com/nebril)
+* [Peter Oyekunle](https://github.com/peoyekunle)
 * [Sebastian Wicki](https://github.com/gandro)
 * [Tam Mach](https://github.com/sayboras)
