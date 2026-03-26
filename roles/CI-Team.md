@@ -5,3 +5,4 @@ The CI team roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](/CON
 - [Nicolas Busseneau](https://github.com/nbusseneau)
 - [Birol Bilgin](https://github.com/brlbil)
 - [Sekhar Sankaramanchi](https://github.com/sekhar-isovalent)
+- [Antony Reynaud](https://github.com/Artyop)
