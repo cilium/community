@@ -24,10 +24,10 @@ function update_team_list() {
 
     {
         echo "members:"
-        LANG=C sort -u "$path.members" "$path.mentors"
+        LC_ALL=C sort -u "$path.members" "$path.mentors"
         if [ "$(yq '.mentors | length > 0' <"$path")" == "true" ]; then
             echo "mentors:"
-            LANG=C sort -u "$path.mentors"
+            LC_ALL=C sort -u "$path.mentors"
         fi
     } > "$path.new"
 

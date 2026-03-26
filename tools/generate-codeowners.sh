@@ -4,7 +4,7 @@
 
 set -eu
 
-LANG=C
+LC_ALL=C
 
 function main() {
     echo "* @cilium/committers" > CODEOWNERS.new
