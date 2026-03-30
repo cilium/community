@@ -31,6 +31,7 @@
 /ladder/teams/loader.yaml @cilium/loader
 /ladder/teams/metrics.yaml @cilium/metrics
 /ladder/teams/monitor.yaml @cilium/monitor
+/ladder/teams/network-driver.yaml @cilium/network-driver
 /ladder/teams/operator.yaml @cilium/operator
 /ladder/teams/proxy.yaml @cilium/proxy
 /ladder/teams/pwru.yaml @cilium/pwru
