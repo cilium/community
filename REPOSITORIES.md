@@ -60,7 +60,6 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 | [cilium/dnssec-client](https://github.com/cilium/dnssec-client) | Small utility for testing dnsec entries |
 | [cilium/docker-bind](https://github.com/cilium/docker-bind) | Docker Bind9 container for testing purposes |
 | [cilium/docker-m2r](https://github.com/cilium/docker-m2r) | Forked docker image for [m2r](https://github.com/miyakogi/m2r) |
-| [cilium/docsearch-scraper-webhook](https://github.com/cilium/docsearch-scraper-webhook) | DocSearch scraper used to power the hosted version of DocSearch |
 | [cilium/dummylb](https://github.com/cilium/dummylb) | Dummy k8s LB used for testing |
 | [cilium/echoserver](https://github.com/cilium/echoserver) | A fork of [k8s.gcr.io/echoserver](https://console.cloud.google.com/gcr/images/k8s-artifacts-prod/US/echoserver) |
 | [cilium/echoserver-udp](https://github.com/cilium/echoserver-udp) | Container image serving a dynamic TFTP page similar to [cilium/echoserver](https://github.com/cilium/echoserver) |
@@ -141,6 +140,7 @@ Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](https:
 | [cilium/client-example](https://github.com/cilium/client-example) | Cilium API example as linked to in the [Cilium docs](https://docs.cilium.io/en/```STABLE```/api/) |
 | [cilium/clustermesh-apiserver](https://github.com/cilium/clustermesh-apiserver) | API server for ClusterMesh |
 | [cilium/customvet](https://github.com/cilium/customvet) | Custom Go Vet tool for the Cilium Repository |
+| [cilium/docsearch-scraper-webhook](https://github.com/cilium/docsearch-scraper-webhook) | DocSearch scraper used to power the hosted version of DocSearch |
 | [cilium/ebpf.io-summit](https://github.com/cilium/ebpf.io-summit) | Pixel Point Gatsby Starter |
 | [cilium/gke](https://github.com/cilium/gke) | Guide & scripts for deploying Cilium on GKE |
 | [cilium/hubble-otel](https://github.com/cilium/hubble-otel) | Experimental integration of Hubble with OpenTelemetry |
