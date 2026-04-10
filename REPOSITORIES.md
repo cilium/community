@@ -32,6 +32,7 @@ Learn more about the ```Ecosystem``` scope in [REPOSITORY-GUIDELINES.md](https:/
 
 |   Name  | Description |
 |:--------|:------------|
+| [cilium/actions](https://github.com/cilium/actions) | A collection of GitHub Actions used by Cilium projects |
 | [cilium/actions-app-token](https://github.com/cilium/actions-app-token) | A fork to impersonate a GitHub App Token inside Actions |
 | [cilium/affinity-test-apps](https://github.com/cilium/affinity-test-apps) | Apps to test connection affinity with load-balancing endpoint updates |
 | [cilium/alpine-curl](https://github.com/cilium/alpine-curl) | Container image for curl client |
