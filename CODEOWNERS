@@ -29,6 +29,7 @@
 /ladder/teams/ipsec.yaml @cilium/ipsec
 /ladder/teams/kvstore.yaml @cilium/kvstore
 /ladder/teams/loader.yaml @cilium/loader
+/ladder/teams/lrp.yaml @cilium/lrp
 /ladder/teams/metrics.yaml @cilium/metrics
 /ladder/teams/monitor.yaml @cilium/monitor
 /ladder/teams/network-driver.yaml @cilium/network-driver
