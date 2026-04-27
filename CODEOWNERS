@@ -52,6 +52,7 @@
 /ladder/teams/sig-policy.yaml @cilium/sig-policy
 /ladder/teams/sig-scalability.yaml @cilium/sig-scalability
 /ladder/teams/sig-servicemesh.yaml @cilium/sig-servicemesh
+/ladder/teams/tetragon-bpf.yaml @cilium/tetragon-bpf
 /ladder/teams/tetragon-committers.yaml @cilium/tetragon-committers
 /ladder/teams/tetragon-docs.yaml @cilium/tetragon-docs
 /ladder/teams/tetragon-reviewers.yaml @cilium/tetragon-reviewers
