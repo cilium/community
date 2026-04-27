@@ -55,6 +55,7 @@
 /ladder/teams/tetragon-committers.yaml @cilium/tetragon-committers
 /ladder/teams/tetragon-docs.yaml @cilium/tetragon-docs
 /ladder/teams/tetragon-reviewers.yaml @cilium/tetragon-reviewers
+/ladder/teams/tetragon-windows.yaml @cilium/tetragon-windows
 /ladder/teams/vendor.yaml @cilium/vendor
 /ladder/teams/wireguard.yaml @cilium/wireguard
 /ladder/teams/ztunnel.yaml @cilium/ztunnel
