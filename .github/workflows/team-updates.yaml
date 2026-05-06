@@ -16,9 +16,26 @@ jobs:
     if: github.repository == 'cilium/community'
     name: Dispatch Team Management
     runs-on: ubuntu-latest
-    environment: team-management  
+    environment: team-management
     steps:
       # Send the workflow dispatch event via GitHUB API
       - name: Dispatch workflow request
         run: |
           curl --fail-with-body -L -XPOST -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{secrets.TM_DISPATCH_TOKEN}}" -H "X-GitHub-Api-Version: 2022-11-28" https://api.github.com/repos/cilium/team-management/dispatches -d '{"event_type":"community_teams_update"}'
+
+      - name: Notify Slack channel
+        if: ${{ failure() }}
+        uses: slackapi/slack-github-action@45a88b9581bfab2566dc881e2cd66d334e621e2c # v3.0.3
+        with:
+          webhook: ${{ secrets.TM_SLACK_WEBHOOK_URL }}
+          webhook-type: incoming-webhook
+          payload: |
+            blocks:
+              - type: "section"
+                text:
+                  type: "mrkdwn"
+                  text: "*:warning: Team Management Dispatch Failure*"
+              - type: "section"
+                text:
+                  type: "mrkdwn"
+                  text: "<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View workflow run>"
