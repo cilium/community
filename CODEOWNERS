@@ -36,7 +36,9 @@
 /ladder/teams/proxy.yaml @cilium/proxy
 /ladder/teams/pwru.yaml @cilium/pwru
 /ladder/teams/release-managers.yaml @cilium/release-managers
-/ladder/teams/security.yaml @cilium/security
+/ladder/teams/security-cilium.yaml @cilium/security-cilium
+/ladder/teams/security-org.yaml @cilium/security-org
+/ladder/teams/security-tetragon.yaml @cilium/security-tetragon
 /ladder/teams/sig-agent.yaml @cilium/sig-agent
 /ladder/teams/sig-bgp.yaml @cilium/sig-bgp
 /ladder/teams/sig-cilium-cli.yaml @cilium/sig-cilium-cli
