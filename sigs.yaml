@@ -7,8 +7,8 @@ sigs:
     chat_link: https://cilium.slack.com/archives/C08MR0FQRCM
     leadership:
       leads:
-        - github: xmulligan
-          name: Bill Mulligan
+        - github: krmeinders
+          name: Katie Meinders
         - github: bowei
           name: Bowei Du
         - github: tamilmani1989
