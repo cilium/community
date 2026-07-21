@@ -2,5 +2,6 @@
 
 The triage team roles and responsibilities are listed in [CONTRIBUTOR-ROLES.md](/CONTRIBUTOR-ROLES.md#triage-team). The following are the current triage team members:
 
+* [Charlie Kenney](https://github.com/0xch4z)
 * [Christine Kim](https://github.com/xtineskim)
 * [Mathieu Payeur Levallois](https://github.com/mathpl)
