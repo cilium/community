@@ -7,7 +7,7 @@
 /ladder/teams/build.yaml @cilium/build
 /ladder/teams/certgen.yaml @cilium/certgen
 /ladder/teams/ci-structure.yaml @cilium/ci-structure
-/ladder/teams/cilium-io-committers.yaml @cilium/cilium-io
+/ladder/teams/cilium-io-committers.yaml @cilium/cilium-io-committers
 /ladder/teams/cilium-io.yaml @cilium/cilium-io
 /ladder/teams/cli.yaml @cilium/cli
 /ladder/teams/community.yaml @cilium/community
