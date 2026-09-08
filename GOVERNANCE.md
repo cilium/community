@@ -102,8 +102,8 @@ The process to grant commit access to a candidate is as follows:
   1. Delete the nomination poll and related discussions to preserve the privacy of any discussions regarding the newly nominated committer. If any discussion may be relevant for subsequent project governance discussion, those remarks may optionally be summarized and reposted to the channel. The final vote summary does not need to be deleted.
   2. Invite the new committer to the ```#committers``` Slack channel.
   3. Add the new committer to the list in [MAINTAINERS.md](https://github.com/cilium/cilium/blob/main/MAINTAINERS.md).
-  4. Add the new committer to the [CNCF’s list of Cilium maintainers](https://github.com/cncf/foundation/blob/main/README.md#other-content).
-  5. Add the new committer to the [Committers team](https://github.com/orgs/cilium/teams/committers).
+  4. Add the new committer to the [CNCF Maintainers list](https://github.com/cilium/.project/blob/main/maintainers.yaml).
+  5. Add the new committer to the [Committers team](https://github.com/orgs/cilium/teams/committers) via [team-management](https://github.com/cilium/team-management/blob/main/cilium-team-assignments.yaml).
 
 ### Revoking commit access
 
