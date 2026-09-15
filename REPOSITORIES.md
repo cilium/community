@@ -141,7 +141,6 @@ Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](https:
 | [cilium/clustermesh-apiserver](https://github.com/cilium/clustermesh-apiserver) | API server for ClusterMesh |
 | [cilium/customvet](https://github.com/cilium/customvet) | Custom Go Vet tool for the Cilium Repository |
 | [cilium/docsearch-scraper-webhook](https://github.com/cilium/docsearch-scraper-webhook) | DocSearch scraper used to power the hosted version of DocSearch |
-| [cilium/ebpf.io-summit](https://github.com/cilium/ebpf.io-summit) | Pixel Point Gatsby Starter |
 | [cilium/gke](https://github.com/cilium/gke) | Guide & scripts for deploying Cilium on GKE |
 | [cilium/hubble-otel](https://github.com/cilium/hubble-otel) | Experimental integration of Hubble with OpenTelemetry |
 | [cilium/installfest](https://github.com/cilium/installfest) | Documentation and resources for Cilium Installfest |
@@ -158,5 +157,5 @@ Learn more about the ```Historical``` scope in [REPOSITORY-GUIDELINES.md](https:
 | [cilium/cilium-service-mesh-beta](https://github.com/cilium/cilium-service-mesh-beta) | Instructions and issue tracking for Service Mesh capabilities of Cilium |
 | [cilium/stale-rules](https://github.com/cilium/stale-rules) | A tool to detect and remove stale routing rules |
 | [cilium/state-writer](https://github.com/cilium/state-writer) | Restore endpoint state from API and write to disk |
-| [cilium/terraform-gke-management-cluser](https://github.com/cilium/terraform-gke-ci-management-cluster) | Terraform module for GKE CI management cluster |
+| [cilium/terraform-gke-ci-management-cluster](https://github.com/cilium/terraform-gke-ci-management-cluster) | Terraform module for GKE CI management cluster |
 | [cilium/ubuntu-curl](https://github.com/cilium/ubuntu-curl) | Container image for curl client |
