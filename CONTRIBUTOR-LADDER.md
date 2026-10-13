@@ -61,7 +61,12 @@ Becoming a Community Contributor is the first step towards becoming an Organizat
 
 ### Organization Member
 
-An Organization Member is an established contributor who regularly participates in the project. Organization Members have privileges in project repositories and are therefore expected to act in the interests of the whole project. Organization Members can take on [additional roles within the project](CONTRIBUTOR-ROLES.md) and can work more independently, for example triggering CI.
+An Organization Member is an established contributor who regularly participates in the project.
+Organization Members have privileges in project repositories and are therefore expected to act in
+the interests of the whole project. Organization Members can take on [additional roles within the
+project](CONTRIBUTOR-ROLES.md) and can work more independently, for example triggering CI.
+Organization members must not speak on behalf of the project, but instead defer important
+communications to the Committers.
 
 An Organization Member has all the rights and responsibilities of a Community Contributor, plus:
 
@@ -77,6 +82,7 @@ An Organization Member has all the rights and responsibilities of a Community Co
         * Made contributions that resolved issues,
         * Or some equivalent combination or contribution
     * Must be actively contributing to at least one project area where the privileges of being an Organization Member will be beneficial
+    * Must have a track record of at least three months of ongoing contribution
 
 * **Privileges:**
 
