@@ -1,3 +1,4 @@
+# This file is generated from CODEOWNERS.preamble and tools/generate-codeowners.sh
 * @cilium/committers
 /AI-POLICY.md @cilium/ai-guidance
 /ladder/teams/ai-guidance.yaml @cilium/ai-guidance
