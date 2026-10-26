@@ -1,4 +1,6 @@
 * @cilium/committers
+/AI-POLICY.md @cilium/ai-guidance
+/ladder/teams/ai-guidance.yaml @cilium/ai-guidance
 /ladder/teams/alibabacloud.yaml @cilium/alibabacloud
 /ladder/teams/api.yaml @cilium/api
 /ladder/teams/ariane.yaml @cilium/ariane
