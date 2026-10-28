@@ -15,7 +15,7 @@ jobs:
   dispatch-team-management:
     if: github.repository == 'cilium/community'
     name: Dispatch Team Management
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     environment: team-management
     steps:
       # Send the workflow dispatch event via GitHUB API
