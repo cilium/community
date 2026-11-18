@@ -15,6 +15,7 @@
 /ladder/teams/cli.yaml @cilium/cli
 /ladder/teams/community.yaml @cilium/community
 /ladder/teams/contributing.yaml @cilium/contributing
+/ladder/teams/datapath-monitor.yaml @cilium/datapath-monitor
 /ladder/teams/docker.yaml @cilium/docker
 /ladder/teams/docs-structure.yaml @cilium/docs-structure
 /ladder/teams/ebpf-go-contributors.yaml @cilium/ebpf-lib-maintainers
